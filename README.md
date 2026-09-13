@@ -8,6 +8,7 @@ Primary-build visual guide, following the approved CTRL001 v2 style.
 - [Human review queue](HUMAN_REVIEW_REQUIRED.md)
 - [Photo index](PHOTO_INDEX.md)
 - [Validation record](VALIDATION.md)
+- [Git publication status](GIT_STATUS.md) — READY TO PUSH; GitHub authentication unavailable.
 
 33 individual manuals (32 new plus preserved CTRL001), 77 instruction pages,
 a 2-page index, and 36 scope pages. Status: 1 RELEASED, 32 REVIEW REQUIRED,
