@@ -7,12 +7,18 @@ Primary-build visual guide, following the approved CTRL001 v2 style.
 - [Download the manual index](pdf/00_Manual_Index.pdf)
 - [Human review queue](HUMAN_REVIEW_REQUIRED.md)
 - [Photo index](PHOTO_INDEX.md)
+- [Beartracks and factory reference index](BEARTRACKS_INDEX.md)
 - [Validation record](VALIDATION.md)
-- [Git publication status](GIT_STATUS.md) — READY TO PUSH; GitHub authentication unavailable.
+- [Git publication status](GIT_STATUS.md)
 
-33 individual manuals (32 new plus preserved CTRL001), 77 instruction pages,
+33 individual manuals (32 new plus preserved CTRL001), 79 instruction pages,
 a 2-page index, and 36 scope pages. Status: 1 RELEASED, 32 REVIEW REQUIRED,
-3 BLOCKED. There are 46 consolidated review items.
+3 BLOCKED. There are 51 consolidated review items.
+
+The Beartracks update revises nine manuals to v3, adding gear-spread and
+trim-arm checks, current factory brake/flap alerts and hinge/rigging references.
+Existing `_v2` asset filenames remain stable URLs; the catalog, page footer and
+manual index show the actual revision. Original review identifiers are preserved.
 
 The PDFs in `pdf/` and `docs/pdf/` are identical copies. Each manual has its
 own web page and editable Blender file. The three blocked operations have

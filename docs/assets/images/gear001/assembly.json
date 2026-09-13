@@ -5,12 +5,16 @@
   "section": "landing-gear",
   "slug": "landing-gear/main-landing-gear",
   "model": "gear",
-  "revision": 2,
+  "revision": 3,
   "pdf": "12_Main_Landing_Gear.pdf",
   "sources": [
     "Companion plans25–26",
     "BHManual-Fuselage1-25Rev1.pdf pp9–11",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4",
+    "2023_Beartracks.pdf, PDF p9 / Q1 p9, Landing Gear Tread Width Adjustments",
+    "2024_Beartracks.pdf, PDF p36 / Q4 p4, Jay Townsend walk-around",
+    "2025_Beartracks.pdf, PDF p23 / Q2 p13, Bob Barrows signed Engineering Note, May 29 2025",
+    "Factory OA-001, March 1 2023, Gear Spread Limits, p1"
   ],
   "steps": [
     {
@@ -76,16 +80,44 @@
       ],
       "number": 2,
       "image": "GEAR001_step_02_v2.png"
+    },
+    {
+      "title": "CHECK LOADED GEAR SPREAD",
+      "view": "spread",
+      "hardware": [],
+      "note": "OA-001 · MEASURE AT FRONT OF TIRES",
+      "detail": "TIRE CENTERLINE / FRONT MEASUREMENT",
+      "flags": [
+        "RECORD LOAD AND MEASUREMENT"
+      ],
+      "check_lines": [
+        "ROLL STRAIGHT AT LEAST 25 ft",
+        "72 in AT FLYING WEIGHT",
+        "74 in MAXIMUM STATIC SPREAD"
+      ],
+      "source_tag": "FACTORY OA-001 · 2023 Q1 p9",
+      "number": 3,
+      "image": "GEAR001_step_03_v2.png"
     }
   ],
   "issues": [
     {
-      "steps": "01–02",
+      "steps": "01-03",
       "issue": "Exact washer allocation, gear alignment and support setup need current-kit verification.",
-      "source": "HK-LG4 gives two washers per upper joint; legacy tread values are not adopted.",
-      "check": "Verify bolt grip and washer placement without substituting parts. Fit shock struts before loading gear; use current alignment instructions."
+      "source": "HK-LG4 gives two washers per upper joint; Companion plan25 and factory OA-001 now supply spread criteria. Aircraft-specific stack and measured alignment still need verification.",
+      "check": "Verify bolt grip, washer allocation and support setup. With completed gear/wheels and appropriate static load, roll straight at least 25 ft before measuring tire centers at their fronts; record load and spread under OA-001. Do not measure immediately after a pivot turn.",
+      "key": "BH-REV-019"
     }
   ],
   "photo": "G1-GEAR",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT23-GEAR",
+    "BT24-JAY",
+    "BT25-GEAR",
+    "FACTORY-OA001"
+  ],
+  "before_build": [
+    "The May 29, 2025 Barrows heavy-duty gear material note is optional and names the Companion. It is indexed as a configuration choice; this guide does not direct modification or replacement of the supplied gear."
+  ]
 }

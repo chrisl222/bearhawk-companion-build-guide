@@ -1,6 +1,5 @@
 [
   {
-    "key": "BH-REV-001",
     "manual": "CTRL001",
     "number": 1,
     "title": "Control sticks / forward elevator controls",
@@ -9,10 +8,10 @@
     "steps": "02",
     "issue": "Generic plan pivot notation differs from specific QB callout.",
     "source": "Plan28 AN4 vs HK-CS4 AN174-20.",
-    "check": "Confirm current-kit correspondence; retain QB set."
+    "check": "Confirm current-kit correspondence; retain QB set.",
+    "key": "BH-REV-001"
   },
   {
-    "key": "BH-REV-002",
     "manual": "CTRL001",
     "number": 1,
     "title": "Control sticks / forward elevator controls",
@@ -21,10 +20,10 @@
     "steps": "05",
     "issue": "Legacy moving-joint retention guidance differs from QB rod-end set.",
     "source": "Legacy p18 vs HK-CS4 AN3-7A / AN365-1032A.",
-    "check": "Confirm application; retain QB set."
+    "check": "Confirm application; retain QB set.",
+    "key": "BH-REV-002"
   },
   {
-    "key": "BH-REV-003",
     "manual": "CTRL001",
     "number": 1,
     "title": "Control sticks / forward elevator controls",
@@ -33,10 +32,10 @@
     "steps": "04,06",
     "issue": "Application of both pushrod nut types unresolved.",
     "source": "HK-CS4 AN316-4R and AN345-524.",
-    "check": "Confirm each application; existing separate tray retained."
+    "check": "Confirm each application; existing separate tray retained.",
+    "key": "BH-REV-003"
   },
   {
-    "key": "BH-REV-004",
     "manual": "CTRL001",
     "number": 1,
     "title": "Control sticks / forward elevator controls",
@@ -45,10 +44,10 @@
     "steps": "05,06",
     "issue": "Bellcrank lateral position/spacers unverified.",
     "source": "Legacy p18 does not settle Companion kit fit.",
-    "check": "Confirm support, spacers and flap-cable clearance."
+    "check": "Confirm support, spacers and flap-cable clearance.",
+    "key": "BH-REV-004"
   },
   {
-    "key": "BH-REV-005",
     "manual": "CTRL002",
     "number": 2,
     "title": "Rudder Pedals",
@@ -57,10 +56,10 @@
     "steps": "01–02",
     "issue": "Final pedal position and firewall clearance depend on fitted cylinders.",
     "source": "Plan 29 / legacy pp19–20; no aircraft-specific fit check.",
-    "check": "Dry-fit all four cylinders and check full travel before final positioning."
+    "check": "Dry-fit all four cylinders and check full travel before final positioning. Keep hoses and return springs clear of the complete pedal sweep; check required Matco restrictors (AD-002 / GEAR004).",
+    "key": "BH-REV-005"
   },
   {
-    "key": "BH-REV-006",
     "manual": "CTRL003",
     "number": 3,
     "title": "Rudder Cable Connections",
@@ -69,10 +68,10 @@
     "steps": "01",
     "issue": "Three thin washers are called out, but exact allocation across the tab joint is not established.",
     "source": "HK-RS4 cable-to-tab row.",
-    "check": "Confirm stack against current factory installation; washers remain in parts tray."
+    "check": "Confirm stack against current factory installation; washers remain in parts tray.",
+    "key": "BH-REV-006"
   },
   {
-    "key": "BH-REV-007",
     "manual": "CTRL003",
     "number": 3,
     "title": "Rudder Cable Connections",
@@ -81,10 +80,10 @@
     "steps": "02",
     "issue": "Shackle preparation and full fuselage routing are not released by these endpoint illustrations.",
     "source": "HK-RS4 says AN115-32: drill to AN4; route not fully constrained by supplied Companion drawings.",
-    "check": "Confirm factory drilling detail, route through installed fairleads, spring connection and cable termination inspection."
+    "check": "Confirm factory drilling detail, route through installed fairleads, spring connection and cable termination inspection.",
+    "key": "BH-REV-007"
   },
   {
-    "key": "BH-REV-008",
     "manual": "CTRL004",
     "number": 4,
     "title": "Flap Cockpit Controls",
@@ -93,10 +92,10 @@
     "steps": "01",
     "issue": "Pin engagement, spring fit and travel-stop setting need kit fit verification.",
     "source": "HK-FCC lists R-FHS and AN3-4A travel limit; plan30.",
-    "check": "Check all detents, spring return and supplied stop before use."
+    "check": "Check all detents, spring return and supplied stop before use.",
+    "key": "BH-REV-008"
   },
   {
-    "key": "BH-REV-009",
     "manual": "CTRL004",
     "number": 4,
     "title": "Flap Cockpit Controls",
@@ -105,10 +104,34 @@
     "steps": "02–03",
     "issue": "Full Companion pulley route and washer allocation remain unresolved.",
     "source": "Plan30 shows splitter relationship; legacy full routing is not a complete Companion installation map.",
-    "check": "Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene."
+    "check": "Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene.",
+    "key": "BH-REV-009"
   },
   {
-    "key": "BH-REV-010",
+    "manual": "CTRL004",
+    "number": 4,
+    "title": "Flap Cockpit Controls",
+    "status": "REVIEW REQUIRED",
+    "slug": "controls/flap-cockpit-controls",
+    "key": "BH-REV-048",
+    "steps": "03",
+    "issue": "Aft-most flap pulley inspection and service-life tracking are absent from the earlier guide.",
+    "source": "Factory AD-004, 12/11/25: MS20220-1 (AN202A-1); inspection annual / 250 h; replacement 500 h or as needed.",
+    "check": "Identify the aft-most pulley on the actual Companion, check condition, preserve access, and record installed hours/inspection and replacement due points per AD-004. Full cable routing remains an open item."
+  },
+  {
+    "manual": "CTRL004",
+    "number": 4,
+    "title": "Flap Cockpit Controls",
+    "status": "REVIEW REQUIRED",
+    "slug": "controls/flap-cockpit-controls",
+    "key": "BH-REV-049",
+    "steps": "01 / final rigging",
+    "issue": "First flap-speed setting conflicts between newsletter and current factory alert; in-flight deflections are not ground rigging targets.",
+    "source": "2022 Q4 p9 and 2023 Q1 p9: 100 mph at 10 degrees; current factory OA-002: 95 mph at 10 degrees. Both associate limits with in-flight air-loaded deflection.",
+    "check": "Obtain current applicable Companion limits from the designer/factory before placarding. Do not tighten/preload cables to force ground angles to the in-flight values. See FINAL003 for the remaining rigging requirements."
+  },
+  {
     "manual": "CTRL005",
     "number": 5,
     "title": "Elevator Horn Connections",
@@ -117,10 +140,10 @@
     "steps": "01–02",
     "issue": "Bushing lengths and full forward-to-tail routing are not established here.",
     "source": "HK-ES4 distinguishes aluminum union and steel cable bushings; no bushing lengths in count sheet.",
-    "check": "Confirm bushings from plan22/current kit. Verify lower cable fairlead and full route before termination."
+    "check": "Confirm bushings from plan22/current kit. Verify lower cable fairlead and full route before termination.",
+    "key": "BH-REV-010"
   },
   {
-    "key": "BH-REV-011",
     "manual": "FUS001",
     "number": 6,
     "title": "Floorboard Relationships",
@@ -129,10 +152,10 @@
     "steps": "01–02",
     "issue": "Panel boundaries and access openings are fitted to the individual airframe.",
     "source": "Legacy preferred removable arrangement; QB 46 attachment locations is aircraft total.",
-    "check": "Check pedal/stick sweep, cable access and each supplied tab. Scene is not a cutting pattern."
+    "check": "Check pedal/stick sweep, cable access and each supplied tab. Scene is not a cutting pattern.",
+    "key": "BH-REV-011"
   },
   {
-    "key": "BH-REV-012",
     "manual": "EMP001",
     "number": 7,
     "title": "Horizontal Stabilizer",
@@ -141,10 +164,10 @@
     "steps": "01",
     "issue": "Legacy incidence guidance differs from current Companion count sheet.",
     "source": "Legacy p13 says four degrees down; HK-EA4 says -2 degrees. Plans control design.",
-    "check": "Confirm Companion incidence and reference datum from current factory/plans before fixing spacers."
+    "check": "Confirm Companion incidence and reference datum from current factory/plans before fixing spacers.",
+    "key": "BH-REV-012"
   },
   {
-    "key": "BH-REV-013",
     "manual": "EMP001",
     "number": 7,
     "title": "Horizontal Stabilizer",
@@ -153,10 +176,10 @@
     "steps": "02–03",
     "issue": "Carry-through orientation and brace washer allocation need kit confirmation.",
     "source": "HK-EA4 calls mixed outboard washers and thin washer at lower clevis.",
-    "check": "Match factory holes without forcing; verify all washers and lower AN3-5A / AN960-10L / AN365-1032A set."
+    "check": "Match factory holes without forcing; verify all washers and lower AN3-5A / AN960-10L / AN365-1032A set.",
+    "key": "BH-REV-013"
   },
   {
-    "key": "BH-REV-014",
     "manual": "EMP002",
     "number": 8,
     "title": "Elevators",
@@ -165,10 +188,10 @@
     "steps": "01–02",
     "issue": "Hinge support fit and flying-wire tab orientation depend on supplied kit.",
     "source": "Plan24 hinge detail / HK-EA4 / legacy p15.",
-    "check": "Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual."
+    "check": "Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual. Check each elevator independently, then repeat after joining horns, tensioning brace wires and connecting cables. Isolate any stage that introduces binding; do not copy the article's shim fabrication, balance additions or -4 degree tail setting.",
+    "key": "BH-REV-014"
   },
   {
-    "key": "BH-REV-015",
     "manual": "EMP003",
     "number": 9,
     "title": "Rudder",
@@ -177,10 +200,10 @@
     "steps": "01–02",
     "issue": "Lower rudder bolt conflicts within current hardware sheet.",
     "source": "HK-RS4 p1: AN4-15A; HK-EA4 p2: AN4-13A.",
-    "check": "Obtain corrected factory lower hinge callout. Lower hinge remains unfastened in illustration; upper set is consistent."
+    "check": "Obtain corrected factory lower hinge callout. Lower hinge remains unfastened in illustration; upper set is consistent.",
+    "key": "BH-REV-015"
   },
   {
-    "key": "BH-REV-016",
     "manual": "EMP004",
     "number": 10,
     "title": "Tail Brace Wires",
@@ -189,10 +212,10 @@
     "steps": "01–02",
     "issue": "Wire lengths, individual terminal allocation and final tension need current-kit confirmation.",
     "source": "HK-EA4 lists totals; supplied photos do not establish lengths or tension.",
-    "check": "Match each wire and thread to supplied assembly; confirm routing and tension from controlling documentation."
+    "check": "Match each wire and thread to supplied assembly; confirm routing and tension from controlling documentation.",
+    "key": "BH-REV-016"
   },
   {
-    "key": "BH-REV-017",
     "manual": "EMP005",
     "number": 11,
     "title": "Trim Wheel and Linkages",
@@ -201,10 +224,10 @@
     "steps": "01",
     "issue": "Trim-wheel friction stack differs between drawing and count sheet.",
     "source": "Plan21 shows bronze/split-lock washers; HK-TS4 calls three AN960-416.",
-    "check": "Confirm current factory friction stack; inventory is shown separately."
+    "check": "Confirm current factory friction stack; inventory is shown separately.",
+    "key": "BH-REV-017"
   },
   {
-    "key": "BH-REV-018",
     "manual": "EMP005",
     "number": 11,
     "title": "Trim Wheel and Linkages",
@@ -212,23 +235,35 @@
     "slug": "empennage/trim-wheel-and-linkages",
     "steps": "02",
     "issue": "Complete trim cable route, length and adjustment not released.",
-    "source": "Plan22 linkage; HK-TS4 supplies rod ends but no completed adjustment.",
-    "check": "Verify both tab directions, stops, cable route and rod adjustment with current kit."
+    "source": "Plan22 linkage; HK-TS4 supplies rod ends but no completed adjustment. The 2019 Q1 p2 trim-tension notice predates and does not name the Companion; its numerical tension is not adopted.",
+    "check": "Verify both tab directions, stops, cable route and rod adjustment with current kit.",
+    "key": "BH-REV-018"
   },
   {
-    "key": "BH-REV-019",
+    "manual": "EMP005",
+    "number": 11,
+    "title": "Trim Wheel and Linkages",
+    "status": "REVIEW REQUIRED",
+    "slug": "empennage/trim-wheel-and-linkages",
+    "key": "BH-REV-050",
+    "steps": "03",
+    "issue": "Factory-kit bolted outboard trim arms may develop play; the newsletter recommendation does not identify an exact compound grade or establish this kit's joint.",
+    "source": "2022 Q2 p4, Mark Goldberg: outboard arm-to-tube joint, surface cleaning and red Loctite recommendation before bolt installation.",
+    "check": "Confirm the delivered bolted-versus-welded joint, current factory treatment/compound and fastener stack. Check both arms for play and preserve inspection access. Do not apply compound to rotating supports or rod ends."
+  },
+  {
     "manual": "GEAR001",
     "number": 12,
     "title": "Main Landing Gear",
     "status": "REVIEW REQUIRED",
     "slug": "landing-gear/main-landing-gear",
-    "steps": "01–02",
+    "steps": "01-03",
     "issue": "Exact washer allocation, gear alignment and support setup need current-kit verification.",
-    "source": "HK-LG4 gives two washers per upper joint; legacy tread values are not adopted.",
-    "check": "Verify bolt grip and washer placement without substituting parts. Fit shock struts before loading gear; use current alignment instructions."
+    "source": "HK-LG4 gives two washers per upper joint; Companion plan25 and factory OA-001 now supply spread criteria. Aircraft-specific stack and measured alignment still need verification.",
+    "check": "Verify bolt grip, washer allocation and support setup. With completed gear/wheels and appropriate static load, roll straight at least 25 ft before measuring tire centers at their fronts; record load and spread under OA-001. Do not measure immediately after a pivot turn.",
+    "key": "BH-REV-019"
   },
   {
-    "key": "BH-REV-020",
     "manual": "GEAR002",
     "number": 13,
     "title": "Shock Strut Mounting",
@@ -236,11 +271,11 @@
     "slug": "landing-gear/shock-strut-mounting",
     "steps": "01–02",
     "issue": "Internal shock assembly, service fluid and rod-end adjustment are withheld.",
-    "source": "Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established.",
-    "check": "Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft."
+    "source": "Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established. OA-001 specifies a recommended 5/8 in minimum rod-end thread engagement and describes configuration-dependent adjustment points.",
+    "check": "Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft. Verify minimum engagement using the applicable factory method; exposed thread length alone is not an engagement measurement. Use GEAR001 step03 for loaded spread.",
+    "key": "BH-REV-020"
   },
   {
-    "key": "BH-REV-021",
     "manual": "GEAR003",
     "number": 14,
     "title": "Tailwheel",
@@ -249,10 +284,10 @@
     "steps": "BLOCKED",
     "issue": "Current stinger installation cannot be reconstructed from legacy leaf-spring instructions.",
     "source": "HK-TW4 specifies stinger; legacy p12 illustrates leaf springs.",
-    "check": "Provide current Companion stinger/tailwheel installation drawing and identify fitted tailwheel."
+    "check": "Provide current Companion stinger/tailwheel installation drawing and identify fitted tailwheel.",
+    "key": "BH-REV-021"
   },
   {
-    "key": "BH-REV-022",
     "manual": "GEAR004",
     "number": 15,
     "title": "Brake Master Cylinders",
@@ -261,10 +296,22 @@
     "steps": "02",
     "issue": "Upper-joint washers depend on master-cylinder variant.",
     "source": "HK-RS4: four AN960-10 per joint; note says two thin washers for Bearhawk cylinders.",
-    "check": "Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released."
+    "check": "Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released.",
+    "key": "BH-REV-022"
   },
   {
-    "key": "BH-REV-023",
+    "manual": "GEAR004",
+    "number": 15,
+    "title": "Brake Master Cylinders",
+    "status": "REVIEW REQUIRED",
+    "slug": "landing-gear/brake-master-cylinders",
+    "key": "BH-REV-047",
+    "steps": "BEFORE 01-02",
+    "issue": "Affected Avipro/Barrows brake cylinders require replacement; Matco travel restrictors and replacement mounting stack require verification.",
+    "source": "2022 Q1 p9 introduced the cylinders; 2023 Q3 p8 warned about dual brakes. Factory AD-002, 4/1/2025, now directs removal and replacement; pp3-4 show restrictors.",
+    "check": "Identify all installed/supplied cylinders. Follow factory replacement instructions and verify Companion restrictors before using the depicted mounting relationships. Do not reuse the old washer variant note as Matco installation data."
+  },
+  {
     "manual": "FUS002",
     "number": 16,
     "title": "Front Seats",
@@ -273,10 +320,10 @@
     "steps": "01–02",
     "issue": "Current latch detail and track-stop positions require kit fit check.",
     "source": "HK-SH4 gives incomplete latch line; stops AN4-12A / AN960-416 / AN365-428A, four sets.",
-    "check": "Verify latch/stop assembly, positive engagement and full travel. Restraint installation is not released."
+    "check": "Verify latch/stop assembly, positive engagement and full travel. Restraint installation is not released.",
+    "key": "BH-REV-023"
   },
   {
-    "key": "BH-REV-024",
     "manual": "FUS003",
     "number": 17,
     "title": "Fuselage Stringers",
@@ -285,10 +332,10 @@
     "steps": "01–02",
     "issue": "Standoff and end-trim positions must match the actual fuselage.",
     "source": "Plans define shape; legacy photo variations are not adopted as kit geometry.",
-    "check": "Verify stringer material, supplied saddles, fabric clearance and smooth aft transition."
+    "check": "Verify stringer material, supplied saddles, fabric clearance and smooth aft transition.",
+    "key": "BH-REV-024"
   },
   {
-    "key": "BH-REV-025",
     "manual": "FUS004",
     "number": 18,
     "title": "Fuel Selector Mounting",
@@ -297,10 +344,10 @@
     "steps": "01–02",
     "issue": "Valve model, gascolator support and full port-to-port fuselage plumbing are not established.",
     "source": "HK-FS4 names hardware; legacy explicitly allows different valve arrangements.",
-    "check": "Identify supplied selector/gascolator and obtain current routing diagram. Only bracket relationship is illustrated; no port assignment or plumbing is released."
+    "check": "Identify supplied selector/gascolator and obtain current routing diagram. Only bracket relationship is illustrated; no port assignment or plumbing is released.",
+    "key": "BH-REV-025"
   },
   {
-    "key": "BH-REV-026",
     "manual": "WING002",
     "number": 20,
     "title": "Tank Bay Covers",
@@ -309,10 +356,10 @@
     "steps": "01",
     "issue": "Drain holes must be transferred from installed tanks.",
     "source": "WM p4; no dimension inferred from scene.",
-    "check": "Confirm matched cover and actual drain center before cutting."
+    "check": "Confirm matched cover and actual drain center before cutting.",
+    "key": "BH-REV-026"
   },
   {
-    "key": "BH-REV-027",
     "manual": "WING002",
     "number": 20,
     "title": "Tank Bay Covers",
@@ -321,10 +368,10 @@
     "steps": "02",
     "issue": "Corner nutplates differ between sources; rivet naming is inconsistent.",
     "source": "QB p5: K1000-06 throughout; WM pp8–9: MS21055L06 at four main-bay corners; WM rivet text conflicts with example.",
-    "check": "Use QB identities as inventory, obtain factory confirmation at corners and for rivet diameter/length before riveting."
+    "check": "Use QB identities as inventory, obtain factory confirmation at corners and for rivet diameter/length before riveting.",
+    "key": "BH-REV-027"
   },
   {
-    "key": "BH-REV-028",
     "manual": "WING003",
     "number": 21,
     "title": "Aileron Bellcranks and Pulleys",
@@ -333,10 +380,10 @@
     "steps": "02",
     "issue": "Thin-washer allocation around large-area bearing retainers needs confirmation.",
     "source": "HK-AS4: three thin and two large-area washers per bellcrank.",
-    "check": "Confirm full stack and free rotation; do not press bearing inner races."
+    "check": "Confirm full stack and free rotation; do not press bearing inner races.",
+    "key": "BH-REV-028"
   },
   {
-    "key": "BH-REV-029",
     "manual": "WING003",
     "number": 21,
     "title": "Aileron Bellcranks and Pulleys",
@@ -345,10 +392,10 @@
     "steps": "03",
     "issue": "Pulley nut designation differs.",
     "source": "WM p15: AN365-416A; QB HK-AS4: AN365-428A.",
-    "check": "Keep QB set and verify factory correction; confirm cable guard and upper strut pulley installation separately."
+    "check": "Keep QB set and verify factory correction; confirm cable guard and upper strut pulley installation separately.",
+    "key": "BH-REV-029"
   },
   {
-    "key": "BH-REV-030",
     "manual": "WING004",
     "number": 22,
     "title": "Aileron Cable Routing",
@@ -357,10 +404,10 @@
     "steps": "01–02",
     "issue": "No hole locations or cable cut lengths are released.",
     "source": "WM p18 requires separate model-specific drill guides 1–5, not supplied.",
-    "check": "Obtain current Companion templates, check actual cable sweep and all guards; verify terminations under approved cable process."
+    "check": "Obtain current Companion templates, check actual cable sweep and all guards; verify terminations under approved cable process.",
+    "key": "BH-REV-030"
   },
   {
-    "key": "BH-REV-031",
     "manual": "WING005",
     "number": 23,
     "title": "Flap Torque Tube",
@@ -369,10 +416,10 @@
     "steps": "01–02",
     "issue": "QB pushrod bolt differs from current wing manual; setup needs jig verification.",
     "source": "QB: AN3-26 and AN960L-10; WM pp20–21: AN3-16 and AN960-10L.",
-    "check": "Keep literal QB callouts; ask factory to verify bolt/washer and jig geometry before match drilling."
+    "check": "Keep literal QB callouts; ask factory to verify bolt/washer and jig geometry before match drilling.",
+    "key": "BH-REV-031"
   },
   {
-    "key": "BH-REV-032",
     "manual": "WING005",
     "number": 23,
     "title": "Flap Torque Tube",
@@ -381,10 +428,10 @@
     "steps": "03",
     "issue": "Spring end assignment and final preload require kit check.",
     "source": "WM p21 spring/bumper; no preload inferred from photos.",
-    "check": "Confirm both W-FRS1 attachments, bumper retention and unrestricted motion."
+    "check": "Confirm both W-FRS1 attachments, bumper retention and unrestricted motion.",
+    "key": "BH-REV-032"
   },
   {
-    "key": "BH-REV-033",
     "manual": "WING006",
     "number": 24,
     "title": "Flap Preparation",
@@ -393,10 +440,22 @@
     "steps": "02 / final mount",
     "issue": "Final flap-to-weldment mounting is withheld due to incompatible row.",
     "source": "HK-FCC: AN6-6A with AN960-10L and AN365-1032A, six sets.",
-    "check": "Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set."
+    "check": "Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set. For hinge fitting, use the applicable airfoil templates to hold the surface flush while checking hinge alignment and bolt access; use current plans for offsets and hole dimensions, not the builder's 2022 jig dimensions.",
+    "key": "BH-REV-033"
   },
   {
-    "key": "BH-REV-034",
+    "manual": "WING006",
+    "number": 24,
+    "title": "Flap Preparation",
+    "status": "REVIEW REQUIRED",
+    "slug": "wings/flap-preparation",
+    "key": "BH-REV-051",
+    "steps": "BEFORE FINAL HINGE FIT",
+    "issue": "April 2021 inboard flap hinge drafting correction explicitly includes the Companion.",
+    "source": "2021 Q2 PDF p9 (issue p1), Updates from Bob Barrows; corrected hinge sketch.",
+    "check": "Compare the applicable Companion hinge drawing and supplied hinges with the corrected sketch before drilling. Obtain a legible current drawing if dimensions cannot be confirmed. The illustration is not a drilling template."
+  },
+  {
     "manual": "WING007",
     "number": 25,
     "title": "Aileron Preparation",
@@ -405,10 +464,10 @@
     "steps": "03 / final mount",
     "issue": "Surface balance and final hinge/pushrod installation are not released.",
     "source": "WM p37 defers balancing until fabric/paint; complete final attachment details not established by this preparation chapter.",
-    "check": "Confirm final hinge hardware, pushrod retention and current balance procedure before flight."
+    "check": "Confirm final hinge hardware, pushrod retention and current balance procedure before flight. Use current airfoil templates to check position, align hinge pivot axes, retain bolt access and check freedom of movement before final fastening. Beartracks 2022 Q1 pp6-7 supplies technique/photos only; no jig dimensions or hardware substitutions are adopted.",
+    "key": "BH-REV-034"
   },
   {
-    "key": "BH-REV-035",
     "manual": "WING008",
     "number": 26,
     "title": "Main Tanks and Fuel Lines",
@@ -417,10 +476,10 @@
     "steps": "01",
     "issue": "Tank strainer identity differs from current wing manual.",
     "source": "QB:05-17700; WM p7:AN375/PN-520.",
-    "check": "Verify supplied strainers and tank ports with factory; QB identities retained."
+    "check": "Verify supplied strainers and tank ports with factory; QB identities retained.",
+    "key": "BH-REV-035"
   },
   {
-    "key": "BH-REV-036",
     "manual": "WING008",
     "number": 26,
     "title": "Main Tanks and Fuel Lines",
@@ -429,10 +488,10 @@
     "steps": "02–03",
     "issue": "Root-hole counts and sight-gauge flare-nut prose contain inconsistencies.",
     "source": "WM p5 mentions five lines then four locations; p6 prose gives AN818-6D for 1/4 tube but figure/QB give AN818-4D.",
-    "check": "Use QB fittings; transfer actual tank port geometry and confirm layout. Final tank straps, venting and leak checks require current installation instructions."
+    "check": "Use QB fittings; transfer actual tank port geometry and confirm layout. Final tank straps, venting and leak checks require current installation instructions.",
+    "key": "BH-REV-036"
   },
   {
-    "key": "BH-REV-037",
     "manual": "WING009",
     "number": 27,
     "title": "Pitot Mast and Lines",
@@ -441,10 +500,10 @@
     "steps": "01–02",
     "issue": "Selected mast/pitot and its drilling template are not identified.",
     "source": "WM describes SA06BL / GAP26 example; other equipment differs.",
-    "check": "Confirm actual equipment and vendor template; do not transfer geometry from illustration. Wiring remains outside scope."
+    "check": "Confirm actual equipment and vendor template; do not transfer geometry from illustration. Wiring remains outside scope.",
+    "key": "BH-REV-037"
   },
   {
-    "key": "BH-REV-038",
     "manual": "WING010",
     "number": 28,
     "title": "Conduit Preparation",
@@ -453,10 +512,10 @@
     "steps": "01–02",
     "issue": "Conduit diameter, brackets and equipment are configuration-specific.",
     "source": "WM p38 describes optional PEX method, not a universal electrical design.",
-    "check": "Confirm required services and clearance from every moving control; no avionics/electrical architecture is specified."
+    "check": "Confirm required services and clearance from every moving control; no avionics/electrical architecture is specified.",
+    "key": "BH-REV-038"
   },
   {
-    "key": "BH-REV-039",
     "manual": "WING011",
     "number": 29,
     "title": "Inspection Panels",
@@ -465,10 +524,10 @@
     "steps": "01–02",
     "issue": "Cover screw head and ring preparation differ by source/kit revision.",
     "source": "QB countersunk AN507; WM p29 prefers AN526 and varies rivets for .032/.040 rings.",
-    "check": "Verify current ring thickness, screw head and compatible dimple/countersink preparation before machining; preserve ring orientation."
+    "check": "Verify current ring thickness, screw head and compatible dimple/countersink preparation before machining; preserve ring orientation.",
+    "key": "BH-REV-039"
   },
   {
-    "key": "BH-REV-040",
     "manual": "WING012",
     "number": 30,
     "title": "Wing Closing",
@@ -477,10 +536,10 @@
     "steps": "01–03",
     "issue": "Rivet callouts and local stack lengths require location-specific verification.",
     "source": "QB p5 stock totals; WM pp39–40 contain inconsistent rivet examples and thicker aft-bay rows.",
-    "check": "Complete internal inspection, verify every local rivet and approved bucking method; schematic rows are not a drilling/rivet-count map."
+    "check": "Complete internal inspection, verify every local rivet and approved bucking method; schematic rows are not a drilling/rivet-count map.",
+    "key": "BH-REV-040"
   },
   {
-    "key": "BH-REV-041",
     "manual": "WING013",
     "number": 31,
     "title": "Aileron Pocket Skins",
@@ -489,10 +548,10 @@
     "steps": "01–02",
     "issue": "Rivet length and implied hole totals differ.",
     "source": "QB 248 skin rivets at -3.5; WM p42 -3 and p41 7+32+8 locations per edge.",
-    "check": "Retain QB identities, verify actual matched holes, stack lengths, dimple/countersink method and factory count before riveting."
+    "check": "Retain QB identities, verify actual matched holes, stack lengths, dimple/countersink method and factory count before riveting.",
+    "key": "BH-REV-041"
   },
   {
-    "key": "BH-REV-042",
     "manual": "WING014",
     "number": 32,
     "title": "Wing Tips",
@@ -501,10 +560,10 @@
     "steps": "01–02",
     "issue": "Tip fit and trailing-edge termination depend on supplied composite tip.",
     "source": "WM p43 distinguishes open/closed trailing edges and different materials.",
-    "check": "Trial-fit actual aileron before trimming; confirm clearance and screw locations. Illustration is not a cutting template."
+    "check": "Trial-fit actual aileron before trimming; confirm clearance and screw locations. Illustration is not a cutting template.",
+    "key": "BH-REV-042"
   },
   {
-    "key": "BH-REV-043",
     "manual": "FINAL001",
     "number": 33,
     "title": "Wing and Lift Strut Attachments",
@@ -513,10 +572,10 @@
     "steps": "01–02",
     "issue": "Full lifting procedure, strut fitting assembly and incidence setup are not released.",
     "source": "HK-WA4 gives root/end hardware; strut-fitting washer AN960-428 is unresolved.",
-    "check": "Use current factory supported-wing procedure; confirm all stack/grip details and plan incidence before loading. Do not drill structural holes from scene."
+    "check": "Use current factory supported-wing procedure; confirm all stack/grip details and plan incidence before loading. Do not drill structural holes from scene.",
+    "key": "BH-REV-043"
   },
   {
-    "key": "BH-REV-044",
     "manual": "FINAL002",
     "number": 34,
     "title": "Wing Root Connections",
@@ -525,10 +584,10 @@
     "steps": "01–02",
     "issue": "Final cable rigging and fuel sleeve lengths/clamp allocation are not established.",
     "source": "QB lists turnbuckle and hose/clamp totals, not all installation details.",
-    "check": "Obtain current final-assembly instructions. Verify cable safetying, full travel, fuel sleeve specification and leak testing before closing fairings."
+    "check": "Obtain current final-assembly instructions. Verify cable safetying, full travel, fuel sleeve specification and leak testing before closing fairings.",
+    "key": "BH-REV-044"
   },
   {
-    "key": "BH-REV-045",
     "manual": "FINAL003",
     "number": 35,
     "title": "Final Rigging Checks",
@@ -536,11 +595,11 @@
     "slug": "final-assembly/final-rigging-checks",
     "steps": "BLOCKED",
     "issue": "A complete consistent Companion rigging/check set has not been established.",
-    "source": "Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values.",
-    "check": "Obtain current Companion final rigging checklist and resolve source conflicts before release."
+    "source": "Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values. Beartracks 2018 Q3 pp3-5 is original 4-Place rigging experience, not Companion numerical rigging data; see BH-REV-049 for the flap-speed conflict.",
+    "check": "Obtain current Companion final rigging checklist and resolve source conflicts before release. Include independent verification of control direction, full travel, friction and attachment security; record actual Companion datum measurements.",
+    "key": "BH-REV-045"
   },
   {
-    "key": "BH-REV-046",
     "manual": "EMP006",
     "number": 36,
     "title": "Vertical Stabilizer",
@@ -549,6 +608,7 @@
     "steps": "BLOCKED",
     "issue": "No separate bolt-on vertical-fin operation is established for this QB fuselage.",
     "source": "Fin appears in welded fuselage structure; no distinct installation callout found.",
-    "check": "Confirm delivered welded fin configuration and inspection requirements. Do not invent a fin attachment or copy another model."
+    "check": "Confirm delivered welded fin configuration and inspection requirements. Do not invent a fin attachment or copy another model.",
+    "key": "BH-REV-046"
   }
 ]

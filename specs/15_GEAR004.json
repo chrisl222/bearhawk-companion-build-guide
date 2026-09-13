@@ -5,12 +5,15 @@
   "section": "landing-gear",
   "slug": "landing-gear/brake-master-cylinders",
   "model": "brakes",
-  "revision": 2,
+  "revision": 3,
   "pdf": "15_Brake_Master_Cylinders.pdf",
   "sources": [
     "Companion plan29",
     "BHManual-Fuselage1-25Rev1.pdf pp19–20",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4",
+    "2022_Beartracks.pdf, PDF p9 / Q1 p9, New Brake Master Cylinders Designed by Bob",
+    "2023_Beartracks.pdf, PDF p28 / Q3 p8, Dual-Brake Safety Update",
+    "Factory AD-002, 4/1/2025, Brake Master Cylinders, pp1-4"
   ],
   "steps": [
     {
@@ -38,11 +41,16 @@
           "MS24665-132"
         ]
       ],
-      "note": "FOUR CYLINDERS · SEE PLAN 29",
+      "note": "MATCO: TRAVEL RESTRICTORS REQUIRED",
       "detail": "CONNECTION DETAIL",
-      "flags": [],
+      "flags": [
+        "AVIPRO/BARROWS: REPLACE PER AD-002",
+        "? VERIFY REPLACEMENT HARDWARE"
+      ],
       "number": 1,
-      "image": "GEAR004_step_01_v2.png"
+      "image": "GEAR004_step_01_v2.png",
+      "hardware_label": "QB INVENTORY - VERIFY VARIANT",
+      "source_tag": "FACTORY AD-002 pp1-4"
     },
     {
       "title": "CONNECT CYLINDERS TO TOE PEDALS",
@@ -69,13 +77,16 @@
           "MS24665-132"
         ]
       ],
-      "note": "CHECK FIREWALL CLEARANCE",
+      "note": "MATCO: TRAVEL RESTRICTORS REQUIRED",
       "detail": "CONNECTION DETAIL",
       "flags": [
-        "SOURCE VARIANT — VERIFY"
+        "AVIPRO/BARROWS: REPLACE PER AD-002",
+        "? VERIFY REPLACEMENT HARDWARE"
       ],
       "number": 2,
-      "image": "GEAR004_step_02_v2.png"
+      "image": "GEAR004_step_02_v2.png",
+      "hardware_label": "QB INVENTORY - VERIFY VARIANT",
+      "source_tag": "FACTORY AD-002 pp1-4"
     }
   ],
   "issues": [
@@ -83,9 +94,26 @@
       "steps": "02",
       "issue": "Upper-joint washers depend on master-cylinder variant.",
       "source": "HK-RS4: four AN960-10 per joint; note says two thin washers for Bearhawk cylinders.",
-      "check": "Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released."
+      "check": "Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released.",
+      "key": "BH-REV-022"
+    },
+    {
+      "key": "BH-REV-047",
+      "steps": "BEFORE 01-02",
+      "issue": "Affected Avipro/Barrows brake cylinders require replacement; Matco travel restrictors and replacement mounting stack require verification.",
+      "source": "2022 Q1 p9 introduced the cylinders; 2023 Q3 p8 warned about dual brakes. Factory AD-002, 4/1/2025, now directs removal and replacement; pp3-4 show restrictors.",
+      "check": "Identify all installed/supplied cylinders. Follow factory replacement instructions and verify Companion restrictors before using the depicted mounting relationships. Do not reuse the old washer variant note as Matco installation data."
     }
   ],
   "photo": "G1-PEDALS",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT22-CYLINDERS",
+    "BT23-BRAKES",
+    "FACTORY-AD002"
+  ],
+  "before_build": [
+    "Factory AD-002 (4/1/2025) requires removal of affected Avipro/Barrows master cylinders and contact with Bearhawk for replacement. Gerdes cylinders are excluded by that alert. Identify parts from records and the factory guide; appearance alone is not sufficient.",
+    "For the supplied Matco replacement on a Companion, install the factory travel restrictors using AD-002 pages 3-4. Existing QB mounting inventories below do not establish the replacement-cylinder washer stack or restrictor hardware."
+  ]
 }

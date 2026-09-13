@@ -5,10 +5,11 @@
   "section": "wings",
   "slug": "wings/aileron-preparation",
   "model": "aileron_surface",
-  "revision": 2,
+  "revision": 3,
   "pdf": "25_Aileron_Preparation.pdf",
   "sources": [
-    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp36–37"
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp36–37",
+    "2022_Beartracks.pdf, PDF pp6-7 / Q1 pp6-7, Bruce Case: Aileron and Flap Hinges"
   ],
   "steps": [
     {
@@ -52,7 +53,7 @@
           "CCP-42"
         ]
       ],
-      "note": "INSERT FROM INBOARD END",
+      "note": "BALANCE AFTER FINAL FABRIC / PAINT",
       "detail": "CONNECTION DETAIL",
       "flags": [
         "FINAL BALANCE STILL REQUIRED"
@@ -66,9 +67,13 @@
       "steps": "03 / final mount",
       "issue": "Surface balance and final hinge/pushrod installation are not released.",
       "source": "WM p37 defers balancing until fabric/paint; complete final attachment details not established by this preparation chapter.",
-      "check": "Confirm final hinge hardware, pushrod retention and current balance procedure before flight."
+      "check": "Confirm final hinge hardware, pushrod retention and current balance procedure before flight. Use current airfoil templates to check position, align hinge pivot axes, retain bolt access and check freedom of movement before final fastening. Beartracks 2022 Q1 pp6-7 supplies technique/photos only; no jig dimensions or hardware substitutions are adopted.",
+      "key": "BH-REV-034"
     }
   ],
   "photo": "WM37",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT22-HINGES"
+  ]
 }

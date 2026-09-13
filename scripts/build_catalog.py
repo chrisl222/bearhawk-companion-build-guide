@@ -170,6 +170,14 @@ def main():
     old.update(number=1,section='controls',status='REVIEW REQUIRED',model='preserved',sources=[old['geometry_authority'],old['hardware_authority']],photo='G2-CONTROL101')
     old['issues']=[issue('02','Generic plan pivot notation differs from specific QB callout.','Plan28 AN4 vs HK-CS4 AN174-20.','Confirm current-kit correspondence; retain QB set.'),issue('05','Legacy moving-joint retention guidance differs from QB rod-end set.','Legacy p18 vs HK-CS4 AN3-7A / AN365-1032A.','Confirm application; retain QB set.'),issue('04,06','Application of both pushrod nut types unresolved.','HK-CS4 AN316-4R and AN345-524.','Confirm each application; existing separate tray retained.'),issue('05,06','Bellcrank lateral position/spacers unverified.','Legacy p18 does not settle Companion kit fit.','Confirm support, spacers and flap-cable clearance.')]
     all_items=[old]+catalog
+    # Preserve the original 46 public review identifiers across later additions.
+    review_number=0
+    for m in all_items:
+        for r in m['issues']:
+            review_number+=1
+            r['key']=f'BH-REV-{review_number:03d}'
+    from beartracks_update import apply_updates
+    apply_updates(all_items)
     # Shape families identify parts visually; exact designations remain literal.
     for m in catalog:
         if m['id']=='FUS003':m['photo']='FM28-STRINGERS'

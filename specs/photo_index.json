@@ -279,6 +279,38 @@
       "subsystem": "TAILWHEEL",
       "detail": "Filenames indexed; images not opened.",
       "applicability": "Not used: equivalence to current Companion stinger installation unestablished."
+    },
+    {
+      "id": "BT24-COMPANION-GEAR",
+      "reference": "2024_Beartracks.pdf PDF p36 / Q4 p4, Jay Townsend walk-around",
+      "model": "Companion",
+      "subsystem": "LANDING_GEAR",
+      "detail": "Full page inspected: underside oblique gear/shock view, and looking aft into the tail cone.",
+      "applicability": "Companion relationship reference for GEAR001/GEAR002. Cargo tube, vents and vortex generators are builder choices. No dimensions or hardware inferred."
+    },
+    {
+      "id": "BT22-HINGE-FIT",
+      "reference": "2022_Beartracks.pdf PDF pp6-7 / Q1 pp6-7, Bruce Case",
+      "model": "Model not explicit in article",
+      "subsystem": "WING_AILERONS",
+      "detail": "Full pages inspected: airfoil templates, offset hinge pairs, pivot axes, joggle and bolt-insertion access.",
+      "applicability": "Technique and localized appearance only. Current Companion plans/manuals must establish offsets, hole sizes and hardware."
+    },
+    {
+      "id": "FACTORY-BRAKE-STOP",
+      "reference": "https://www.bearhawkaircraft.com/s/AD-002-2.pdf | pp2-4",
+      "model": "Companion named in alert; photograph model unspecified",
+      "subsystem": "RUDDER_PEDALS",
+      "detail": "Factory cylinder comparison photo, restrictor drawing and installed Matco/restrictor oblique photograph.",
+      "applicability": "Prerequisite identification/installation reference. AD-002 applicability and exact replacement hardware must be established before mounting; no identity inferred from generic Blender cylinder."
+    },
+    {
+      "id": "FACTORY-AFT-PULLEY",
+      "reference": "https://www.bearhawkaircraft.com/s/AD-004.pdf | p1",
+      "model": "Companion included; illustrated airframe model unspecified",
+      "subsystem": "FLAP_CONTROLS",
+      "detail": "Full page inspected: factory underside/forward-looking CAD localizes aft-most flap pulley; photograph shows failed pulley.",
+      "applicability": "CAD constrains localized pulley relationship with Companion plan30. CAD is not a real installation photograph; full Companion route remains unresolved."
     }
   ],
   "candidates": [

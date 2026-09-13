@@ -76,7 +76,8 @@
       "steps": "01–02",
       "issue": "Bushing lengths and full forward-to-tail routing are not established here.",
       "source": "HK-ES4 distinguishes aluminum union and steel cable bushings; no bushing lengths in count sheet.",
-      "check": "Confirm bushings from plan22/current kit. Verify lower cable fairlead and full route before termination."
+      "check": "Confirm bushings from plan22/current kit. Verify lower cable fairlead and full route before termination.",
+      "key": "BH-REV-010"
     }
   ],
   "photo": "FM16-ELEVATOR",

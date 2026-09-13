@@ -57,25 +57,29 @@
       "steps": "02",
       "issue": "Generic plan pivot notation differs from specific QB callout.",
       "source": "Plan28 AN4 vs HK-CS4 AN174-20.",
-      "check": "Confirm current-kit correspondence; retain QB set."
+      "check": "Confirm current-kit correspondence; retain QB set.",
+      "key": "BH-REV-001"
     },
     {
       "steps": "05",
       "issue": "Legacy moving-joint retention guidance differs from QB rod-end set.",
       "source": "Legacy p18 vs HK-CS4 AN3-7A / AN365-1032A.",
-      "check": "Confirm application; retain QB set."
+      "check": "Confirm application; retain QB set.",
+      "key": "BH-REV-002"
     },
     {
       "steps": "04,06",
       "issue": "Application of both pushrod nut types unresolved.",
       "source": "HK-CS4 AN316-4R and AN345-524.",
-      "check": "Confirm each application; existing separate tray retained."
+      "check": "Confirm each application; existing separate tray retained.",
+      "key": "BH-REV-003"
     },
     {
       "steps": "05,06",
       "issue": "Bellcrank lateral position/spacers unverified.",
       "source": "Legacy p18 does not settle Companion kit fit.",
-      "check": "Confirm support, spacers and flap-cable clearance."
+      "check": "Confirm support, spacers and flap-cable clearance.",
+      "key": "BH-REV-004"
     }
   ]
 }

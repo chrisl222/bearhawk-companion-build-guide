@@ -5,12 +5,14 @@
   "section": "controls",
   "slug": "controls/rudder-pedals",
   "model": "pedals",
-  "revision": 2,
+  "revision": 3,
   "pdf": "02_Rudder_Pedals.pdf",
   "sources": [
     "Companion plan 29",
     "BHManual-Fuselage1-25Rev1.pdf pp19–20",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4",
+    "2018_Beartracks.pdf, PDF pp19-21 / Q3 pp3-5, Kevin Deutscher: Rigging a Bearhawk, Part 1",
+    "Factory AD-002, 4/1/2025, Brake Master Cylinders, pp1-4"
   ],
   "steps": [
     {
@@ -64,9 +66,11 @@
           "MS24665-208"
         ]
       ],
-      "note": "FOUR PEDALS · SEE PLAN 29",
+      "note": "CHECK CYLINDER TYPE / TRAVEL RESTRICTORS",
       "detail": "CONNECTION DETAIL",
-      "flags": [],
+      "flags": [
+        "READ FACTORY AD-002 FIRST"
+      ],
       "number": 2,
       "image": "CTRL002_step_02_v2.png"
     }
@@ -76,9 +80,17 @@
       "steps": "01–02",
       "issue": "Final pedal position and firewall clearance depend on fitted cylinders.",
       "source": "Plan 29 / legacy pp19–20; no aircraft-specific fit check.",
-      "check": "Dry-fit all four cylinders and check full travel before final positioning."
+      "check": "Dry-fit all four cylinders and check full travel before final positioning. Keep hoses and return springs clear of the complete pedal sweep; check required Matco restrictors (AD-002 / GEAR004).",
+      "key": "BH-REV-005"
     }
   ],
   "photo": "G1-PEDALS",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT18-RIGGING",
+    "FACTORY-AD002"
+  ],
+  "before_build": [
+    "Before fitting brake pedals, identify the master cylinders and check factory AD-002. Replacement Matco cylinders require travel restrictors on the Companion. See GEAR004."
+  ]
 }

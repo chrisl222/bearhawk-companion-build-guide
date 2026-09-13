@@ -8,17 +8,26 @@
   "revision": 2,
   "pdf": "35_Final_Rigging_Checks.pdf",
   "sources": [
-    "Companion plans; supplied current and legacy manuals"
+    "Companion plans; supplied current and legacy manuals",
+    "2018_Beartracks.pdf, PDF pp19-21 / Q3 pp3-5, Kevin Deutscher: Rigging a Bearhawk, Part 1",
+    "2023_Beartracks.pdf, PDF p9 / Q1 p9, March clarification of December notice",
+    "Factory OA-002, March 1 2023, Flap Extension Speed, p1"
   ],
   "steps": [],
   "issues": [
     {
       "steps": "BLOCKED",
       "issue": "A complete consistent Companion rigging/check set has not been established.",
-      "source": "Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values.",
-      "check": "Obtain current Companion final rigging checklist and resolve source conflicts before release."
+      "source": "Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values. Beartracks 2018 Q3 pp3-5 is original 4-Place rigging experience, not Companion numerical rigging data; see BH-REV-049 for the flap-speed conflict.",
+      "check": "Obtain current Companion final rigging checklist and resolve source conflicts before release. Include independent verification of control direction, full travel, friction and attachment security; record actual Companion datum measurements.",
+      "key": "BH-REV-045"
     }
   ],
   "photo": null,
-  "status": "BLOCKED"
+  "status": "BLOCKED",
+  "supplements": [
+    "BT18-RIGGING",
+    "BT23-SPEED",
+    "FACTORY-OA002"
+  ]
 }

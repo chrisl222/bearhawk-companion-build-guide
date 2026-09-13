@@ -59,7 +59,8 @@
       "steps": "01–02",
       "issue": "Final cable rigging and fuel sleeve lengths/clamp allocation are not established.",
       "source": "QB lists turnbuckle and hose/clamp totals, not all installation details.",
-      "check": "Obtain current final-assembly instructions. Verify cable safetying, full travel, fuel sleeve specification and leak testing before closing fairings."
+      "check": "Obtain current final-assembly instructions. Verify cable safetying, full travel, fuel sleeve specification and leak testing before closing fairings.",
+      "key": "BH-REV-044"
     }
   ],
   "photo": "WM13",

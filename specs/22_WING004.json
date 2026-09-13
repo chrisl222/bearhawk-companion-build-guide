@@ -10,7 +10,8 @@
   "sources": [
     "Companion plan15",
     "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp13–18,28",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp2–3 HK-AS4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp2–3 HK-AS4",
+    "Patrol-2004-2009.pdf, PDF p19 left / January 2005 p2, Drawing Omission"
   ],
   "steps": [
     {
@@ -65,9 +66,13 @@
       "steps": "01–02",
       "issue": "No hole locations or cable cut lengths are released.",
       "source": "WM p18 requires separate model-specific drill guides 1–5, not supplied.",
-      "check": "Obtain current Companion templates, check actual cable sweep and all guards; verify terminations under approved cable process."
+      "check": "Obtain current Companion templates, check actual cable sweep and all guards; verify terminations under approved cable process.",
+      "key": "BH-REV-030"
     }
   ],
   "photo": "WM13",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "PATROL-ROUTE"
+  ]
 }

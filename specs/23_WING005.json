@@ -103,13 +103,15 @@
       "steps": "01–02",
       "issue": "QB pushrod bolt differs from current wing manual; setup needs jig verification.",
       "source": "QB: AN3-26 and AN960L-10; WM pp20–21: AN3-16 and AN960-10L.",
-      "check": "Keep literal QB callouts; ask factory to verify bolt/washer and jig geometry before match drilling."
+      "check": "Keep literal QB callouts; ask factory to verify bolt/washer and jig geometry before match drilling.",
+      "key": "BH-REV-031"
     },
     {
       "steps": "03",
       "issue": "Spring end assignment and final preload require kit check.",
       "source": "WM p21 spring/bumper; no preload inferred from photos.",
-      "check": "Confirm both W-FRS1 attachments, bumper retention and unrestricted motion."
+      "check": "Confirm both W-FRS1 attachments, bumper retention and unrestricted motion.",
+      "key": "BH-REV-032"
     }
   ],
   "photo": "WM20",

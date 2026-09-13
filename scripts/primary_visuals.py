@@ -179,11 +179,17 @@ def worker(ids):
                 for x in [-12,12]:tube('baggage_frame',(x,0,-6),(x,0,12),.35,'context')
                 tube('baggage_upper',(-12,0,12),(12,0,12),.35,'context')
                 plate('splitter',[(-1.7,0,0),(1.7,0,0),(0,0,-2)],(0,1,0),.18,'new', [((-1.3,0,-.2),.16),((1.3,0,-.2),.16),((0,0,-1.6),.16)])
-                cable([(0,0,-7),(0,0,-1.6)])
                 for x in [-1.3,1.3]:
                     rod((x,0,-.2),(x*2,0,2),'new',.20);cable([(x*2,0,2),(12 if x>0 else -12,0,11)])
                     ring('upper_flap_pulley',(12 if x>0 else -12,0,11),(0,1,0),1.0,.18,.3,'old')
-                set_((0,0,3),31,(0,0,0),9,cam=(20,-42,15),caption='REAR BAGGAGE · RELATIONSHIPS ONLY')
+                # AD-004's aft floor pulley redirects the fore/aft run upward.
+                # This localized relationship does not release the full route.
+                ring('aft_flap_pulley_AD004',(0,-1,-6),(1,0,0),1,.16,.36,'new')
+                arc=[(0,-1+math.cos(a),-6+math.sin(a)) for a in [-math.pi/2+i*math.pi/2/24 for i in range(25)]]
+                cable([(0,-10,-7)]+arc+[(0,0,-1.6)])
+                tube('aft_floor_cross_tube',(-12,-1,-7.5),(12,-1,-7.5),.32,'context')
+                for x in [-.6,.6]:tube('pulley_mount_context',(x,-1,-7.5),(x,-1,-6),.20,'context')
+                set_((0,-1,2),35,(0,-1,-6),7,cam=(28,-42,15),caption='AFT FLOOR PULLEY · KEEP ACCESS · AD-004')
             else:
                 floor_frame();tube('pivot_support',(0,4,0),(0,4,6),.36,'context')
                 tube('flap_handle',(0,4,6),(0,-11,9),.43,'new');tube('handle_grip',(0,-11,9),(0,-14,9.6),.55,'new')
@@ -248,6 +254,17 @@ def worker(ids):
                 ring('trim_wheel',(0,4,3),(1,0,0),3.2,2.8,.3,'new');ring('chain_sprocket',(0,4,3),(1,0,0),.8,.2,.7,'hardware')
                 for z in [2.2,3.8]:cable([(0,4,z),(0,12,z)],'new')
                 fastener((0,4,3),(1,0,0),'AN4-22',3,True);set_((0,4,3),24,(0,4,3),11)
+            elif view=='arm_check':
+                tube('trim_torque_tube',(-12,0,0),(12,0,0),.30,'old')
+                for x in [-7,7]:
+                    ring('bolted_arm_collar',(x,0,0),(1,0,0),.47,.31,1.1,'new')
+                    tube('outboard_trim_arm',(x,0,0),(x,0,-2.3),.19,'new')
+                    lug((x,0,-2.3),(1,0,0),'new',.34)
+                    rod((x,0,-2.3),(x,9,-2.3),'old')
+                    fastener((x,0,0),(0,0,1),'verify_arm_bolt',1.3)
+                    arrow('inspect_joint',(x+2,-2,1.5),(x+.5,-.6,.3),.10)
+                    ring('rotating_support',(x-2,0,0),(1,0,0),.65,.33,.55,'context')
+                set_((0,3,-.8),33,(7,0,-.3),6,cam=(25,-40,25),caption='OUTBOARD ARM JOINT · ROTATING SUPPORT IS SEPARATE')
             else:
                 tube('trim_torque_tube',(-11,0,0),(11,0,0),.3,'old')
                 for x in [-7,7]:
@@ -256,9 +273,19 @@ def worker(ids):
                     tube('tab_horn',(x,9,-.7),(x,9,-2),.18,'old');fastener((x,9,-2),(1,0,0),'AN3-6A',2,x>0)
                 set_((0,4,-1),30,(7,9,-2),8)
         elif typ in ['gear','shock']:
-            p=gear(view,typ=='shock');fastener(p,(0,1,0),s['hardware'][0][2],3,True)
-            gc=(42,60,30) if view=='rear' else (-42,-60,30) if view=='lower' else (42,-60,30)
-            set_((0,2,-8),61,p,12,cam=gc,caption='SUPPORTED ASSEMBLY · ALIGNMENT NOT SET')
+            p=gear(view,typ=='shock')
+            if view=='spread':
+                for sign in [-1,1]:
+                    ring('tire', (sign*24,-1,-19),(1,0,0),4.5,2.1,3.6,'old')
+                    ring('wheel', (sign*24,-1,-19),(1,0,0),2.1,.55,3.0,'hardware')
+                    tube('front_tire_centerline',(sign*24,-5.65,-22.5),(sign*24,-5.65,-15.5),.10,'arrow')
+                arrow('measure_left',(0,-5.7,-19),(-24,-5.7,-19),.14)
+                arrow('measure_right',(0,-5.7,-19),(24,-5.7,-19),.14)
+                set_((0,0,-12),66,(24,-5.5,-19),12,cam=(9,-65,18),caption='TIRE CENTER TO TIRE CENTER · AT THEIR FRONTS')
+            else:
+                fastener(p,(0,1,0),s['hardware'][0][2],3,True)
+                gc=(42,60,30) if view=='rear' else (-42,-60,30) if view=='lower' else (42,-60,30)
+                set_((0,2,-8),61,p,12,cam=gc,caption='SUPPORTED ASSEMBLY · ALIGNMENT NOT SET')
         elif typ=='seats':
             floor_frame()
             for sign in [-1,1]:
@@ -498,7 +525,7 @@ def compose(ids):
             p.text((230,98),s['title'],size,INK,True,max_width=1880)
             p.line((65,215,2135,215));p.image(src/f'main_{n:02d}.png',(35,245,1320,1030))
             p.line((1370,260,1370,1360),RULE,2)
-            p.text((1410,260),'HARDWARE' if s['hardware'] else 'ASSEMBLY CHECK',28,MUTED,True)
+            p.text((1410,260),s.get('hardware_label','HARDWARE' if s['hardware'] else 'ASSEMBLY CHECK'),26,MUTED,True,max_width=720)
             for i,(kind,qty,pn) in enumerate(s['hardware']):
                 y=315+i*76;p.image(icons/f'icon_{kind}.png',(1400,y,160,76))
                 qs=str(qty)+'×' if isinstance(qty,int) else str(qty)
@@ -509,8 +536,8 @@ def compose(ids):
                 while p.draw.textlength(pn,font=p.font(size,True))>475*2:size-=1
                 p.text((1660,y+20),pn,size,INK,True,max_width=480)
             if not s['hardware']:
-                p.text((1410,335),'MATCH THE SUPPLIED PARTS',28,INK,True)
-                p.text((1410,390),'KEEP ACCESS TO CONNECTIONS',28,MUTED)
+                for i,line in enumerate(s.get('check_lines',['MATCH THE SUPPLIED PARTS','KEEP ACCESS TO CONNECTIONS'])):
+                    p.text((1410,335+i*68),line,28,INK if i==0 else MUTED,i==0,max_width=720)
             p.text((1410,640),s['detail'],25,MUTED,True,max_width=720)
             p.rect((1385,690,2135,1210),outline=RULE);p.image(src/f'detail_{n:02d}.png',(1390,695,740,510))
             # Small FWD marker is a page orientation key; X right / Y aft / Z up.
@@ -529,7 +556,13 @@ def compose(ids):
                 while p.draw.textlength(s['note'],font=p.font(size,True))>720*2:size-=1
                 p.text((1410,1240),s['note'],size,INK,True,max_width=720)
             for i,flag in enumerate(s['flags']):p.warning(1300+i*39,flag,27)
-            p.footer(m['id'],n);p.save(dest/s['image'])
+            p.footer(m['id'],n)
+            # Keep the original CTRL001 template untouched; override only this
+            # publisher's revision field and add a small, specific source tag.
+            p.rect((1840,1410,2190,1495),fill='white')
+            p.text((1870,1430),f'{m["id"]} · v{m["revision"]} / {n:02d}',23,MUTED)
+            if s.get('source_tag'):p.text((300,1380),s['source_tag'],16,MUTED,max_width=1030)
+            p.save(dest/s['image'])
         (dest/'assembly.json').write_text(json.dumps(m,indent=2,ensure_ascii=False),encoding='utf-8')
         print('COMPOSED',m['id'],len(m['steps']),flush=True)
 

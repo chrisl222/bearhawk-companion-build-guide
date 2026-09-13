@@ -5,12 +5,18 @@
   "section": "controls",
   "slug": "controls/flap-cockpit-controls",
   "model": "flap_handle",
-  "revision": 2,
+  "revision": 3,
   "pdf": "04_Flap_Cockpit_Controls.pdf",
   "sources": [
     "Companion plan 30",
     "BHManual-Fuselage1-25Rev1.pdf pp21–22",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC",
+    "2021_Beartracks.pdf, PDF p27 / Q3 p11, Flap Pulley Mount Reinforcement",
+    "2021_Beartracks.pdf, PDF p35 / Q4 p7, Five Flap Cable Routing",
+    "2022_Beartracks.pdf, PDF p41 / Q4 p9, Maximum Flap Speeds",
+    "2023_Beartracks.pdf, PDF p9 / Q1 p9, March clarification of December notice",
+    "Factory AD-004, 12/11/25, Flap System Pulley Failure, p1",
+    "Factory OA-002, March 1 2023, Flap Extension Speed, p1"
   ],
   "steps": [
     {
@@ -36,7 +42,8 @@
       "note": "SEE PLAN 30",
       "detail": "CONNECTION DETAIL",
       "flags": [
-        "? VERIFY DETENT ENGAGEMENT"
+        "? VERIFY DETENT ENGAGEMENT",
+        "FLAP SPEED / DEFLECTION: SEE REVIEW"
       ],
       "number": 1,
       "image": "CTRL004_step_01_v2.png"
@@ -89,10 +96,11 @@
           "AN130-22S"
         ]
       ],
-      "note": "SEE PLAN 30 · REAR BAGGAGE",
-      "detail": "CONNECTION DETAIL",
+      "note": "REPLACE PULLEY: 500 h / AS NEEDED",
+      "detail": "AFT PULLEY · INSPECTION ACCESS",
       "flags": [
-        "? VERIFY ROUTING"
+        "? VERIFY ROUTING",
+        "AD-004: INSPECT ANNUAL / 250 h"
       ],
       "number": 3,
       "image": "CTRL004_step_03_v2.png"
@@ -103,15 +111,42 @@
       "steps": "01",
       "issue": "Pin engagement, spring fit and travel-stop setting need kit fit verification.",
       "source": "HK-FCC lists R-FHS and AN3-4A travel limit; plan30.",
-      "check": "Check all detents, spring return and supplied stop before use."
+      "check": "Check all detents, spring return and supplied stop before use.",
+      "key": "BH-REV-008"
     },
     {
       "steps": "02–03",
       "issue": "Full Companion pulley route and washer allocation remain unresolved.",
       "source": "Plan30 shows splitter relationship; legacy full routing is not a complete Companion installation map.",
-      "check": "Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene."
+      "check": "Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene.",
+      "key": "BH-REV-009"
+    },
+    {
+      "key": "BH-REV-048",
+      "steps": "03",
+      "issue": "Aft-most flap pulley inspection and service-life tracking are absent from the earlier guide.",
+      "source": "Factory AD-004, 12/11/25: MS20220-1 (AN202A-1); inspection annual / 250 h; replacement 500 h or as needed.",
+      "check": "Identify the aft-most pulley on the actual Companion, check condition, preserve access, and record installed hours/inspection and replacement due points per AD-004. Full cable routing remains an open item."
+    },
+    {
+      "key": "BH-REV-049",
+      "steps": "01 / final rigging",
+      "issue": "First flap-speed setting conflicts between newsletter and current factory alert; in-flight deflections are not ground rigging targets.",
+      "source": "2022 Q4 p9 and 2023 Q1 p9: 100 mph at 10 degrees; current factory OA-002: 95 mph at 10 degrees. Both associate limits with in-flight air-loaded deflection.",
+      "check": "Obtain current applicable Companion limits from the designer/factory before placarding. Do not tighten/preload cables to force ground angles to the in-flight values. See FINAL003 for the remaining rigging requirements."
     }
   ],
   "photo": "G2-FLAP158",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT21-PATROL-PULLEY",
+    "BT21-FIVE-ROUTING",
+    "BT22-SPEED",
+    "BT23-SPEED",
+    "FACTORY-AD004",
+    "FACTORY-OA002"
+  ],
+  "before_build": [
+    "Factory AD-004 identifies the aft-most flap-system pulley for recurring inspection and replacement. Keep access to this pulley when fitting the baggage floor; use the factory illustration to identify it on your kit."
+  ]
 }

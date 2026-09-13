@@ -10,7 +10,8 @@
   "sources": [
     "Companion plans20,22",
     "BHManual-Fuselage1-25Rev1.pdf pp13–15",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4",
+    "2019_Beartracks.pdf, PDF pp6-7 / Q1 pp6-7, Jared Yates: A Tale of Two Tail Struts"
   ],
   "steps": [
     {
@@ -103,15 +104,20 @@
       "steps": "01",
       "issue": "Legacy incidence guidance differs from current Companion count sheet.",
       "source": "Legacy p13 says four degrees down; HK-EA4 says -2 degrees. Plans control design.",
-      "check": "Confirm Companion incidence and reference datum from current factory/plans before fixing spacers."
+      "check": "Confirm Companion incidence and reference datum from current factory/plans before fixing spacers.",
+      "key": "BH-REV-012"
     },
     {
       "steps": "02–03",
       "issue": "Carry-through orientation and brace washer allocation need kit confirmation.",
       "source": "HK-EA4 calls mixed outboard washers and thin washer at lower clevis.",
-      "check": "Match factory holes without forcing; verify all washers and lower AN3-5A / AN960-10L / AN365-1032A set."
+      "check": "Match factory holes without forcing; verify all washers and lower AN3-5A / AN960-10L / AN365-1032A set.",
+      "key": "BH-REV-013"
     }
   ],
   "photo": "G2-TAIL",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT19-TAIL-STRUT"
+  ]
 }

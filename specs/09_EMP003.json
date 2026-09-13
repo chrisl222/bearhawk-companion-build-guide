@@ -59,7 +59,8 @@
       "steps": "01–02",
       "issue": "Lower rudder bolt conflicts within current hardware sheet.",
       "source": "HK-RS4 p1: AN4-15A; HK-EA4 p2: AN4-13A.",
-      "check": "Obtain corrected factory lower hinge callout. Lower hinge remains unfastened in illustration; upper set is consistent."
+      "check": "Obtain corrected factory lower hinge callout. Lower hinge remains unfastened in illustration; upper set is consistent.",
+      "key": "BH-REV-015"
     }
   ],
   "photo": "G2-TAIL219",

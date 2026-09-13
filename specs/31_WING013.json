@@ -51,7 +51,8 @@
       "steps": "01–02",
       "issue": "Rivet length and implied hole totals differ.",
       "source": "QB 248 skin rivets at -3.5; WM p42 -3 and p41 7+32+8 locations per edge.",
-      "check": "Retain QB identities, verify actual matched holes, stack lengths, dimple/countersink method and factory count before riveting."
+      "check": "Retain QB identities, verify actual matched holes, stack lengths, dimple/countersink method and factory count before riveting.",
+      "key": "BH-REV-041"
     }
   ],
   "photo": "WM42",

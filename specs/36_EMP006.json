@@ -16,7 +16,8 @@
       "steps": "BLOCKED",
       "issue": "No separate bolt-on vertical-fin operation is established for this QB fuselage.",
       "source": "Fin appears in welded fuselage structure; no distinct installation callout found.",
-      "check": "Confirm delivered welded fin configuration and inspection requirements. Do not invent a fin attachment or copy another model."
+      "check": "Confirm delivered welded fin configuration and inspection requirements. Do not invent a fin attachment or copy another model.",
+      "key": "BH-REV-046"
     }
   ],
   "photo": null,

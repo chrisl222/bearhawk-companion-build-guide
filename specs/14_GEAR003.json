@@ -9,7 +9,9 @@
   "pdf": "14_Tailwheel.pdf",
   "sources": [
     "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-TW4",
-    "BHManual-Fuselage1-25Rev1.pdf p12"
+    "BHManual-Fuselage1-25Rev1.pdf p12",
+    "2018_Beartracks.pdf, PDF p4 / Q1 p4, Tail Post Reinforcement",
+    "Patrol-2004-2009.pdf, PDF p59 / 2009 p5, Tail Spring - Patrol"
   ],
   "steps": [],
   "issues": [
@@ -17,9 +19,14 @@
       "steps": "BLOCKED",
       "issue": "Current stinger installation cannot be reconstructed from legacy leaf-spring instructions.",
       "source": "HK-TW4 specifies stinger; legacy p12 illustrates leaf springs.",
-      "check": "Provide current Companion stinger/tailwheel installation drawing and identify fitted tailwheel."
+      "check": "Provide current Companion stinger/tailwheel installation drawing and identify fitted tailwheel.",
+      "key": "BH-REV-021"
     }
   ],
   "photo": "G1-TAILWHEEL-CANDIDATE",
-  "status": "BLOCKED"
+  "status": "BLOCKED",
+  "supplements": [
+    "BT18-TAILPOST",
+    "PATROL-TAIL"
+  ]
 }

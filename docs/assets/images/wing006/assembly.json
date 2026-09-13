@@ -5,20 +5,25 @@
   "section": "wings",
   "slug": "wings/flap-preparation",
   "model": "flap_surface",
-  "revision": 2,
+  "revision": 3,
   "pdf": "24_Flap_Preparation.pdf",
   "sources": [
     "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p35",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC",
+    "2021_Beartracks.pdf, PDF p9 / Q2 p1, Updates from Bob Barrows: April flap hinge correction",
+    "2022_Beartracks.pdf, PDF pp6-7 / Q1 pp6-7, Bruce Case: Aileron and Flap Hinges",
+    "2023_Beartracks.pdf, PDF p9 / Q1 p9, March clarification of December notice"
   ],
   "steps": [
     {
       "title": "FIT MATCHED TRAILING EDGE",
       "view": "fit",
       "hardware": [],
-      "note": "KEEP TRAILING EDGE STRAIGHT",
+      "note": "MATCH PARTS · CHECK 2021 HINGE UPDATE",
       "detail": "RIB / TRAILING-EDGE OVERLAP",
-      "flags": [],
+      "flags": [
+        "? VERIFY INBOARD HINGE REVISION"
+      ],
       "number": 1,
       "image": "WING006_step_01_v2.png"
     },
@@ -46,9 +51,22 @@
       "steps": "02 / final mount",
       "issue": "Final flap-to-weldment mounting is withheld due to incompatible row.",
       "source": "HK-FCC: AN6-6A with AN960-10L and AN365-1032A, six sets.",
-      "check": "Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set."
+      "check": "Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set. For hinge fitting, use the applicable airfoil templates to hold the surface flush while checking hinge alignment and bolt access; use current plans for offsets and hole dimensions, not the builder's 2022 jig dimensions.",
+      "key": "BH-REV-033"
+    },
+    {
+      "key": "BH-REV-051",
+      "steps": "BEFORE FINAL HINGE FIT",
+      "issue": "April 2021 inboard flap hinge drafting correction explicitly includes the Companion.",
+      "source": "2021 Q2 PDF p9 (issue p1), Updates from Bob Barrows; corrected hinge sketch.",
+      "check": "Compare the applicable Companion hinge drawing and supplied hinges with the corrected sketch before drilling. Obtain a legible current drawing if dimensions cannot be confirmed. The illustration is not a drilling template."
     }
   ],
   "photo": "WM35",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT21-HINGE",
+    "BT22-HINGES",
+    "BT23-SPEED"
+  ]
 }

@@ -5,11 +5,14 @@
   "section": "landing-gear",
   "slug": "landing-gear/shock-strut-mounting",
   "model": "shock",
-  "revision": 2,
+  "revision": 3,
   "pdf": "13_Shock_Strut_Mounting.pdf",
   "sources": [
     "Companion plans25–27",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4",
+    "2023_Beartracks.pdf, PDF p9 / Q1 p9, Landing Gear Tread Width Adjustments",
+    "2024_Beartracks.pdf, PDF p36 / Q4 p4, Jay Townsend walk-around",
+    "Factory OA-001, March 1 2023, Gear Spread Limits, p1"
   ],
   "steps": [
     {
@@ -32,7 +35,7 @@
           "AN365-624A"
         ]
       ],
-      "note": "ASSEMBLED STRUTS · BOTH SIDES",
+      "note": "VERIFY ROD-END ENGAGEMENT · OA-001",
       "detail": "CONNECTION DETAIL",
       "flags": [],
       "number": 1,
@@ -58,7 +61,7 @@
           "AN365-624A"
         ]
       ],
-      "note": "4× AN316-8R CHECK NUTS",
+      "note": "CHECK LOADED SPREAD · GEAR001 STEP 03",
       "detail": "CONNECTION DETAIL",
       "flags": [
         "? VERIFY STRUT CONFIGURATION"
@@ -71,10 +74,16 @@
     {
       "steps": "01–02",
       "issue": "Internal shock assembly, service fluid and rod-end adjustment are withheld.",
-      "source": "Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established.",
-      "check": "Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft."
+      "source": "Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established. OA-001 specifies a recommended 5/8 in minimum rod-end thread engagement and describes configuration-dependent adjustment points.",
+      "check": "Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft. Verify minimum engagement using the applicable factory method; exposed thread length alone is not an engagement measurement. Use GEAR001 step03 for loaded spread.",
+      "key": "BH-REV-020"
     }
   ],
   "photo": "G1-GEAR",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT23-GEAR",
+    "BT24-JAY",
+    "FACTORY-OA001"
+  ]
 }

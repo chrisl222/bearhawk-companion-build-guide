@@ -1,6 +1,6 @@
 # Human review required
 
-46 open items across 36 attempted scope entries. No items have been silently resolved.
+51 open items across 36 attempted scope entries. No items have been silently resolved.
 
 RELEASED means the limited illustrated operation has no recorded source conflict; it is not an aircraft airworthiness or final rigging approval. REVIEW REQUIRED manuals show supported relationships with unresolved operations explicitly identified. BLOCKED entries have no installation PDF.
 
@@ -39,7 +39,7 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Status: REVIEW REQUIRED
 - Issue: Final pedal position and firewall clearance depend on fitted cylinders.
 - Source / missing information: Plan 29 / legacy pp19–20; no aircraft-specific fit check.
-- Human check required: Dry-fit all four cylinders and check full travel before final positioning.
+- Human check required: Dry-fit all four cylinders and check full travel before final positioning. Keep hoses and return springs clear of the complete pedal sweep; check required Matco restrictors (AD-002 / GEAR004).
 
 ## BH-REV-006 — CTRL003: Rudder Cable Connections
 - Manual / step: 03 / 01
@@ -68,6 +68,20 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Issue: Full Companion pulley route and washer allocation remain unresolved.
 - Source / missing information: Plan30 shows splitter relationship; legacy full routing is not a complete Companion installation map.
 - Human check required: Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene.
+
+## BH-REV-048 — CTRL004: Flap Cockpit Controls
+- Manual / step: 04 / 03
+- Status: REVIEW REQUIRED
+- Issue: Aft-most flap pulley inspection and service-life tracking are absent from the earlier guide.
+- Source / missing information: Factory AD-004, 12/11/25: MS20220-1 (AN202A-1); inspection annual / 250 h; replacement 500 h or as needed.
+- Human check required: Identify the aft-most pulley on the actual Companion, check condition, preserve access, and record installed hours/inspection and replacement due points per AD-004. Full cable routing remains an open item.
+
+## BH-REV-049 — CTRL004: Flap Cockpit Controls
+- Manual / step: 04 / 01 / final rigging
+- Status: REVIEW REQUIRED
+- Issue: First flap-speed setting conflicts between newsletter and current factory alert; in-flight deflections are not ground rigging targets.
+- Source / missing information: 2022 Q4 p9 and 2023 Q1 p9: 100 mph at 10 degrees; current factory OA-002: 95 mph at 10 degrees. Both associate limits with in-flight air-loaded deflection.
+- Human check required: Obtain current applicable Companion limits from the designer/factory before placarding. Do not tighten/preload cables to force ground angles to the in-flight values. See FINAL003 for the remaining rigging requirements.
 
 ## BH-REV-010 — CTRL005: Elevator Horn Connections
 - Manual / step: 05 / 01–02
@@ -102,7 +116,7 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Status: REVIEW REQUIRED
 - Issue: Hinge support fit and flying-wire tab orientation depend on supplied kit.
 - Source / missing information: Plan24 hinge detail / HK-EA4 / legacy p15.
-- Human check required: Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual.
+- Human check required: Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual. Check each elevator independently, then repeat after joining horns, tensioning brace wires and connecting cables. Isolate any stage that introduces binding; do not copy the article's shim fabrication, balance additions or -4 degree tail setting.
 
 ## BH-REV-015 — EMP003: Rudder
 - Manual / step: 09 / 01–02
@@ -129,22 +143,29 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Manual / step: 11 / 02
 - Status: REVIEW REQUIRED
 - Issue: Complete trim cable route, length and adjustment not released.
-- Source / missing information: Plan22 linkage; HK-TS4 supplies rod ends but no completed adjustment.
+- Source / missing information: Plan22 linkage; HK-TS4 supplies rod ends but no completed adjustment. The 2019 Q1 p2 trim-tension notice predates and does not name the Companion; its numerical tension is not adopted.
 - Human check required: Verify both tab directions, stops, cable route and rod adjustment with current kit.
 
+## BH-REV-050 — EMP005: Trim Wheel and Linkages
+- Manual / step: 11 / 03
+- Status: REVIEW REQUIRED
+- Issue: Factory-kit bolted outboard trim arms may develop play; the newsletter recommendation does not identify an exact compound grade or establish this kit's joint.
+- Source / missing information: 2022 Q2 p4, Mark Goldberg: outboard arm-to-tube joint, surface cleaning and red Loctite recommendation before bolt installation.
+- Human check required: Confirm the delivered bolted-versus-welded joint, current factory treatment/compound and fastener stack. Check both arms for play and preserve inspection access. Do not apply compound to rotating supports or rod ends.
+
 ## BH-REV-019 — GEAR001: Main Landing Gear
-- Manual / step: 12 / 01–02
+- Manual / step: 12 / 01-03
 - Status: REVIEW REQUIRED
 - Issue: Exact washer allocation, gear alignment and support setup need current-kit verification.
-- Source / missing information: HK-LG4 gives two washers per upper joint; legacy tread values are not adopted.
-- Human check required: Verify bolt grip and washer placement without substituting parts. Fit shock struts before loading gear; use current alignment instructions.
+- Source / missing information: HK-LG4 gives two washers per upper joint; Companion plan25 and factory OA-001 now supply spread criteria. Aircraft-specific stack and measured alignment still need verification.
+- Human check required: Verify bolt grip, washer allocation and support setup. With completed gear/wheels and appropriate static load, roll straight at least 25 ft before measuring tire centers at their fronts; record load and spread under OA-001. Do not measure immediately after a pivot turn.
 
 ## BH-REV-020 — GEAR002: Shock Strut Mounting
 - Manual / step: 13 / 01–02
 - Status: REVIEW REQUIRED
 - Issue: Internal shock assembly, service fluid and rod-end adjustment are withheld.
-- Source / missing information: Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established.
-- Human check required: Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft.
+- Source / missing information: Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established. OA-001 specifies a recommended 5/8 in minimum rod-end thread engagement and describes configuration-dependent adjustment points.
+- Human check required: Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft. Verify minimum engagement using the applicable factory method; exposed thread length alone is not an engagement measurement. Use GEAR001 step03 for loaded spread.
 
 ## BH-REV-021 — GEAR003: Tailwheel
 - Manual / step: 14 / BLOCKED
@@ -159,6 +180,13 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Issue: Upper-joint washers depend on master-cylinder variant.
 - Source / missing information: HK-RS4: four AN960-10 per joint; note says two thin washers for Bearhawk cylinders.
 - Human check required: Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released.
+
+## BH-REV-047 — GEAR004: Brake Master Cylinders
+- Manual / step: 15 / BEFORE 01-02
+- Status: REVIEW REQUIRED
+- Issue: Affected Avipro/Barrows brake cylinders require replacement; Matco travel restrictors and replacement mounting stack require verification.
+- Source / missing information: 2022 Q1 p9 introduced the cylinders; 2023 Q3 p8 warned about dual brakes. Factory AD-002, 4/1/2025, now directs removal and replacement; pp3-4 show restrictors.
+- Human check required: Identify all installed/supplied cylinders. Follow factory replacement instructions and verify Companion restrictors before using the depicted mounting relationships. Do not reuse the old washer variant note as Matco installation data.
 
 ## BH-REV-023 — FUS002: Front Seats
 - Manual / step: 16 / 01–02
@@ -235,14 +263,21 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Status: REVIEW REQUIRED
 - Issue: Final flap-to-weldment mounting is withheld due to incompatible row.
 - Source / missing information: HK-FCC: AN6-6A with AN960-10L and AN365-1032A, six sets.
-- Human check required: Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set.
+- Human check required: Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set. For hinge fitting, use the applicable airfoil templates to hold the surface flush while checking hinge alignment and bolt access; use current plans for offsets and hole dimensions, not the builder's 2022 jig dimensions.
+
+## BH-REV-051 — WING006: Flap Preparation
+- Manual / step: 24 / BEFORE FINAL HINGE FIT
+- Status: REVIEW REQUIRED
+- Issue: April 2021 inboard flap hinge drafting correction explicitly includes the Companion.
+- Source / missing information: 2021 Q2 PDF p9 (issue p1), Updates from Bob Barrows; corrected hinge sketch.
+- Human check required: Compare the applicable Companion hinge drawing and supplied hinges with the corrected sketch before drilling. Obtain a legible current drawing if dimensions cannot be confirmed. The illustration is not a drilling template.
 
 ## BH-REV-034 — WING007: Aileron Preparation
 - Manual / step: 25 / 03 / final mount
 - Status: REVIEW REQUIRED
 - Issue: Surface balance and final hinge/pushrod installation are not released.
 - Source / missing information: WM p37 defers balancing until fabric/paint; complete final attachment details not established by this preparation chapter.
-- Human check required: Confirm final hinge hardware, pushrod retention and current balance procedure before flight.
+- Human check required: Confirm final hinge hardware, pushrod retention and current balance procedure before flight. Use current airfoil templates to check position, align hinge pivot axes, retain bolt access and check freedom of movement before final fastening. Beartracks 2022 Q1 pp6-7 supplies technique/photos only; no jig dimensions or hardware substitutions are adopted.
 
 ## BH-REV-035 — WING008: Main Tanks and Fuel Lines
 - Manual / step: 26 / 01
@@ -318,8 +353,8 @@ New illustrations show fastener axes and a hardware inventory. Where an installe
 - Manual / step: 35 / BLOCKED
 - Status: BLOCKED
 - Issue: A complete consistent Companion rigging/check set has not been established.
-- Source / missing information: Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values.
-- Human check required: Obtain current Companion final rigging checklist and resolve source conflicts before release.
+- Source / missing information: Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values. Beartracks 2018 Q3 pp3-5 is original 4-Place rigging experience, not Companion numerical rigging data; see BH-REV-049 for the flap-speed conflict.
+- Human check required: Obtain current Companion final rigging checklist and resolve source conflicts before release. Include independent verification of control direction, full travel, friction and attachment security; record actual Companion datum measurements.
 
 ## BH-REV-046 — EMP006: Vertical Stabilizer
 - Manual / step: 36 / BLOCKED

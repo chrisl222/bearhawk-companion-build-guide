@@ -47,7 +47,8 @@
       "steps": "01–02",
       "issue": "Standoff and end-trim positions must match the actual fuselage.",
       "source": "Plans define shape; legacy photo variations are not adopted as kit geometry.",
-      "check": "Verify stringer material, supplied saddles, fabric clearance and smooth aft transition."
+      "check": "Verify stringer material, supplied saddles, fabric clearance and smooth aft transition.",
+      "key": "BH-REV-024"
     }
   ],
   "photo": "FM28-STRINGERS",

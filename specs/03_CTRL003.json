@@ -85,13 +85,15 @@
       "steps": "01",
       "issue": "Three thin washers are called out, but exact allocation across the tab joint is not established.",
       "source": "HK-RS4 cable-to-tab row.",
-      "check": "Confirm stack against current factory installation; washers remain in parts tray."
+      "check": "Confirm stack against current factory installation; washers remain in parts tray.",
+      "key": "BH-REV-006"
     },
     {
       "steps": "02",
       "issue": "Shackle preparation and full fuselage routing are not released by these endpoint illustrations.",
       "source": "HK-RS4 says AN115-32: drill to AN4; route not fully constrained by supplied Companion drawings.",
-      "check": "Confirm factory drilling detail, route through installed fairleads, spring connection and cable termination inspection."
+      "check": "Confirm factory drilling detail, route through installed fairleads, spring connection and cable termination inspection.",
+      "key": "BH-REV-007"
     }
   ],
   "photo": "FM16-RUDDER",

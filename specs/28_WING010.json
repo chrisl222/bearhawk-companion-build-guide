@@ -45,7 +45,8 @@
       "steps": "01–02",
       "issue": "Conduit diameter, brackets and equipment are configuration-specific.",
       "source": "WM p38 describes optional PEX method, not a universal electrical design.",
-      "check": "Confirm required services and clearance from every moving control; no avionics/electrical architecture is specified."
+      "check": "Confirm required services and clearance from every moving control; no avionics/electrical architecture is specified.",
+      "key": "BH-REV-038"
     }
   ],
   "photo": "WM38",

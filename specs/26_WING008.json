@@ -9,7 +9,9 @@
   "pdf": "26_Main_Tanks_and_Fuel_Lines.pdf",
   "sources": [
     "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp5–7",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp3–4 HK-FS4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp3–4 HK-FS4",
+    "2017_Beartracks.pdf, PDF p14 / Q2 p6, Mark Richardson: Locating the Fuel Tank Filler Hole",
+    "2020_Beartracks.pdf, PDF p18 / Q2 p10, Collin Campbell tips"
   ],
   "steps": [
     {
@@ -97,15 +99,21 @@
       "steps": "01",
       "issue": "Tank strainer identity differs from current wing manual.",
       "source": "QB:05-17700; WM p7:AN375/PN-520.",
-      "check": "Verify supplied strainers and tank ports with factory; QB identities retained."
+      "check": "Verify supplied strainers and tank ports with factory; QB identities retained.",
+      "key": "BH-REV-035"
     },
     {
       "steps": "02–03",
       "issue": "Root-hole counts and sight-gauge flare-nut prose contain inconsistencies.",
       "source": "WM p5 mentions five lines then four locations; p6 prose gives AN818-6D for 1/4 tube but figure/QB give AN818-4D.",
-      "check": "Use QB fittings; transfer actual tank port geometry and confirm layout. Final tank straps, venting and leak checks require current installation instructions."
+      "check": "Use QB fittings; transfer actual tank port geometry and confirm layout. Final tank straps, venting and leak checks require current installation instructions.",
+      "key": "BH-REV-036"
     }
   ],
   "photo": "WM07",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT17-FILLER",
+    "BT20-GAUGE"
+  ]
 }

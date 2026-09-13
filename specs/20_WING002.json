@@ -9,7 +9,8 @@
   "pdf": "20_Tank_Bay_Covers.pdf",
   "sources": [
     "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp4,8–9",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings",
+    "2017_Beartracks.pdf, PDF p14 / Q2 p6, Mark Richardson: Locating the Fuel Tank Filler Hole"
   ],
   "steps": [
     {
@@ -54,15 +55,20 @@
       "steps": "01",
       "issue": "Drain holes must be transferred from installed tanks.",
       "source": "WM p4; no dimension inferred from scene.",
-      "check": "Confirm matched cover and actual drain center before cutting."
+      "check": "Confirm matched cover and actual drain center before cutting.",
+      "key": "BH-REV-026"
     },
     {
       "steps": "02",
       "issue": "Corner nutplates differ between sources; rivet naming is inconsistent.",
       "source": "QB p5: K1000-06 throughout; WM pp8–9: MS21055L06 at four main-bay corners; WM rivet text conflicts with example.",
-      "check": "Use QB identities as inventory, obtain factory confirmation at corners and for rivet diameter/length before riveting."
+      "check": "Use QB identities as inventory, obtain factory confirmation at corners and for rivet diameter/length before riveting.",
+      "key": "BH-REV-027"
     }
   ],
   "photo": "WM09",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT17-FILLER"
+  ]
 }

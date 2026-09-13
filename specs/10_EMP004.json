@@ -9,7 +9,8 @@
   "pdf": "10_Tail_Brace_Wires.pdf",
   "sources": [
     "Companion plans20,22,24",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4",
+    "Patrol-2004-2009.pdf, PDF p61 / 2009 p7, Tail Wire Ends and Trim Pushrod"
   ],
   "steps": [
     {
@@ -77,9 +78,13 @@
       "steps": "01–02",
       "issue": "Wire lengths, individual terminal allocation and final tension need current-kit confirmation.",
       "source": "HK-EA4 lists totals; supplied photos do not establish lengths or tension.",
-      "check": "Match each wire and thread to supplied assembly; confirm routing and tension from controlling documentation."
+      "check": "Match each wire and thread to supplied assembly; confirm routing and tension from controlling documentation.",
+      "key": "BH-REV-016"
     }
   ],
   "photo": "G2-TAIL219",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "PATROL-TRIM"
+  ]
 }

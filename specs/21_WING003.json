@@ -91,13 +91,15 @@
       "steps": "02",
       "issue": "Thin-washer allocation around large-area bearing retainers needs confirmation.",
       "source": "HK-AS4: three thin and two large-area washers per bellcrank.",
-      "check": "Confirm full stack and free rotation; do not press bearing inner races."
+      "check": "Confirm full stack and free rotation; do not press bearing inner races.",
+      "key": "BH-REV-028"
     },
     {
       "steps": "03",
       "issue": "Pulley nut designation differs.",
       "source": "WM p15: AN365-416A; QB HK-AS4: AN365-428A.",
-      "check": "Keep QB set and verify factory correction; confirm cable guard and upper strut pulley installation separately."
+      "check": "Keep QB set and verify factory correction; confirm cable guard and upper strut pulley installation separately.",
+      "key": "BH-REV-029"
     }
   ],
   "photo": "WM16",

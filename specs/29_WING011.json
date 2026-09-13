@@ -51,7 +51,8 @@
       "steps": "01–02",
       "issue": "Cover screw head and ring preparation differ by source/kit revision.",
       "source": "QB countersunk AN507; WM p29 prefers AN526 and varies rivets for .032/.040 rings.",
-      "check": "Verify current ring thickness, screw head and compatible dimple/countersink preparation before machining; preserve ring orientation."
+      "check": "Verify current ring thickness, screw head and compatible dimple/countersink preparation before machining; preserve ring orientation.",
+      "key": "BH-REV-039"
     }
   ],
   "photo": "WM34",

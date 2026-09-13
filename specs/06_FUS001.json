@@ -51,7 +51,8 @@
       "steps": "01–02",
       "issue": "Panel boundaries and access openings are fitted to the individual airframe.",
       "source": "Legacy preferred removable arrangement; QB 46 attachment locations is aircraft total.",
-      "check": "Check pedal/stick sweep, cable access and each supplied tab. Scene is not a cutting pattern."
+      "check": "Check pedal/stick sweep, cable access and each supplied tab. Scene is not a cutting pattern.",
+      "key": "BH-REV-011"
     }
   ],
   "photo": "FM23-FLOOR",

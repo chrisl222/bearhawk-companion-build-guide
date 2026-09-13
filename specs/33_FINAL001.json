@@ -69,7 +69,8 @@
       "steps": "01–02",
       "issue": "Full lifting procedure, strut fitting assembly and incidence setup are not released.",
       "source": "HK-WA4 gives root/end hardware; strut-fitting washer AN960-428 is unresolved.",
-      "check": "Use current factory supported-wing procedure; confirm all stack/grip details and plan incidence before loading. Do not drill structural holes from scene."
+      "check": "Use current factory supported-wing procedure; confirm all stack/grip details and plan incidence before loading. Do not drill structural holes from scene.",
+      "key": "BH-REV-043"
     }
   ],
   "photo": "PLAN21",

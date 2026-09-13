@@ -216,6 +216,30 @@ Photos establish appearance, side, orientation and connections only. They never 
 - View: Filenames indexed; images not opened.
 - Use: Not used: equivalence to current Companion stinger installation unestablished.
 
+### BT24-COMPANION-GEAR
+- Reference: 2024_Beartracks.pdf PDF p36 / Q4 p4, Jay Townsend walk-around
+- Model / subsystem: Companion / LANDING_GEAR
+- View: Full page inspected: underside oblique gear/shock view, and looking aft into the tail cone.
+- Use: Companion relationship reference for GEAR001/GEAR002. Cargo tube, vents and vortex generators are builder choices. No dimensions or hardware inferred.
+
+### BT22-HINGE-FIT
+- Reference: 2022_Beartracks.pdf PDF pp6-7 / Q1 pp6-7, Bruce Case
+- Model / subsystem: Model not explicit in article / WING_AILERONS
+- View: Full pages inspected: airfoil templates, offset hinge pairs, pivot axes, joggle and bolt-insertion access.
+- Use: Technique and localized appearance only. Current Companion plans/manuals must establish offsets, hole sizes and hardware.
+
+### FACTORY-BRAKE-STOP
+- Reference: https://www.bearhawkaircraft.com/s/AD-002-2.pdf | pp2-4
+- Model / subsystem: Companion named in alert; photograph model unspecified / RUDDER_PEDALS
+- View: Factory cylinder comparison photo, restrictor drawing and installed Matco/restrictor oblique photograph.
+- Use: Prerequisite identification/installation reference. AD-002 applicability and exact replacement hardware must be established before mounting; no identity inferred from generic Blender cylinder.
+
+### FACTORY-AFT-PULLEY
+- Reference: https://www.bearhawkaircraft.com/s/AD-004.pdf | p1
+- Model / subsystem: Companion included; illustrated airframe model unspecified / FLAP_CONTROLS
+- View: Full page inspected: factory underside/forward-looking CAD localizes aft-most flap pulley; photograph shows failed pulley.
+- Use: CAD constrains localized pulley relationship with Companion plan30. CAD is not a real installation photograph; full Companion route remains unresolved.
+
 ## Indexed candidates — open only when relevant
 
 | Gallery | Folder | Subsystem | Review |

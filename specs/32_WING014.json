@@ -51,7 +51,8 @@
       "steps": "01–02",
       "issue": "Tip fit and trailing-edge termination depend on supplied composite tip.",
       "source": "WM p43 distinguishes open/closed trailing edges and different materials.",
-      "check": "Trial-fit actual aileron before trimming; confirm clearance and screw locations. Illustration is not a cutting template."
+      "check": "Trial-fit actual aileron before trimming; confirm clearance and screw locations. Illustration is not a cutting template.",
+      "key": "BH-REV-042"
     }
   ],
   "photo": "WM43",

@@ -1,0 +1,455 @@
+{
+  "review_date": "2026-09-13",
+  "scope": "Primary-build supplements; newsletter indexing is selective, not a complete article catalog or service-bulletin compliance audit.",
+  "authority": "Companion plans govern design. Current Companion count sheet governs explicit QB hardware. Named factory alerts are separate sources; conflicts remain open. Builder photographs and historical articles do not supply critical specifications.",
+  "files": [
+    {
+      "file": "2017_Beartracks.pdf",
+      "pages": 36,
+      "sha256": "4439b1c934535a3139f0db43c42c1c4e49804fdc867003fb3c0ed7f02897d048",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2018_Beartracks.pdf",
+      "pages": 38,
+      "sha256": "e4381030dbad46720810bd2f127f8267211923e79653fd2913f7d86ddbbbfda4",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2019_Beartracks.pdf",
+      "pages": 32,
+      "sha256": "463848dc332417465bf6effb1f7866cbab4483edcb407ee33e81e9327812c8b0",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2020_Beartracks.pdf",
+      "pages": 36,
+      "sha256": "b3545f92720f4d4b093e33bc040cad4cbe0c171c0caaf97bbb73828f31fc038d",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2021_Beartracks.pdf",
+      "pages": 36,
+      "sha256": "f1b3ddadfe25c5bf6d5000596fb8ec4c1766fa6a45f11ed71a3904ca9953d594",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2022_Beartracks.pdf",
+      "pages": 42,
+      "sha256": "5e43ba06fca45b18c522339c147bd7786c77b377b6caa3a74016b5b881b3fd6e",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2023_Beartracks.pdf",
+      "pages": 42,
+      "sha256": "069d5d94d26ee21c8010c867090f5b97cffda09bbd29bdd7948eab1828113b32",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2024_Beartracks.pdf",
+      "pages": 40,
+      "sha256": "8beec17d3e29c2b33361fb3a7d47266b5573422c00a043dbb698e7936be550de",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "2025_Beartracks.pdf",
+      "pages": 44,
+      "sha256": "be5220e8e9b9efbce7573e2980ec474ff3f770cfc3370aef9b2b306d0673d813",
+      "screening": "Text extracted and screened for primary-build topics/notices; selected relevant pages visually inspected."
+    },
+    {
+      "file": "Patrol-2004-2009.pdf",
+      "pages": 63,
+      "sha256": "8876c3b5903c0cc3fbed7d4377b60e5400356d629d2cca4070d876bd45da918f",
+      "screening": "All 63 scanned PDF sheets visually screened in contact sheets; selected relevant spreads read full-size. Not OCR-searchable."
+    }
+  ],
+  "references": [
+    {
+      "id": "BT17-FILLER",
+      "source": "2017_Beartracks.pdf, PDF p14 / Q2 p6, Mark Richardson: Locating the Fuel Tank Filler Hole",
+      "model": "4-Place scratch build",
+      "topic": "WING_FUEL",
+      "decision": "Technique reference",
+      "summary": "Transfer the actual fitted filler-neck center to a paper template; fit the actual tank before marking. Historical hole sizes and cutting methods are not Companion instructions. Tank-bay bottom drain openings are a different operation.",
+      "manuals": [
+        "WING002",
+        "WING008"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT18-RIGGING",
+      "source": "2018_Beartracks.pdf, PDF pp19-21 / Q3 pp3-5, Kevin Deutscher: Rigging a Bearhawk, Part 1",
+      "model": "Original 4-Place",
+      "topic": "CONTROLS / EMPENNAGE",
+      "decision": "Qualitative checks adopted",
+      "summary": "Check free movement at each connection stage, hose/spring clearance, hinge alignment and independent final control-direction/security checks. Numerical incidence, shim fabrication and balance changes are not adopted.",
+      "manuals": [
+        "CTRL002",
+        "EMP002",
+        "FINAL003"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT18-TAILPOST",
+      "source": "2018_Beartracks.pdf, PDF p4 / Q1 p4, Tail Post Reinforcement",
+      "model": "Patrol and 4-Place Model B",
+      "topic": "TAILWHEEL",
+      "decision": "Applicability unconfirmed",
+      "summary": "Round-spring tailpost reinforcement history; does not establish a Companion stinger installation or authorize welding the current kit.",
+      "manuals": [
+        "GEAR003"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT19-TRIM-TENSION",
+      "source": "2019_Beartracks.pdf, PDF p2 / Q1 p2, Safety Update from Bob",
+      "model": "4-Place, Patrol, LSA",
+      "topic": "ELEVATOR_CONTROLS",
+      "decision": "Companion numeric setting withheld",
+      "summary": "Historical trim cable tension notice predates the Companion. Obtain current Companion tension and measurement conditions.",
+      "manuals": [
+        "EMP005"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT19-TAIL-STRUT",
+      "source": "2019_Beartracks.pdf, PDF pp6-7 / Q1 pp6-7, Jared Yates: A Tale of Two Tail Struts",
+      "model": "4-Place",
+      "topic": "EMPENNAGE",
+      "decision": "Inspection context only",
+      "summary": "Welded threaded-end corrosion/fatigue history and a builder repair. Do not copy the replacement clevis, weld, material or strut length to the Companion.",
+      "manuals": [
+        "EMP001"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT20-GAUGE",
+      "source": "2020_Beartracks.pdf, PDF p18 / Q2 p10, Collin Campbell tips",
+      "model": "Model not established in this item",
+      "topic": "FUEL_SYSTEM",
+      "decision": "Optional visual reference",
+      "summary": "A contrasting striped backing improves sight-tube readability. No fuel-level calibration is supplied; clip-nut clamp substitutions are not adopted.",
+      "manuals": [
+        "WING008"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT20-PUMPS",
+      "source": "2020_Beartracks.pdf, PDF p24 / Q3 p4, Fuel System Discussion About Pumps",
+      "model": "General notice plus Patrol builder example",
+      "topic": "FUEL_SYSTEM",
+      "decision": "Configuration review retained",
+      "summary": "Pump-fed systems require a configuration-specific assessment; a builder flight anecdote does not validate a Companion installation. No header tank or plumbing modification is added.",
+      "manuals": [
+        "FUS004"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT21-HINGE",
+      "source": "2021_Beartracks.pdf, PDF p9 / Q2 p1, Updates from Bob Barrows: April flap hinge correction",
+      "model": "Companion, Model B, Patrol, Five",
+      "topic": "WING_FLAPS",
+      "decision": "Revision check added",
+      "summary": "Check the corrected inboard flap hinge drawing against the supplied hinge before drilling. Newsletter sketch is a design reference, not a scaled template.",
+      "manuals": [
+        "WING006"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT21-PATROL-PULLEY",
+      "source": "2021_Beartracks.pdf, PDF p27 / Q3 p11, Flap Pulley Mount Reinforcement",
+      "model": "Patrol only",
+      "topic": "FLAP_CONTROLS",
+      "decision": "Excluded from Companion geometry",
+      "summary": "Station F reinforcement responds to a Patrol weld failure. It is a different matter from factory AD-004 aft pulley wear; no Companion reinforcement is inferred.",
+      "manuals": [
+        "CTRL004"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT21-FIVE-ROUTING",
+      "source": "2021_Beartracks.pdf, PDF p35 / Q4 p7, Five Flap Cable Routing",
+      "model": "Five only",
+      "topic": "FLAP_CONTROLS",
+      "decision": "Excluded from Companion routing",
+      "summary": "The notice states that the Five uses the opposite side from the 4-Place. Five photographs cannot settle an uncertain Companion pulley side.",
+      "manuals": [
+        "CTRL004"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT21-COMPANION",
+      "source": "2021_Beartracks.pdf, PDF p9 / Q2 p1, Dave Lenart first Companion",
+      "model": "Companion",
+      "topic": "SEATS / FINAL_ASSEMBLY",
+      "decision": "Visual candidate reviewed",
+      "summary": "Exterior and seat appearance are recognizable Companion references. Upholstery and performance figures are not build geometry.",
+      "manuals": [
+        "FUS002"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT22-HINGES",
+      "source": "2022_Beartracks.pdf, PDF pp6-7 / Q1 pp6-7, Bruce Case: Aileron and Flap Hinges",
+      "model": "Bearhawk model not explicitly established in article",
+      "topic": "WING_AILERONS / WING_FLAPS",
+      "decision": "Technique checks adopted",
+      "summary": "Paired airfoil templates hold the surface in position; hinge axes must align and bolt insertion access must remain. Exact offsets, jig dimensions and hardware are not transferred.",
+      "manuals": [
+        "WING006",
+        "WING007"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT22-CYLINDERS",
+      "source": "2022_Beartracks.pdf, PDF p9 / Q1 p9, New Brake Master Cylinders Designed by Bob",
+      "model": "Multiple Bearhawk installations",
+      "topic": "BRAKES",
+      "decision": "Historical; later alert takes precedence",
+      "summary": "The introduction describes machined cylinders and longer forks. This is not an endorsement to install affected cylinders after factory AD-002.",
+      "manuals": [
+        "GEAR004"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT22-TRIM-ARM",
+      "source": "2022_Beartracks.pdf, PDF p16 / Q2 p4, Mark Goldberg: Elevator Trim Torque Tube on Factory Kits",
+      "model": "Factory kits; exact delivered joint to be checked",
+      "topic": "ELEVATOR_CONTROLS",
+      "decision": "Inspection view and review item added",
+      "summary": "Inspect the bolted outboard arm-to-tube joint for play and preserve access. Factory commentary recommends clean mating surfaces and red Loctite; exact product and current-kit application need confirmation.",
+      "manuals": [
+        "EMP005"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT22-FLAP-MOD",
+      "source": "2022_Beartracks.pdf, PDF pp14-16 / Q2 pp2-4, Mark Scott: Inboard Flap Extension",
+      "model": "Modified original 4-Place A",
+      "topic": "WING_FLAPS",
+      "decision": "Custom modification excluded",
+      "summary": "Do not adopt flap extensions, reflex settings or modified operating limits as standard Companion configuration.",
+      "manuals": [],
+      "url": null
+    },
+    {
+      "id": "BT22-POCKET",
+      "source": "2022_Beartracks.pdf, PDF p29 / Q3 p9, Mark Johnson: Pocket Rib Drilling",
+      "model": "Patrol scratch build",
+      "topic": "WING_CLOSING",
+      "decision": "Indexed for future technique reference",
+      "summary": "Tool-access technique; no Companion drilling coordinates or fastener specification derived.",
+      "manuals": [],
+      "url": null
+    },
+    {
+      "id": "BT22-SPEED",
+      "source": "2022_Beartracks.pdf, PDF p41 / Q4 p9, Maximum Flap Speeds",
+      "model": "Companion, Model B, Patrol",
+      "topic": "FLAP_CONTROLS",
+      "decision": "Read with March 2023 clarification",
+      "summary": "Supplied newsletter first-setting limit differs from currently hosted factory OA-002. Do not use this page alone for placarding.",
+      "manuals": [
+        "CTRL004"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT23-SPEED",
+      "source": "2023_Beartracks.pdf, PDF p9 / Q1 p9, March clarification of December notice",
+      "model": "Companion, Model B, Patrol",
+      "topic": "FLAP_CONTROLS",
+      "decision": "Source conflict recorded",
+      "summary": "Deflections are in flight under air loads; ground deflection is greater. Newsletter first setting is 100 mph; current factory OA-002 says 95 mph. Obtain an applicable current determination.",
+      "manuals": [
+        "CTRL004",
+        "WING006",
+        "FINAL003"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT23-GEAR",
+      "source": "2023_Beartracks.pdf, PDF p9 / Q1 p9, Landing Gear Tread Width Adjustments",
+      "model": "All Bearhawks, separate LSA limits",
+      "topic": "LANDING_GEAR",
+      "decision": "Companion measurement view added",
+      "summary": "Companion spread limits corroborate current factory OA-001, which adds the straight-roll measurement condition. Illustrated measurement uses the current factory condition.",
+      "manuals": [
+        "GEAR001",
+        "GEAR002"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT23-BRAKES",
+      "source": "2023_Beartracks.pdf, PDF p28 / Q3 p8, Dual-Brake Safety Update",
+      "model": "Avipro/Barrows cylinders in dual-brake installations",
+      "topic": "BRAKES",
+      "decision": "Historical mitigation replaced by current alert",
+      "summary": "Newsletter described trapped brake pressure and temporary options. Current factory AD-002 adds seal-wear concerns and directs affected-cylinder replacement; do not treat single-pilot use as exempt.",
+      "manuals": [
+        "GEAR004"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT24-BOB",
+      "source": "2024_Beartracks.pdf, PDF p2 / Q1 p2, Bob Barrows Begins a Companion Build",
+      "model": "Companion QB",
+      "topic": "FINAL_ASSEMBLY",
+      "decision": "Visual candidate reviewed",
+      "summary": "Kit-build progress and installed gear context. No dimensions or supplied hardware identities derived.",
+      "manuals": [],
+      "url": null
+    },
+    {
+      "id": "BT24-JAY",
+      "source": "2024_Beartracks.pdf, PDF p36 / Q4 p4, Jay Townsend walk-around",
+      "model": "Companion",
+      "topic": "EMPENNAGE / LANDING_GEAR",
+      "decision": "Visual reference indexed",
+      "summary": "Tail-cone oblique view and underside gear/shock views. Black cargo tube, vents and vortex generators are builder choices, not adopted standard features.",
+      "manuals": [
+        "GEAR001",
+        "GEAR002"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT25-GEAR",
+      "source": "2025_Beartracks.pdf, PDF p23 / Q2 p13, Bob Barrows signed Engineering Note, May 29 2025",
+      "model": "Companion, 4-Place, Patrol",
+      "topic": "LANDING_GEAR",
+      "decision": "Optional configuration note only",
+      "summary": "Optional heavier gear-leg/axle materials for heavy-duty use. Do not assume supplied gear needs replacement; no material substitution is introduced.",
+      "manuals": [
+        "GEAR001"
+      ],
+      "url": null
+    },
+    {
+      "id": "BT25-TOOLS",
+      "source": "2025_Beartracks.pdf, PDF pp42-43 / Q4 pp8-9, George Huntington construction tips",
+      "model": "Builder example; model not specified in item",
+      "topic": "FINAL_ASSEMBLY / FUSELAGE",
+      "decision": "Indexed; fabrication not adopted",
+      "summary": "Tube templates, bend tooling, strut drilling support and inspection-cover jigs. Final dimensions and material/fastener decisions still require controlling Companion documents.",
+      "manuals": [],
+      "url": null
+    },
+    {
+      "id": "PATROL-ROUTE",
+      "source": "Patrol-2004-2009.pdf, PDF p19 left / January 2005 p2, Drawing Omission",
+      "model": "Patrol plans P040 and below",
+      "topic": "WING_AILERONS",
+      "decision": "Not Companion routing authority",
+      "summary": "Historical aileron cable-pulley relationship at wing strut. Applicability is limited by model and plans serial number; no offset transferred.",
+      "manuals": [
+        "WING004"
+      ],
+      "url": null
+    },
+    {
+      "id": "PATROL-TAIL",
+      "source": "Patrol-2004-2009.pdf, PDF p59 / 2009 p5, Tail Spring - Patrol",
+      "model": "Patrol",
+      "topic": "TAILWHEEL",
+      "decision": "Companion installation remains blocked",
+      "summary": "Rod-spring drawing does not establish Companion rear socket, retention stack or supplied tailwheel configuration.",
+      "manuals": [
+        "GEAR003"
+      ],
+      "url": null
+    },
+    {
+      "id": "PATROL-TRIM",
+      "source": "Patrol-2004-2009.pdf, PDF p61 / 2009 p7, Tail Wire Ends and Trim Pushrod",
+      "model": "Patrol prototype",
+      "topic": "EMPENNAGE",
+      "decision": "Do not substitute prototype details",
+      "summary": "Homemade terminals and a bent trim rod are not substitutes for the current Companion terminal inventory or plan22 linkage geometry.",
+      "manuals": [
+        "EMP004",
+        "EMP005"
+      ],
+      "url": null
+    },
+    {
+      "id": "FACTORY-AD002",
+      "source": "Factory AD-002, 4/1/2025, Brake Master Cylinders, pp1-4",
+      "model": "All; Companion named for Matco restrictor",
+      "topic": "BRAKES",
+      "decision": "Current manufacturer alert",
+      "summary": "Identify affected Avipro/Barrows cylinders and follow factory replacement direction. Gerdes excluded. Companion Matco replacement requires travel restrictors; exact installation is in pp3-4.",
+      "manuals": [
+        "CTRL002",
+        "GEAR004"
+      ],
+      "url": "https://www.bearhawkaircraft.com/s/AD-002-2.pdf"
+    },
+    {
+      "id": "FACTORY-AD004",
+      "source": "Factory AD-004, 12/11/25, Flap System Pulley Failure, p1",
+      "model": "Five, Four A, Four B, Companion",
+      "topic": "FLAP_CONTROLS",
+      "decision": "Current manufacturer alert",
+      "summary": "Aft-most pulley: inspect annually / 250 hours; replace at 500 hours or as needed. Keep access and track service time. The alert names MS20220-1 (AN202A-1).",
+      "manuals": [
+        "CTRL004"
+      ],
+      "url": "https://www.bearhawkaircraft.com/s/AD-004.pdf"
+    },
+    {
+      "id": "FACTORY-OA001",
+      "source": "Factory OA-001, March 1 2023, Gear Spread Limits, p1",
+      "model": "All; Companion uses Four/Five/Patrol row",
+      "topic": "LANDING_GEAR",
+      "decision": "Current manufacturer measurement condition",
+      "summary": "Measure tire centers at their fronts, at appropriate static load, after rolling straight at least 25 ft. Companion: 72 in at flying weight, 74 in maximum static spread; recommended minimum rod-end engagement 5/8 in.",
+      "manuals": [
+        "GEAR001",
+        "GEAR002"
+      ],
+      "url": "https://www.bearhawkaircraft.com/s/OA-001-2.pdf"
+    },
+    {
+      "id": "FACTORY-OA002",
+      "source": "Factory OA-002, March 1 2023, Flap Extension Speed, p1",
+      "model": "Five, Four, Companion, Patrol",
+      "topic": "FLAP_CONTROLS",
+      "decision": "Conflict with supplied newsletter retained",
+      "summary": "Currently hosted alert lists 95 mph at 10 degrees in flight; supplied March 2023 newsletter lists 100 mph. Both separate air-loaded in-flight deflection from ground setting. No operational placard is issued here.",
+      "manuals": [
+        "CTRL004",
+        "FINAL003"
+      ],
+      "url": "https://www.bearhawkaircraft.com/s/OA-002.pdf"
+    },
+    {
+      "id": "FACTORY-AD001",
+      "source": "Factory AD-001, June 16 2020, Horizontal Attach Fitting, pp1-2",
+      "model": "LSA and Patrol only",
+      "topic": "EMPENNAGE",
+      "decision": "Not applied to Companion",
+      "summary": "Factory alert names LSA/Patrol forged stabilizer-strut fittings. It does not establish a Companion repair or replacement requirement.",
+      "manuals": [],
+      "url": "https://www.bearhawkaircraft.com/s/AD-001-3.pdf"
+    }
+  ]
+}

@@ -5,12 +5,13 @@
   "section": "empennage",
   "slug": "empennage/elevators",
   "model": "elevators",
-  "revision": 2,
+  "revision": 3,
   "pdf": "08_Elevators.pdf",
   "sources": [
     "Companion plans22,24",
     "BHManual-Fuselage1-25Rev1.pdf p15",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4",
+    "2018_Beartracks.pdf, PDF pp19-21 / Q3 pp3-5, Kevin Deutscher: Rigging a Bearhawk, Part 1"
   ],
   "steps": [
     {
@@ -33,7 +34,7 @@
           "AN365-428A"
         ]
       ],
-      "note": "HINGE STRAPS CLEAR SUPPORTS",
+      "note": "CHECK EACH HALF FOR FREE MOVEMENT",
       "detail": "CONNECTION DETAIL",
       "flags": [],
       "number": 1,
@@ -59,7 +60,7 @@
           "AN365-428A"
         ]
       ],
-      "note": "FLYING-WIRE TABS: HEAD + NUT",
+      "note": "RECHECK AFTER HORNS / WIRES / CABLES",
       "detail": "CONNECTION DETAIL",
       "flags": [
         "? VERIFY TAB ORIENTATION"
@@ -73,9 +74,13 @@
       "steps": "01–02",
       "issue": "Hinge support fit and flying-wire tab orientation depend on supplied kit.",
       "source": "Plan24 hinge detail / HK-EA4 / legacy p15.",
-      "check": "Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual."
+      "check": "Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual. Check each elevator independently, then repeat after joining horns, tensioning brace wires and connecting cables. Isolate any stage that introduces binding; do not copy the article's shim fabrication, balance additions or -4 degree tail setting.",
+      "key": "BH-REV-014"
     }
   ],
   "photo": "G2-TAIL",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT18-RIGGING"
+  ]
 }

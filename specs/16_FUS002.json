@@ -10,7 +10,8 @@
   "sources": [
     "Companion seat drawing (PDF p1)",
     "BHManual-fuselage26-45Rev2.pdf printed pp26–27",
-    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-SH4"
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-SH4",
+    "2021_Beartracks.pdf, PDF p9 / Q2 p1, Dave Lenart first Companion"
   ],
   "steps": [
     {
@@ -78,9 +79,13 @@
       "steps": "01–02",
       "issue": "Current latch detail and track-stop positions require kit fit check.",
       "source": "HK-SH4 gives incomplete latch line; stops AN4-12A / AN960-416 / AN365-428A, four sets.",
-      "check": "Verify latch/stop assembly, positive engagement and full travel. Restraint installation is not released."
+      "check": "Verify latch/stop assembly, positive engagement and full travel. Restraint installation is not released.",
+      "key": "BH-REV-023"
     }
   ],
   "photo": "FM26-SEAT",
-  "status": "REVIEW REQUIRED"
+  "status": "REVIEW REQUIRED",
+  "supplements": [
+    "BT21-COMPANION"
+  ]
 }

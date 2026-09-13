@@ -60,7 +60,8 @@
       "steps": "01–03",
       "issue": "Rivet callouts and local stack lengths require location-specific verification.",
       "source": "QB p5 stock totals; WM pp39–40 contain inconsistent rivet examples and thicker aft-bay rows.",
-      "check": "Complete internal inspection, verify every local rivet and approved bucking method; schematic rows are not a drilling/rivet-count map."
+      "check": "Complete internal inspection, verify every local rivet and approved bucking method; schematic rows are not a drilling/rivet-count map.",
+      "key": "BH-REV-040"
     }
   ],
   "photo": "WM39",

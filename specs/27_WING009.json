@@ -63,7 +63,8 @@
       "steps": "01–02",
       "issue": "Selected mast/pitot and its drilling template are not identified.",
       "source": "WM describes SA06BL / GAP26 example; other equipment differs.",
-      "check": "Confirm actual equipment and vendor template; do not transfer geometry from illustration. Wiring remains outside scope."
+      "check": "Confirm actual equipment and vendor template; do not transfer geometry from illustration. Wiring remains outside scope.",
+      "key": "BH-REV-037"
     }
   ],
   "photo": "WM27",

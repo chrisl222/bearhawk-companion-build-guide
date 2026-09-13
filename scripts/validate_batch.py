@@ -54,7 +54,8 @@ def validate():
             checked+=1
     queue=json.loads((ROOT/'specs/review_queue.json').read_text(encoding='utf-8'))
     assert len(queue)==sum(len(m['issues']) for m in items)
-    result=dict(manuals=len(pdfs),instruction_pages=n,index_pages=2,pdf_files=len(pdfs)+1,scope_sections=len(items),html_pages=len(pages),local_links_checked=checked,review_items=len(queue),largest_pdf_bytes=max(p.stat().st_size for p in pdfs),pixel_match='All 77 PDF instruction images exactly match released PNGs',errors=[])
+    assert len({r['key'] for r in queue})==len(queue),'Duplicate review identifiers'
+    result=dict(manuals=len(pdfs),instruction_pages=n,index_pages=2,pdf_files=len(pdfs)+1,scope_sections=len(items),html_pages=len(pages),local_links_checked=checked,review_items=len(queue),largest_pdf_bytes=max(p.stat().st_size for p in pdfs),pixel_match=f'All {n} PDF instruction images exactly match released PNGs',errors=[])
     (WORK/'integrity.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result))
     return pdfs+[idx]
 def render_pdf(p):
