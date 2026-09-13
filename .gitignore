@@ -1,0 +1,8 @@
+work/
+__pycache__/
+*.pyc
+*.blend1
+.sites-runtime/
+.env
+.env.*
+!.env.example
