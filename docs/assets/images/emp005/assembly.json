@@ -1,0 +1,94 @@
+{
+  "number": 11,
+  "id": "EMP005",
+  "title": "Trim Wheel and Linkages",
+  "section": "empennage",
+  "slug": "empennage/trim-wheel-and-linkages",
+  "model": "trim",
+  "revision": 2,
+  "pdf": "11_Trim_Wheel_and_Linkages.pdf",
+  "sources": [
+    "Companion plans21–22",
+    "BHManual-Fuselage1-25Rev1.pdf p16",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-TS4"
+  ],
+  "steps": [
+    {
+      "title": "INSTALL TRIM WHEEL",
+      "view": "wheel",
+      "hardware": [
+        [
+          "bolt",
+          1,
+          "AN4-22"
+        ],
+        [
+          "washer",
+          3,
+          "AN960-416"
+        ],
+        [
+          "castle",
+          1,
+          "AN310-4"
+        ],
+        [
+          "cotter",
+          1,
+          "MS24665-208"
+        ]
+      ],
+      "note": "#25 CHAIN · SEE PLAN 21",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 1,
+      "image": "EMP005_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT TRIM TAB PUSHRODS",
+      "view": "rods",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN3-6A"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-10"
+        ],
+        [
+          "locknut",
+          4,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "4× JM-3 · 4× AN345-10",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY ROD LENGTH"
+      ],
+      "number": 2,
+      "image": "EMP005_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01",
+      "issue": "Trim-wheel friction stack differs between drawing and count sheet.",
+      "source": "Plan21 shows bronze/split-lock washers; HK-TS4 calls three AN960-416.",
+      "check": "Confirm current factory friction stack; inventory is shown separately."
+    },
+    {
+      "steps": "02",
+      "issue": "Complete trim cable route, length and adjustment not released.",
+      "source": "Plan22 linkage; HK-TS4 supplies rod ends but no completed adjustment.",
+      "check": "Verify both tab directions, stops, cable route and rod adjustment with current kit."
+    }
+  ],
+  "photo": "FM16-TRIM",
+  "status": "REVIEW REQUIRED"
+}

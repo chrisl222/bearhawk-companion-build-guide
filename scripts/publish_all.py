@@ -44,7 +44,7 @@ def publish_queue(items):
       'New illustrations show fastener axes and a hardware inventory. Where an installed washer/bushing stack is unresolved, the inventory is not stack order. Do not infer drill coordinates, dimensions, grip length, torque, cable lengths or rigging settings from a scene.','']
     for r in issues:
         text += [f'## {r["key"]} — {r["manual"]}: {r["title"]}',f'- Manual / step: {r["number"]:02d} / {r["steps"]}',f'- Status: {r["status"]}',f'- Issue: {r["issue"]}',f'- Source / missing information: {r["source"]}',f'- Human check required: {r["check"]}','']
-    (ROOT/'HUMAN_REVIEW_REQUIRED.md').write_text('\n'.join(text)+'\n',encoding='utf-8')
+    (ROOT/'HUMAN_REVIEW_REQUIRED.md').write_text('\n'.join(text).rstrip()+'\n',encoding='utf-8')
     (ROOT/'specs/review_queue.json').write_text(json.dumps(issues,indent=2,ensure_ascii=False),encoding='utf-8')
     path=ROOT/'docs/review';path.mkdir(exist_ok=True)
     cards=[]

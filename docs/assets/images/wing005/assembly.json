@@ -1,0 +1,117 @@
+{
+  "number": 23,
+  "id": "WING005",
+  "title": "Flap Torque Tube",
+  "section": "wings",
+  "slug": "wings/flap-torque-tube",
+  "model": "flap_tube",
+  "revision": 2,
+  "pdf": "23_Flap_Torque_Tube.pdf",
+  "sources": [
+    "Companion plan15",
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp19–21",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+  ],
+  "steps": [
+    {
+      "title": "FIT TORQUE TUBE AND PAIRED ARMS",
+      "view": "tube",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN3-12A"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-10"
+        ],
+        [
+          "locknut",
+          4,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "ONE ARM EACH SIDE OF SUPPORT",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY POSITION BEFORE DRILLING"
+      ],
+      "number": 1,
+      "image": "WING005_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT FLAP PUSHRODS",
+      "view": "pushrod",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN3-26"
+        ],
+        [
+          "washer",
+          2,
+          "AN960L-10"
+        ],
+        [
+          "castle",
+          2,
+          "AN310-3"
+        ],
+        [
+          "cotter",
+          2,
+          "MS24665-132"
+        ]
+      ],
+      "note": "INSERT PUSHROD BUSHING",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 2,
+      "image": "WING005_step_02_v2.png"
+    },
+    {
+      "title": "FIT RETURN SPRINGS AND BUMPER",
+      "view": "spring",
+      "hardware": [
+        [
+          "spring",
+          2,
+          "W-FRS1"
+        ],
+        [
+          "hose",
+          "2 cuts",
+          "6000-12"
+        ]
+      ],
+      "note": "SPRINGS BEFORE WING CLOSING",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY SPRING ATTACHMENTS"
+      ],
+      "number": 3,
+      "image": "WING005_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "QB pushrod bolt differs from current wing manual; setup needs jig verification.",
+      "source": "QB: AN3-26 and AN960L-10; WM pp20–21: AN3-16 and AN960-10L.",
+      "check": "Keep literal QB callouts; ask factory to verify bolt/washer and jig geometry before match drilling."
+    },
+    {
+      "steps": "03",
+      "issue": "Spring end assignment and final preload require kit check.",
+      "source": "WM p21 spring/bumper; no preload inferred from photos.",
+      "check": "Confirm both W-FRS1 attachments, bumper retention and unrestricted motion."
+    }
+  ],
+  "photo": "WM20",
+  "status": "REVIEW REQUIRED"
+}

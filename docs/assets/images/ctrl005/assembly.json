@@ -1,0 +1,84 @@
+{
+  "number": 5,
+  "id": "CTRL005",
+  "title": "Elevator Horn Connections",
+  "section": "controls",
+  "slug": "controls/elevator-horn-connections",
+  "model": "elevator_horn",
+  "revision": 2,
+  "pdf": "05_Elevator_Horn_Connections.pdf",
+  "sources": [
+    "Companion plan22",
+    "BHManual-Fuselage1-25Rev1.pdf pp15–18",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-ES4"
+  ],
+  "steps": [
+    {
+      "title": "JOIN ELEVATOR HORNS",
+      "view": "union",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN3-6A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-10L"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "ALUMINUM BUSHING BETWEEN HORNS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "CTRL005_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT ELEVATOR CABLES",
+      "view": "cables",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN3-6"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-10L"
+        ],
+        [
+          "castle",
+          2,
+          "AN310-3"
+        ],
+        [
+          "cotter",
+          2,
+          "MS24665-132"
+        ]
+      ],
+      "note": "STEEL BUSHING · OUTER HOLES",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 2,
+      "image": "CTRL005_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Bushing lengths and full forward-to-tail routing are not established here.",
+      "source": "HK-ES4 distinguishes aluminum union and steel cable bushings; no bushing lengths in count sheet.",
+      "check": "Confirm bushings from plan22/current kit. Verify lower cable fairlead and full route before termination."
+    }
+  ],
+  "photo": "FM16-ELEVATOR",
+  "status": "REVIEW REQUIRED"
+}

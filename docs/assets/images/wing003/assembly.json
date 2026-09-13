@@ -1,0 +1,105 @@
+{
+  "number": 21,
+  "id": "WING003",
+  "title": "Aileron Bellcranks and Pulleys",
+  "section": "wings",
+  "slug": "wings/aileron-bellcranks-and-pulleys",
+  "model": "aileron_bellcrank",
+  "revision": 2,
+  "pdf": "21_Aileron_Bellcranks_and_Pulleys.pdf",
+  "sources": [
+    "Companion plan15",
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp15–16",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-AS4"
+  ],
+  "steps": [
+    {
+      "title": "PRESS BELLCRANK BEARINGS",
+      "view": "bearings",
+      "hardware": [
+        [
+          "bushing",
+          4,
+          "R4FF"
+        ]
+      ],
+      "note": "TWO BEARINGS + SPACER PER CRANK",
+      "detail": "PRESS OUTER RACES",
+      "flags": [],
+      "number": 1,
+      "image": "WING003_step_01_v2.png"
+    },
+    {
+      "title": "CAPTURE BELLCRANK BEARINGS",
+      "view": "mount",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN4-27A"
+        ],
+        [
+          "washer",
+          6,
+          "AN960-416L"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-428A"
+        ]
+      ],
+      "note": "4× AN970-4 · BOTH BELLCRANKS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY THIN-WASHER STACK"
+      ],
+      "number": 2,
+      "image": "WING003_step_02_v2.png"
+    },
+    {
+      "title": "FIT AILERON CROSSMEMBER PULLEYS",
+      "view": "pulley",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN4-24A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-416L"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-428A"
+        ]
+      ],
+      "note": "2× AN210-4A · FIT CABLE GUARDS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 3,
+      "image": "WING003_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "02",
+      "issue": "Thin-washer allocation around large-area bearing retainers needs confirmation.",
+      "source": "HK-AS4: three thin and two large-area washers per bellcrank.",
+      "check": "Confirm full stack and free rotation; do not press bearing inner races."
+    },
+    {
+      "steps": "03",
+      "issue": "Pulley nut designation differs.",
+      "source": "WM p15: AN365-416A; QB HK-AS4: AN365-428A.",
+      "check": "Keep QB set and verify factory correction; confirm cable guard and upper strut pulley installation separately."
+    }
+  ],
+  "photo": "WM16",
+  "status": "REVIEW REQUIRED"
+}

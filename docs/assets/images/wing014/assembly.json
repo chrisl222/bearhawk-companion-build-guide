@@ -1,0 +1,59 @@
+{
+  "number": 32,
+  "id": "WING014",
+  "title": "Wing Tips",
+  "section": "wings",
+  "slug": "wings/wing-tips",
+  "model": "tip",
+  "revision": 2,
+  "pdf": "32_Wing_Tips.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp12,43",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+  ],
+  "steps": [
+    {
+      "title": "FIT TIP TO MATCHED WING END",
+      "view": "fit",
+      "hardware": [],
+      "note": "EVEN OVERLAP · KEEP TIP SQUARE",
+      "detail": "TRANSFER EXISTING NUTPLATES",
+      "flags": [],
+      "number": 1,
+      "image": "WING014_step_01_v2.png"
+    },
+    {
+      "title": "ATTACH REMOVABLE WING TIP",
+      "view": "attach",
+      "hardware": [
+        [
+          "screw_round",
+          84,
+          "AN526C-632-6"
+        ],
+        [
+          "nutplate",
+          84,
+          "K1000-06"
+        ]
+      ],
+      "note": "84 LOCATIONS · BOTH WINGS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY AILERON CLEARANCE"
+      ],
+      "number": 2,
+      "image": "WING014_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Tip fit and trailing-edge termination depend on supplied composite tip.",
+      "source": "WM p43 distinguishes open/closed trailing edges and different materials.",
+      "check": "Trial-fit actual aileron before trimming; confirm clearance and screw locations. Illustration is not a cutting template."
+    }
+  ],
+  "photo": "WM43",
+  "status": "REVIEW REQUIRED"
+}

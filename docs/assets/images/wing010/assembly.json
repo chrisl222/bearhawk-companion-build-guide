@@ -1,0 +1,53 @@
+{
+  "number": 28,
+  "id": "WING010",
+  "title": "Conduit Preparation",
+  "section": "wings",
+  "slug": "wings/conduit-preparation",
+  "model": "conduit",
+  "revision": 2,
+  "pdf": "28_Conduit_Preparation.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p38"
+  ],
+  "steps": [
+    {
+      "title": "PLAN ACCESS BEFORE CLOSING",
+      "view": "plan",
+      "hardware": [],
+      "note": "CONFIRM REQUIRED WING SERVICES",
+      "detail": "AFT LIGHTENING-HOLE PATH",
+      "flags": [],
+      "number": 1,
+      "image": "WING010_step_01_v2.png"
+    },
+    {
+      "title": "SECURE OPTIONAL CONDUIT",
+      "view": "fit",
+      "hardware": [
+        [
+          "rivet",
+          "per bracket",
+          "CCP-32"
+        ]
+      ],
+      "note": "SUPPORT AT EACH RIB",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY SYSTEM CLEARANCE"
+      ],
+      "number": 2,
+      "image": "WING010_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Conduit diameter, brackets and equipment are configuration-specific.",
+      "source": "WM p38 describes optional PEX method, not a universal electrical design.",
+      "check": "Confirm required services and clearance from every moving control; no avionics/electrical architecture is specified."
+    }
+  ],
+  "photo": "WM38",
+  "status": "REVIEW REQUIRED"
+}

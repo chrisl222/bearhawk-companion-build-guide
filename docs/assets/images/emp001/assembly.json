@@ -1,0 +1,117 @@
+{
+  "number": 7,
+  "id": "EMP001",
+  "title": "Horizontal Stabilizer",
+  "section": "empennage",
+  "slug": "empennage/horizontal-stabilizer",
+  "model": "stabilizer",
+  "revision": 2,
+  "pdf": "07_Horizontal_Stabilizer.pdf",
+  "sources": [
+    "Companion plans20,22",
+    "BHManual-Fuselage1-25Rev1.pdf pp13–15",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+  ],
+  "steps": [
+    {
+      "title": "FIT FORWARD CARRY-THROUGH",
+      "view": "carry",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN4-22A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-416"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-428A"
+        ]
+      ],
+      "note": "MATCH FACTORY ORIENTATION",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 1,
+      "image": "EMP001_step_01_v2.png"
+    },
+    {
+      "title": "SLIDE ON STABILIZER HALVES",
+      "view": "halves",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN3-12A"
+        ],
+        [
+          "washer",
+          8,
+          "AN960-10L"
+        ],
+        [
+          "locknut",
+          4,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "FRONT + REAR SPAR · BOTH HALVES",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY WASHER POSITION"
+      ],
+      "number": 2,
+      "image": "EMP001_step_02_v2.png"
+    },
+    {
+      "title": "FIT LOWER BRACE STRUTS",
+      "view": "brace",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN3-14A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-10L / -10"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "OUTBOARD ENDS · SEE PLAN 22",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY CLEVIS STACK"
+      ],
+      "number": 3,
+      "image": "EMP001_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01",
+      "issue": "Legacy incidence guidance differs from current Companion count sheet.",
+      "source": "Legacy p13 says four degrees down; HK-EA4 says -2 degrees. Plans control design.",
+      "check": "Confirm Companion incidence and reference datum from current factory/plans before fixing spacers."
+    },
+    {
+      "steps": "02–03",
+      "issue": "Carry-through orientation and brace washer allocation need kit confirmation.",
+      "source": "HK-EA4 calls mixed outboard washers and thin washer at lower clevis.",
+      "check": "Match factory holes without forcing; verify all washers and lower AN3-5A / AN960-10L / AN365-1032A set."
+    }
+  ],
+  "photo": "G2-TAIL",
+  "status": "REVIEW REQUIRED"
+}

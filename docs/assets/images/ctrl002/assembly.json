@@ -1,0 +1,84 @@
+{
+  "number": 2,
+  "id": "CTRL002",
+  "title": "Rudder Pedals",
+  "section": "controls",
+  "slug": "controls/rudder-pedals",
+  "model": "pedals",
+  "revision": 2,
+  "pdf": "02_Rudder_Pedals.pdf",
+  "sources": [
+    "Companion plan 29",
+    "BHManual-Fuselage1-25Rev1.pdf pp19–20",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+  ],
+  "steps": [
+    {
+      "title": "MOUNT RUDDER PEDAL ASSEMBLY",
+      "view": "mount",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN3-4A"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-10L"
+        ],
+        [
+          "locknut",
+          4,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "METAL-TO-METAL · SEE PLAN 29",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "CTRL002_step_01_v2.png"
+    },
+    {
+      "title": "INSTALL TOE BRAKE PEDALS",
+      "view": "toe",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN4-21"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-416"
+        ],
+        [
+          "castle",
+          4,
+          "AN310-4"
+        ],
+        [
+          "cotter",
+          4,
+          "MS24665-208"
+        ]
+      ],
+      "note": "FOUR PEDALS · SEE PLAN 29",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 2,
+      "image": "CTRL002_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Final pedal position and firewall clearance depend on fitted cylinders.",
+      "source": "Plan 29 / legacy pp19–20; no aircraft-specific fit check.",
+      "check": "Dry-fit all four cylinders and check full travel before final positioning."
+    }
+  ],
+  "photo": "G1-PEDALS",
+  "status": "REVIEW REQUIRED"
+}

@@ -1,0 +1,73 @@
+{
+  "number": 22,
+  "id": "WING004",
+  "title": "Aileron Cable Routing",
+  "section": "wings",
+  "slug": "wings/aileron-cable-routing",
+  "model": "wing_cables",
+  "revision": 2,
+  "pdf": "22_Aileron_Cable_Routing.pdf",
+  "sources": [
+    "Companion plan15",
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp13–18,28",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp2–3 HK-AS4"
+  ],
+  "steps": [
+    {
+      "title": "TRACE ACTUATION CABLE PATH",
+      "view": "actuation",
+      "hardware": [
+        [
+          "pulley",
+          2,
+          "MS20220-1"
+        ],
+        [
+          "pulley",
+          2,
+          "AN210-4A"
+        ]
+      ],
+      "note": "STRUT → FRONT SPAR → BELLCRANK",
+      "detail": "ROUTING RELATIONSHIP",
+      "flags": [
+        "? VERIFY GUARDS / CLEARANCE"
+      ],
+      "number": 1,
+      "image": "WING004_step_01_v2.png"
+    },
+    {
+      "title": "TRACE CARRY-THROUGH PATH",
+      "view": "carry",
+      "hardware": [
+        [
+          "bushing",
+          18,
+          "04-05793"
+        ],
+        [
+          "bushing",
+          4,
+          "05-05500"
+        ]
+      ],
+      "note": "RIB GUIDES → CABIN TURNBUCKLE",
+      "detail": "ROUTING RELATIONSHIP",
+      "flags": [
+        "DRILLING TEMPLATES REQUIRED"
+      ],
+      "number": 2,
+      "image": "WING004_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "No hole locations or cable cut lengths are released.",
+      "source": "WM p18 requires separate model-specific drill guides 1–5, not supplied.",
+      "check": "Obtain current Companion templates, check actual cable sweep and all guards; verify terminations under approved cable process."
+    }
+  ],
+  "photo": "WM13",
+  "status": "REVIEW REQUIRED"
+}

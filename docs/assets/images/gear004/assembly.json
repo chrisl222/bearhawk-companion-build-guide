@@ -1,0 +1,91 @@
+{
+  "number": 15,
+  "id": "GEAR004",
+  "title": "Brake Master Cylinders",
+  "section": "landing-gear",
+  "slug": "landing-gear/brake-master-cylinders",
+  "model": "brakes",
+  "revision": 2,
+  "pdf": "15_Brake_Master_Cylinders.pdf",
+  "sources": [
+    "Companion plan29",
+    "BHManual-Fuselage1-25Rev1.pdf pp19–20",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+  ],
+  "steps": [
+    {
+      "title": "CONNECT CYLINDERS TO FRAME",
+      "view": "lower",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN3-6"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-10L"
+        ],
+        [
+          "castle",
+          4,
+          "AN310-3"
+        ],
+        [
+          "cotter",
+          4,
+          "MS24665-132"
+        ]
+      ],
+      "note": "FOUR CYLINDERS · SEE PLAN 29",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "GEAR004_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT CYLINDERS TO TOE PEDALS",
+      "view": "upper",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN3-7"
+        ],
+        [
+          "washer",
+          16,
+          "AN960-10"
+        ],
+        [
+          "castle",
+          4,
+          "AN310-3"
+        ],
+        [
+          "cotter",
+          4,
+          "MS24665-132"
+        ]
+      ],
+      "note": "CHECK FIREWALL CLEARANCE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE VARIANT — VERIFY"
+      ],
+      "number": 2,
+      "image": "GEAR004_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "02",
+      "issue": "Upper-joint washers depend on master-cylinder variant.",
+      "source": "HK-RS4: four AN960-10 per joint; note says two thin washers for Bearhawk cylinders.",
+      "check": "Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released."
+    }
+  ],
+  "photo": "G1-PEDALS",
+  "status": "REVIEW REQUIRED"
+}

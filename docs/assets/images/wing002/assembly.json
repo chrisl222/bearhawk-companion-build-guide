@@ -1,0 +1,68 @@
+{
+  "number": 20,
+  "id": "WING002",
+  "title": "Tank Bay Covers",
+  "section": "wings",
+  "slug": "wings/tank-bay-covers",
+  "model": "tank_cover",
+  "revision": 2,
+  "pdf": "20_Tank_Bay_Covers.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp4,8–9",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+  ],
+  "steps": [
+    {
+      "title": "MATCH COVER TO TANK BAY",
+      "view": "cover",
+      "hardware": [
+        [
+          "screw_flat",
+          182,
+          "AN507C632R6"
+        ]
+      ],
+      "note": "182 SCREWS · BOTH MAIN COVERS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY DRAIN POSITION"
+      ],
+      "number": 1,
+      "image": "WING002_step_01_v2.png"
+    },
+    {
+      "title": "PREPARE NUTPLATE PERIMETER",
+      "view": "nutplates",
+      "hardware": [
+        [
+          "nutplate",
+          182,
+          "K1000-06"
+        ]
+      ],
+      "note": "RIVET FORWARD ROW ONLY",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 2,
+      "image": "WING002_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01",
+      "issue": "Drain holes must be transferred from installed tanks.",
+      "source": "WM p4; no dimension inferred from scene.",
+      "check": "Confirm matched cover and actual drain center before cutting."
+    },
+    {
+      "steps": "02",
+      "issue": "Corner nutplates differ between sources; rivet naming is inconsistent.",
+      "source": "QB p5: K1000-06 throughout; WM pp8–9: MS21055L06 at four main-bay corners; WM rivet text conflicts with example.",
+      "check": "Use QB identities as inventory, obtain factory confirmation at corners and for rivet diameter/length before riveting."
+    }
+  ],
+  "photo": "WM09",
+  "status": "REVIEW REQUIRED"
+}

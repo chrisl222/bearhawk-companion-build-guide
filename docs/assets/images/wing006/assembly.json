@@ -1,0 +1,54 @@
+{
+  "number": 24,
+  "id": "WING006",
+  "title": "Flap Preparation",
+  "section": "wings",
+  "slug": "wings/flap-preparation",
+  "model": "flap_surface",
+  "revision": 2,
+  "pdf": "24_Flap_Preparation.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p35",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+  ],
+  "steps": [
+    {
+      "title": "FIT MATCHED TRAILING EDGE",
+      "view": "fit",
+      "hardware": [],
+      "note": "KEEP TRAILING EDGE STRAIGHT",
+      "detail": "RIB / TRAILING-EDGE OVERLAP",
+      "flags": [],
+      "number": 1,
+      "image": "WING006_step_01_v2.png"
+    },
+    {
+      "title": "RIVET TRAILING EDGE",
+      "view": "rivet",
+      "hardware": [
+        [
+          "rivet",
+          "per hole",
+          "CCP-42"
+        ]
+      ],
+      "note": "ALTERNATE HOLES · THEN COMPLETE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY FINAL MOUNT HARDWARE"
+      ],
+      "number": 2,
+      "image": "WING006_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "02 / final mount",
+      "issue": "Final flap-to-weldment mounting is withheld due to incompatible row.",
+      "source": "HK-FCC: AN6-6A with AN960-10L and AN365-1032A, six sets.",
+      "check": "Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set."
+    }
+  ],
+  "photo": "WM35",
+  "status": "REVIEW REQUIRED"
+}

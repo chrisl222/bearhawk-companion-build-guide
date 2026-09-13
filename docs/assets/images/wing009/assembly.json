@@ -1,0 +1,71 @@
+{
+  "number": 27,
+  "id": "WING009",
+  "title": "Pitot Mast and Lines",
+  "section": "wings",
+  "slug": "wings/pitot-mast-and-lines",
+  "model": "pitot",
+  "revision": 2,
+  "pdf": "27_Pitot_Mast_and_Lines.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp25–27"
+  ],
+  "steps": [
+    {
+      "title": "FIT PITOT MAST BASE",
+      "view": "mast",
+      "hardware": [
+        [
+          "screw_round",
+          6,
+          "AN526C-632R6"
+        ],
+        [
+          "nutplate",
+          6,
+          "K1000-06"
+        ]
+      ],
+      "note": "LEFT WING · SA06BL EXAMPLE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "MATCH ACTUAL MAST TEMPLATE"
+      ],
+      "number": 1,
+      "image": "WING009_step_01_v2.png"
+    },
+    {
+      "title": "ROUTE PITOT AND AOA LINES",
+      "view": "lines",
+      "hardware": [
+        [
+          "tubenut",
+          2,
+          "AN818-3D"
+        ],
+        [
+          "bushing",
+          2,
+          "AN819-3D"
+        ]
+      ],
+      "note": "KEEP CLEAR OF AILERON CABLE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY SELECTED PITOT"
+      ],
+      "number": 2,
+      "image": "WING009_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Selected mast/pitot and its drilling template are not identified.",
+      "source": "WM describes SA06BL / GAP26 example; other equipment differs.",
+      "check": "Confirm actual equipment and vendor template; do not transfer geometry from illustration. Wiring remains outside scope."
+    }
+  ],
+  "photo": "WM27",
+  "status": "REVIEW REQUIRED"
+}

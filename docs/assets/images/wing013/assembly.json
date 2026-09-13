@@ -1,0 +1,59 @@
+{
+  "number": 31,
+  "id": "WING013",
+  "title": "Aileron Pocket Skins",
+  "section": "wings",
+  "slug": "wings/aileron-pocket-skins",
+  "model": "pocket",
+  "revision": 2,
+  "pdf": "31_Aileron_Pocket_Skins.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp41–42",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+  ],
+  "steps": [
+    {
+      "title": "FIT THREE MATCHED POCKET SKINS",
+      "view": "fit",
+      "hardware": [],
+      "note": "LONG CENTER · TWO SHORT ENDS",
+      "detail": "KEEP TRAILING EDGE STRAIGHT",
+      "flags": [],
+      "number": 1,
+      "image": "WING013_step_01_v2.png"
+    },
+    {
+      "title": "ATTACH POCKET SKINS",
+      "view": "rivet",
+      "hardware": [
+        [
+          "rivet",
+          108,
+          "CCP-42"
+        ],
+        [
+          "rivet_flush",
+          248,
+          "MS20426AD-3-3.5"
+        ]
+      ],
+      "note": "BOTH WINGS · VERIFY LOCAL LENGTH",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 2,
+      "image": "WING013_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Rivet length and implied hole totals differ.",
+      "source": "QB 248 skin rivets at -3.5; WM p42 -3 and p41 7+32+8 locations per edge.",
+      "check": "Retain QB identities, verify actual matched holes, stack lengths, dimple/countersink method and factory count before riveting."
+    }
+  ],
+  "photo": "WM42",
+  "status": "REVIEW REQUIRED"
+}

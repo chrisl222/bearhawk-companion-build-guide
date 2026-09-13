@@ -1,0 +1,80 @@
+{
+  "number": 13,
+  "id": "GEAR002",
+  "title": "Shock Strut Mounting",
+  "section": "landing-gear",
+  "slug": "landing-gear/shock-strut-mounting",
+  "model": "shock",
+  "revision": 2,
+  "pdf": "13_Shock_Strut_Mounting.pdf",
+  "sources": [
+    "Companion plans25–27",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4"
+  ],
+  "steps": [
+    {
+      "title": "FIT UPPER SHOCK STRUT ENDS",
+      "view": "upper",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN6-14A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-616"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-624A"
+        ]
+      ],
+      "note": "ASSEMBLED STRUTS · BOTH SIDES",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "GEAR002_step_01_v2.png"
+    },
+    {
+      "title": "FIT LOWER SHOCK STRUT ENDS",
+      "view": "lower",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN6-14A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-616"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-624A"
+        ]
+      ],
+      "note": "4× AN316-8R CHECK NUTS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY STRUT CONFIGURATION"
+      ],
+      "number": 2,
+      "image": "GEAR002_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Internal shock assembly, service fluid and rod-end adjustment are withheld.",
+      "source": "Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established.",
+      "check": "Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft."
+    }
+  ],
+  "photo": "G1-GEAR",
+  "status": "REVIEW REQUIRED"
+}

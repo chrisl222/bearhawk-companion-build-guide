@@ -1,0 +1,55 @@
+{
+  "number": 17,
+  "id": "FUS003",
+  "title": "Fuselage Stringers",
+  "section": "fuselage",
+  "slug": "fuselage/fuselage-stringers",
+  "model": "stringers",
+  "revision": 2,
+  "pdf": "17_Fuselage_Stringers.pdf",
+  "sources": [
+    "Companion plans17–21",
+    "BHManual-fuselage26-45Rev2.pdf printed pp28–29",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 Stringer attach"
+  ],
+  "steps": [
+    {
+      "title": "SEAT STRINGERS IN STANDOFFS",
+      "view": "fit",
+      "hardware": [],
+      "note": "SMOOTH LINE · CLEAR PULLEYS",
+      "detail": "STRINGER / SADDLE",
+      "flags": [],
+      "number": 1,
+      "image": "FUS003_step_01_v2.png"
+    },
+    {
+      "title": "SECURE STRINGERS TO SADDLES",
+      "view": "rivet",
+      "hardware": [
+        [
+          "rivet",
+          43,
+          "CCP-42"
+        ]
+      ],
+      "note": "43 RIVETS · AIRCRAFT TOTAL",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY END TRIM"
+      ],
+      "number": 2,
+      "image": "FUS003_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Standoff and end-trim positions must match the actual fuselage.",
+      "source": "Plans define shape; legacy photo variations are not adopted as kit geometry.",
+      "check": "Verify stringer material, supplied saddles, fabric clearance and smooth aft transition."
+    }
+  ],
+  "photo": "FM28-STRINGERS",
+  "status": "REVIEW REQUIRED"
+}
