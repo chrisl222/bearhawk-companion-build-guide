@@ -1,0 +1,24 @@
+{
+  "number": 36,
+  "id": "EMP006",
+  "title": "Vertical Stabilizer",
+  "section": "empennage",
+  "slug": "empennage/vertical-stabilizer",
+  "model": null,
+  "revision": 2,
+  "pdf": "36_Vertical_Stabilizer.pdf",
+  "sources": [
+    "Companion plan20; QB hardware sheet"
+  ],
+  "steps": [],
+  "issues": [
+    {
+      "steps": "BLOCKED",
+      "issue": "No separate bolt-on vertical-fin operation is established for this QB fuselage.",
+      "source": "Fin appears in welded fuselage structure; no distinct installation callout found.",
+      "check": "Confirm delivered welded fin configuration and inspection requirements. Do not invent a fin attachment or copy another model."
+    }
+  ],
+  "photo": null,
+  "status": "BLOCKED"
+}

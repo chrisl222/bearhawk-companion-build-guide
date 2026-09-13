@@ -1,0 +1,86 @@
+{
+  "number": 16,
+  "id": "FUS002",
+  "title": "Front Seats",
+  "section": "fuselage",
+  "slug": "fuselage/front-seats",
+  "model": "seats",
+  "revision": 2,
+  "pdf": "16_Front_Seats.pdf",
+  "sources": [
+    "Companion seat drawing (PDF p1)",
+    "BHManual-fuselage26-45Rev2.pdf printed pp26–27",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-SH4"
+  ],
+  "steps": [
+    {
+      "title": "JOIN SEAT BACKS TO BASES",
+      "view": "backs",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN4-12"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-416L"
+        ],
+        [
+          "castle",
+          4,
+          "AN310-4"
+        ],
+        [
+          "cotter",
+          4,
+          "MS24665-208"
+        ]
+      ],
+      "note": "BACKS OFFSET TOWARD CENTER",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "FUS002_step_01_v2.png"
+    },
+    {
+      "title": "FIT SEAT ROLLERS",
+      "view": "rollers",
+      "hardware": [
+        [
+          "bolt",
+          8,
+          "AN4-10A"
+        ],
+        [
+          "washer",
+          8,
+          "AN960-416L"
+        ],
+        [
+          "locknut",
+          8,
+          "AN365-428A"
+        ]
+      ],
+      "note": "ROLLERS · BOTH SEATS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY LATCH ENGAGEMENT"
+      ],
+      "number": 2,
+      "image": "FUS002_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Current latch detail and track-stop positions require kit fit check.",
+      "source": "HK-SH4 gives incomplete latch line; stops AN4-12A / AN960-416 / AN365-428A, four sets.",
+      "check": "Verify latch/stop assembly, positive engagement and full travel. Restraint installation is not released."
+    }
+  ],
+  "photo": "FM26-SEAT",
+  "status": "REVIEW REQUIRED"
+}

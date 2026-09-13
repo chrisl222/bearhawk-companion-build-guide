@@ -1,0 +1,81 @@
+{
+  "id": "CTRL001",
+  "revision": 2,
+  "title": "Control sticks / forward elevator controls",
+  "slug": "controls/control-sticks",
+  "pdf": "01_Control_Sticks.pdf",
+  "steps": [
+    {
+      "number": 1,
+      "title": "MOUNT CONTROL-STICK ASSEMBLY",
+      "image": "CTRL001_step_01_v2.png"
+    },
+    {
+      "number": 2,
+      "title": "INSTALL CONTROL STICKS",
+      "image": "CTRL001_step_02_v2.png"
+    },
+    {
+      "number": 3,
+      "title": "CONNECT STICK INTERCONNECT",
+      "image": "CTRL001_step_03_v2.png"
+    },
+    {
+      "number": 4,
+      "title": "ASSEMBLE ELEVATOR PUSHROD",
+      "image": "CTRL001_step_04_v2.png"
+    },
+    {
+      "number": 5,
+      "title": "CONNECT PUSHROD TO BELLCRANK",
+      "image": "CTRL001_step_05_v2.png"
+    },
+    {
+      "number": 6,
+      "title": "CHECK CONTROL MOVEMENT",
+      "image": "CTRL001_step_06_v2.png"
+    }
+  ],
+  "warnings": [
+    "Pushrod nut application",
+    "Bellcrank position / spacers",
+    "Source conflicts: steps 02 and 05"
+  ],
+  "hardware_authority": "Companion+Hardware+Customer+-+Sheet1-2.pdf, supplied 2026-09-13, page 2, HK-CS4",
+  "geometry_authority": "Bob Barrows Companion sheets 28, 17, 18",
+  "number": 1,
+  "section": "controls",
+  "status": "REVIEW REQUIRED",
+  "model": "preserved",
+  "sources": [
+    "Bob Barrows Companion sheets 28, 17, 18",
+    "Companion+Hardware+Customer+-+Sheet1-2.pdf, supplied 2026-09-13, page 2, HK-CS4"
+  ],
+  "photo": "G2-CONTROL101",
+  "issues": [
+    {
+      "steps": "02",
+      "issue": "Generic plan pivot notation differs from specific QB callout.",
+      "source": "Plan28 AN4 vs HK-CS4 AN174-20.",
+      "check": "Confirm current-kit correspondence; retain QB set."
+    },
+    {
+      "steps": "05",
+      "issue": "Legacy moving-joint retention guidance differs from QB rod-end set.",
+      "source": "Legacy p18 vs HK-CS4 AN3-7A / AN365-1032A.",
+      "check": "Confirm application; retain QB set."
+    },
+    {
+      "steps": "04,06",
+      "issue": "Application of both pushrod nut types unresolved.",
+      "source": "HK-CS4 AN316-4R and AN345-524.",
+      "check": "Confirm each application; existing separate tray retained."
+    },
+    {
+      "steps": "05,06",
+      "issue": "Bellcrank lateral position/spacers unverified.",
+      "source": "Legacy p18 does not settle Companion kit fit.",
+      "check": "Confirm support, spacers and flap-cable clearance."
+    }
+  ]
+}

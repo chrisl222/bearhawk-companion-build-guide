@@ -1,0 +1,24 @@
+{
+  "number": 35,
+  "id": "FINAL003",
+  "title": "Final Rigging Checks",
+  "section": "final-assembly",
+  "slug": "final-assembly/final-rigging-checks",
+  "model": null,
+  "revision": 2,
+  "pdf": "35_Final_Rigging_Checks.pdf",
+  "sources": [
+    "Companion plans; supplied current and legacy manuals"
+  ],
+  "steps": [],
+  "issues": [
+    {
+      "steps": "BLOCKED",
+      "issue": "A complete consistent Companion rigging/check set has not been established.",
+      "source": "Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values.",
+      "check": "Obtain current Companion final rigging checklist and resolve source conflicts before release."
+    }
+  ],
+  "photo": null,
+  "status": "BLOCKED"
+}

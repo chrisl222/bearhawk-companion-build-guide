@@ -1,0 +1,111 @@
+{
+  "number": 26,
+  "id": "WING008",
+  "title": "Main Tanks and Fuel Lines",
+  "section": "wings",
+  "slug": "wings/main-tanks-and-fuel-lines",
+  "model": "wing_fuel",
+  "revision": 2,
+  "pdf": "26_Main_Tanks_and_Fuel_Lines.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp5–7",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp3–4 HK-FS4"
+  ],
+  "steps": [
+    {
+      "title": "FIT TANK FEED CONNECTIONS",
+      "view": "fittings",
+      "hardware": [
+        [
+          "strainer",
+          4,
+          "05-17700"
+        ],
+        [
+          "fitting",
+          4,
+          "AN816-6D"
+        ]
+      ],
+      "note": "BOTH TANKS · FEED PORTS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 1,
+      "image": "WING008_step_01_v2.png"
+    },
+    {
+      "title": "PASS LINES THROUGH PROTECTED RIBS",
+      "view": "lines",
+      "hardware": [
+        [
+          "bushing",
+          8,
+          "AN931-6-10"
+        ],
+        [
+          "bushing",
+          6,
+          "AN931-4-7"
+        ]
+      ],
+      "note": "3/8 FEED · 1/4 SIGHT GAUGE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY HOLE LOCATIONS"
+      ],
+      "number": 2,
+      "image": "WING008_step_02_v2.png"
+    },
+    {
+      "title": "FIT SIGHT-GAUGE BULKHEADS",
+      "view": "sight",
+      "hardware": [
+        [
+          "fitting",
+          4,
+          "AN832-4D"
+        ],
+        [
+          "hexnut",
+          4,
+          "AN924-4D"
+        ],
+        [
+          "bushing",
+          8,
+          "AN819-4D"
+        ],
+        [
+          "tubenut",
+          8,
+          "AN818-4D"
+        ]
+      ],
+      "note": "LINES REST WITHOUT PRELOAD",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 3,
+      "image": "WING008_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01",
+      "issue": "Tank strainer identity differs from current wing manual.",
+      "source": "QB:05-17700; WM p7:AN375/PN-520.",
+      "check": "Verify supplied strainers and tank ports with factory; QB identities retained."
+    },
+    {
+      "steps": "02–03",
+      "issue": "Root-hole counts and sight-gauge flare-nut prose contain inconsistencies.",
+      "source": "WM p5 mentions five lines then four locations; p6 prose gives AN818-6D for 1/4 tube but figure/QB give AN818-4D.",
+      "check": "Use QB fittings; transfer actual tank port geometry and confirm layout. Final tank straps, venting and leak checks require current installation instructions."
+    }
+  ],
+  "photo": "WM07",
+  "status": "REVIEW REQUIRED"
+}

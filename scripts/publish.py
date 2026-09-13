@@ -8,7 +8,7 @@ from visual_standard import PDF_POINTS
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def release(manifest_path):
+def release(manifest_path, pdf_only=False):
     from reportlab.pdfgen import canvas
     from PIL import Image
     from pypdf import PdfReader
@@ -42,8 +42,15 @@ def release(manifest_path):
     web_pdf=ROOT/'docs'/'pdf'/pdf.name;web_pdf.parent.mkdir(exist_ok=True)
     shutil.copyfile(pdf,web_pdf)
     assert hashlib.sha256(pdf.read_bytes()).digest()==hashlib.sha256(web_pdf.read_bytes()).digest()
+    if pdf_only:
+        print(f'Built {m["id"]}: {len(steps)} PDF pages.')
+        return
+    if (ROOT/'specs/catalog.json').exists():
+        from publish_all import publish_web
+        publish_web()
+        return
     route=ROOT/'docs'/m['slug'];route.mkdir(parents=True,exist_ok=True)
-    asset_rel='../../../assets/images/'+images.name+'/'
+    asset_rel='../../assets/images/'+images.name+'/'
     title=html.escape(m['title'])
     figures=[]
     for i,s in enumerate(steps):

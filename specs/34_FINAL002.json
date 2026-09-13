@@ -1,0 +1,67 @@
+{
+  "number": 34,
+  "id": "FINAL002",
+  "title": "Wing Root Connections",
+  "section": "final-assembly",
+  "slug": "final-assembly/wing-root-connections",
+  "model": "root_connections",
+  "revision": 2,
+  "pdf": "34_Wing_Root_Connections.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp13,28",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp3–4 HK-AS4 / HK-FS4"
+  ],
+  "steps": [
+    {
+      "title": "JOIN AILERON CARRY-THROUGH CABLE",
+      "view": "cable",
+      "hardware": [
+        [
+          "turnbuckle",
+          1,
+          "AN140-22S"
+        ]
+      ],
+      "note": "CABIN TURNBUCKLE · SEE PLAN 15",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY RIGGING"
+      ],
+      "number": 1,
+      "image": "FINAL002_step_01_v2.png"
+    },
+    {
+      "title": "JOIN WING ROOT FUEL FEEDS",
+      "view": "fuel",
+      "hardware": [
+        [
+          "hose",
+          2,
+          "05-03598"
+        ],
+        [
+          "clamp",
+          8,
+          "6504"
+        ]
+      ],
+      "note": "SLEEVE STOCK / CLAMPS: KIT TOTAL",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY HOSE APPLICATION"
+      ],
+      "number": 2,
+      "image": "FINAL002_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Final cable rigging and fuel sleeve lengths/clamp allocation are not established.",
+      "source": "QB lists turnbuckle and hose/clamp totals, not all installation details.",
+      "check": "Obtain current final-assembly instructions. Verify cable safetying, full travel, fuel sleeve specification and leak testing before closing fairings."
+    }
+  ],
+  "photo": "WM13",
+  "status": "REVIEW REQUIRED"
+}

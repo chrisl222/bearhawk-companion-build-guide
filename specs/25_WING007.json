@@ -1,0 +1,74 @@
+{
+  "number": 25,
+  "id": "WING007",
+  "title": "Aileron Preparation",
+  "section": "wings",
+  "slug": "wings/aileron-preparation",
+  "model": "aileron_surface",
+  "revision": 2,
+  "pdf": "25_Aileron_Preparation.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp36–37"
+  ],
+  "steps": [
+    {
+      "title": "FIT AILERON TRAILING EDGE",
+      "view": "fit",
+      "hardware": [],
+      "note": "CURVED LEADING EDGE UP",
+      "detail": "RIB / TRAILING-EDGE OVERLAP",
+      "flags": [],
+      "number": 1,
+      "image": "WING007_step_01_v2.png"
+    },
+    {
+      "title": "RIVET AILERON TRAILING EDGE",
+      "view": "rivet",
+      "hardware": [
+        [
+          "rivet",
+          "per hole",
+          "CCP-42"
+        ]
+      ],
+      "note": "ALTERNATE HOLES · THEN COMPLETE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 2,
+      "image": "WING007_step_02_v2.png"
+    },
+    {
+      "title": "INSTALL BALANCE TUBE",
+      "view": "balance",
+      "hardware": [
+        [
+          "bushing",
+          2,
+          "R-ABT"
+        ],
+        [
+          "rivet",
+          8,
+          "CCP-42"
+        ]
+      ],
+      "note": "INSERT FROM INBOARD END",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "FINAL BALANCE STILL REQUIRED"
+      ],
+      "number": 3,
+      "image": "WING007_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "03 / final mount",
+      "issue": "Surface balance and final hinge/pushrod installation are not released.",
+      "source": "WM p37 defers balancing until fabric/paint; complete final attachment details not established by this preparation chapter.",
+      "check": "Confirm final hinge hardware, pushrod retention and current balance procedure before flight."
+    }
+  ],
+  "photo": "WM37",
+  "status": "REVIEW REQUIRED"
+}

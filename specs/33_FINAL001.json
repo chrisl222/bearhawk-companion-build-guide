@@ -1,0 +1,77 @@
+{
+  "number": 33,
+  "id": "FINAL001",
+  "title": "Wing and Lift Strut Attachments",
+  "section": "final-assembly",
+  "slug": "final-assembly/wing-and-lift-strut-attachments",
+  "model": "wing_attach",
+  "revision": 2,
+  "pdf": "33_Wing_and_Lift_Strut_Attachments.pdf",
+  "sources": [
+    "Companion plans16,21",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-WA4"
+  ],
+  "steps": [
+    {
+      "title": "ALIGN SUPPORTED WING ROOT",
+      "view": "root",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN6-15A"
+        ],
+        [
+          "bolt",
+          2,
+          "AN5-12A"
+        ]
+      ],
+      "note": "FRONT / REAR SPAR · BOTH WINGS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY ATTACHMENT STACK"
+      ],
+      "number": 1,
+      "image": "FINAL001_step_01_v2.png"
+    },
+    {
+      "title": "FIT SUPPORTED LIFT STRUTS",
+      "view": "strut",
+      "hardware": [
+        [
+          "bolt",
+          4,
+          "AN6-15A"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-616"
+        ],
+        [
+          "locknut",
+          4,
+          "AN365-624A"
+        ]
+      ],
+      "note": "UPPER + LOWER ENDS · BOTH WINGS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY INCIDENCE / RIGGING"
+      ],
+      "number": 2,
+      "image": "FINAL001_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Full lifting procedure, strut fitting assembly and incidence setup are not released.",
+      "source": "HK-WA4 gives root/end hardware; strut-fitting washer AN960-428 is unresolved.",
+      "check": "Use current factory supported-wing procedure; confirm all stack/grip details and plan incidence before loading. Do not drill structural holes from scene."
+    }
+  ],
+  "photo": "PLAN21",
+  "status": "REVIEW REQUIRED"
+}

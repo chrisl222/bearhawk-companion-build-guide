@@ -1,0 +1,81 @@
+{
+  "number": 8,
+  "id": "EMP002",
+  "title": "Elevators",
+  "section": "empennage",
+  "slug": "empennage/elevators",
+  "model": "elevators",
+  "revision": 2,
+  "pdf": "08_Elevators.pdf",
+  "sources": [
+    "Companion plans22,24",
+    "BHManual-Fuselage1-25Rev1.pdf p15",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+  ],
+  "steps": [
+    {
+      "title": "FIT INBOARD ELEVATOR HINGES",
+      "view": "inboard",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN4-14A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-416"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-428A"
+        ]
+      ],
+      "note": "HINGE STRAPS CLEAR SUPPORTS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "EMP002_step_01_v2.png"
+    },
+    {
+      "title": "FIT OUTBOARD HINGES AND TABS",
+      "view": "outboard",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN4-18A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-416"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-428A"
+        ]
+      ],
+      "note": "FLYING-WIRE TABS: HEAD + NUT",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY TAB ORIENTATION"
+      ],
+      "number": 2,
+      "image": "EMP002_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Hinge support fit and flying-wire tab orientation depend on supplied kit.",
+      "source": "Plan24 hinge detail / HK-EA4 / legacy p15.",
+      "check": "Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual."
+    }
+  ],
+  "photo": "G2-TAIL",
+  "status": "REVIEW REQUIRED"
+}

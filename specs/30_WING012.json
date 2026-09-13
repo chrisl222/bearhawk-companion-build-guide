@@ -1,0 +1,68 @@
+{
+  "number": 30,
+  "id": "WING012",
+  "title": "Wing Closing",
+  "section": "wings",
+  "slug": "wings/wing-closing",
+  "model": "closing",
+  "revision": 2,
+  "pdf": "30_Wing_Closing.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp39–40",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+  ],
+  "steps": [
+    {
+      "title": "CLOSE WING ROOT SKIN",
+      "view": "root",
+      "hardware": [],
+      "note": "COMPLETE INTERNAL SYSTEMS FIRST",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY RIVET LENGTH"
+      ],
+      "number": 1,
+      "image": "WING012_step_01_v2.png"
+    },
+    {
+      "title": "CLOSE MAIN LOWER SKIN",
+      "view": "main",
+      "hardware": [
+        [
+          "rivet_flush",
+          316,
+          "MS20426AD-3-3.5"
+        ]
+      ],
+      "note": "COUNT-SHEET TOTAL · BOTH WINGS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY EACH MATERIAL STACK"
+      ],
+      "number": 2,
+      "image": "WING012_step_02_v2.png"
+    },
+    {
+      "title": "CLOSE AFT TANK BAY SKIN",
+      "view": "aft",
+      "hardware": [],
+      "note": "LEAVE AFT DOUBLER ROWS OPEN",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 3,
+      "image": "WING012_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–03",
+      "issue": "Rivet callouts and local stack lengths require location-specific verification.",
+      "source": "QB p5 stock totals; WM pp39–40 contain inconsistent rivet examples and thicker aft-bay rows.",
+      "check": "Complete internal inspection, verify every local rivet and approved bucking method; schematic rows are not a drilling/rivet-count map."
+    }
+  ],
+  "photo": "WM39",
+  "status": "REVIEW REQUIRED"
+}

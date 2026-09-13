@@ -1,0 +1,59 @@
+{
+  "number": 6,
+  "id": "FUS001",
+  "title": "Floorboard Relationships",
+  "section": "fuselage",
+  "slug": "fuselage/floorboard-relationships",
+  "model": "floors",
+  "revision": 2,
+  "pdf": "06_Floorboard_Relationships.pdf",
+  "sources": [
+    "BHManual-Fuselage1-25Rev1.pdf pp18–24",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 Skins Floors Stringers"
+  ],
+  "steps": [
+    {
+      "title": "FIT PANELS BETWEEN CONTROLS",
+      "view": "fit",
+      "hardware": [],
+      "note": "PANELS CLEAR CONTROL MOUNTS",
+      "detail": "REMOVABLE PANEL EDGE",
+      "flags": [],
+      "number": 1,
+      "image": "FUS001_step_01_v2.png"
+    },
+    {
+      "title": "ATTACH REMOVABLE FLOOR PANELS",
+      "view": "attach",
+      "hardware": [
+        [
+          "screw_round",
+          46,
+          "AN526C-632-6"
+        ],
+        [
+          "nutplate",
+          46,
+          "K1000-06"
+        ]
+      ],
+      "note": "46 LOCATIONS · AIRCRAFT TOTAL",
+      "detail": "SCREW / PANEL / TAB / NUTPLATE",
+      "flags": [
+        "? VERIFY PANEL FIT"
+      ],
+      "number": 2,
+      "image": "FUS001_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Panel boundaries and access openings are fitted to the individual airframe.",
+      "source": "Legacy preferred removable arrangement; QB 46 attachment locations is aircraft total.",
+      "check": "Check pedal/stick sweep, cable access and each supplied tab. Scene is not a cutting pattern."
+    }
+  ],
+  "photo": "FM23-FLOOR",
+  "status": "REVIEW REQUIRED"
+}

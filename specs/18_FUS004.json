@@ -1,0 +1,72 @@
+{
+  "number": 18,
+  "id": "FUS004",
+  "title": "Fuel Selector Mounting",
+  "section": "fuselage",
+  "slug": "fuselage/fuel-selector-mounting",
+  "model": "fuel_valve",
+  "revision": 2,
+  "pdf": "18_Fuel_Selector_Mounting.pdf",
+  "sources": [
+    "BHManual-fuselage26-45Rev2.pdf printed pp31–32",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-FS4"
+  ],
+  "steps": [
+    {
+      "title": "FIT SELECTOR BRACKET",
+      "view": "bracket",
+      "hardware": [
+        [
+          "screw_flat",
+          2,
+          "AN507C632R6"
+        ],
+        [
+          "nutplate",
+          2,
+          "K1000-06"
+        ]
+      ],
+      "note": "BRACKET TO FUSELAGE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY BRACKET POSITION"
+      ],
+      "number": 1,
+      "image": "FUS004_step_01_v2.png"
+    },
+    {
+      "title": "FIT SELECTOR TO BRACKET",
+      "view": "valve",
+      "hardware": [
+        [
+          "screw_flat",
+          3,
+          "AN507C632R6"
+        ],
+        [
+          "nutplate",
+          3,
+          "K1000-06"
+        ]
+      ],
+      "note": "SELECTOR TO BRACKET",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY VALVE CONFIGURATION"
+      ],
+      "number": 2,
+      "image": "FUS004_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Valve model, gascolator support and full port-to-port fuselage plumbing are not established.",
+      "source": "HK-FS4 names hardware; legacy explicitly allows different valve arrangements.",
+      "check": "Identify supplied selector/gascolator and obtain current routing diagram. Only bracket relationship is illustrated; no port assignment or plumbing is released."
+    }
+  ],
+  "photo": "G2-FUEL35",
+  "status": "REVIEW REQUIRED"
+}

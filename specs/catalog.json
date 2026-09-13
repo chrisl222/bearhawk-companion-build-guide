@@ -1,0 +1,2671 @@
+[
+  {
+    "id": "CTRL001",
+    "revision": 2,
+    "title": "Control sticks / forward elevator controls",
+    "slug": "controls/control-sticks",
+    "pdf": "01_Control_Sticks.pdf",
+    "steps": [
+      {
+        "number": 1,
+        "title": "MOUNT CONTROL-STICK ASSEMBLY",
+        "image": "CTRL001_step_01_v2.png"
+      },
+      {
+        "number": 2,
+        "title": "INSTALL CONTROL STICKS",
+        "image": "CTRL001_step_02_v2.png"
+      },
+      {
+        "number": 3,
+        "title": "CONNECT STICK INTERCONNECT",
+        "image": "CTRL001_step_03_v2.png"
+      },
+      {
+        "number": 4,
+        "title": "ASSEMBLE ELEVATOR PUSHROD",
+        "image": "CTRL001_step_04_v2.png"
+      },
+      {
+        "number": 5,
+        "title": "CONNECT PUSHROD TO BELLCRANK",
+        "image": "CTRL001_step_05_v2.png"
+      },
+      {
+        "number": 6,
+        "title": "CHECK CONTROL MOVEMENT",
+        "image": "CTRL001_step_06_v2.png"
+      }
+    ],
+    "warnings": [
+      "Pushrod nut application",
+      "Bellcrank position / spacers",
+      "Source conflicts: steps 02 and 05"
+    ],
+    "hardware_authority": "Companion+Hardware+Customer+-+Sheet1-2.pdf, supplied 2026-09-13, page 2, HK-CS4",
+    "geometry_authority": "Bob Barrows Companion sheets 28, 17, 18",
+    "number": 1,
+    "section": "controls",
+    "status": "REVIEW REQUIRED",
+    "model": "preserved",
+    "sources": [
+      "Bob Barrows Companion sheets 28, 17, 18",
+      "Companion+Hardware+Customer+-+Sheet1-2.pdf, supplied 2026-09-13, page 2, HK-CS4"
+    ],
+    "photo": "G2-CONTROL101",
+    "issues": [
+      {
+        "steps": "02",
+        "issue": "Generic plan pivot notation differs from specific QB callout.",
+        "source": "Plan28 AN4 vs HK-CS4 AN174-20.",
+        "check": "Confirm current-kit correspondence; retain QB set."
+      },
+      {
+        "steps": "05",
+        "issue": "Legacy moving-joint retention guidance differs from QB rod-end set.",
+        "source": "Legacy p18 vs HK-CS4 AN3-7A / AN365-1032A.",
+        "check": "Confirm application; retain QB set."
+      },
+      {
+        "steps": "04,06",
+        "issue": "Application of both pushrod nut types unresolved.",
+        "source": "HK-CS4 AN316-4R and AN345-524.",
+        "check": "Confirm each application; existing separate tray retained."
+      },
+      {
+        "steps": "05,06",
+        "issue": "Bellcrank lateral position/spacers unverified.",
+        "source": "Legacy p18 does not settle Companion kit fit.",
+        "check": "Confirm support, spacers and flap-cable clearance."
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "id": "CTRL002",
+    "title": "Rudder Pedals",
+    "section": "controls",
+    "slug": "controls/rudder-pedals",
+    "model": "pedals",
+    "revision": 2,
+    "pdf": "02_Rudder_Pedals.pdf",
+    "sources": [
+      "Companion plan 29",
+      "BHManual-Fuselage1-25Rev1.pdf pp19–20",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+    ],
+    "steps": [
+      {
+        "title": "MOUNT RUDDER PEDAL ASSEMBLY",
+        "view": "mount",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN3-4A"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-10L"
+          ],
+          [
+            "locknut",
+            4,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "METAL-TO-METAL · SEE PLAN 29",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "CTRL002_step_01_v2.png"
+      },
+      {
+        "title": "INSTALL TOE BRAKE PEDALS",
+        "view": "toe",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN4-21"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-416"
+          ],
+          [
+            "castle",
+            4,
+            "AN310-4"
+          ],
+          [
+            "cotter",
+            4,
+            "MS24665-208"
+          ]
+        ],
+        "note": "FOUR PEDALS · SEE PLAN 29",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 2,
+        "image": "CTRL002_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Final pedal position and firewall clearance depend on fitted cylinders.",
+        "source": "Plan 29 / legacy pp19–20; no aircraft-specific fit check.",
+        "check": "Dry-fit all four cylinders and check full travel before final positioning."
+      }
+    ],
+    "photo": "G1-PEDALS",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 3,
+    "id": "CTRL003",
+    "title": "Rudder Cable Connections",
+    "section": "controls",
+    "slug": "controls/rudder-cable-connections",
+    "model": "rudder_cable",
+    "revision": 2,
+    "pdf": "03_Rudder_Cable_Connections.pdf",
+    "sources": [
+      "Companion plans 29, 24",
+      "BHManual-Fuselage1-25Rev1.pdf p20",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+    ],
+    "steps": [
+      {
+        "title": "CONNECT CABLE TO PEDAL TAB",
+        "view": "pedal",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN3-5"
+          ],
+          [
+            "washer",
+            6,
+            "AN960-10L"
+          ],
+          [
+            "castle",
+            2,
+            "AN310-3"
+          ],
+          [
+            "cotter",
+            2,
+            "MS24665-132"
+          ]
+        ],
+        "note": "2× AN115-21 · BOTH SIDES",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY WASHER POSITION"
+        ],
+        "number": 1,
+        "image": "CTRL003_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT CABLE TO RUDDER HORN",
+        "view": "horn",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN4-6"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-416L"
+          ],
+          [
+            "castle",
+            2,
+            "AN310-4"
+          ],
+          [
+            "cotter",
+            2,
+            "MS24665-208"
+          ]
+        ],
+        "note": "2× AN115-32 · SEE PLAN 24",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY SHACKLE PREPARATION"
+        ],
+        "number": 2,
+        "image": "CTRL003_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01",
+        "issue": "Three thin washers are called out, but exact allocation across the tab joint is not established.",
+        "source": "HK-RS4 cable-to-tab row.",
+        "check": "Confirm stack against current factory installation; washers remain in parts tray."
+      },
+      {
+        "steps": "02",
+        "issue": "Shackle preparation and full fuselage routing are not released by these endpoint illustrations.",
+        "source": "HK-RS4 says AN115-32: drill to AN4; route not fully constrained by supplied Companion drawings.",
+        "check": "Confirm factory drilling detail, route through installed fairleads, spring connection and cable termination inspection."
+      }
+    ],
+    "photo": "FM16-RUDDER",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 4,
+    "id": "CTRL004",
+    "title": "Flap Cockpit Controls",
+    "section": "controls",
+    "slug": "controls/flap-cockpit-controls",
+    "model": "flap_handle",
+    "revision": 2,
+    "pdf": "04_Flap_Cockpit_Controls.pdf",
+    "sources": [
+      "Companion plan 30",
+      "BHManual-Fuselage1-25Rev1.pdf pp21–22",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+    ],
+    "steps": [
+      {
+        "title": "FIT HANDLE AND QUADRANT",
+        "view": "handle",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN3-5A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-10"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "SEE PLAN 30",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY DETENT ENGAGEMENT"
+        ],
+        "number": 1,
+        "image": "CTRL004_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT HANDLE CABLE",
+        "view": "cable",
+        "hardware": [
+          [
+            "bolt",
+            1,
+            "AN3-5"
+          ],
+          [
+            "washer",
+            3,
+            "AN960-10L"
+          ],
+          [
+            "castle",
+            1,
+            "AN310-3"
+          ],
+          [
+            "cotter",
+            1,
+            "MS24665-132"
+          ]
+        ],
+        "note": "1× AN115-21 · HANDLE END",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY WASHER POSITION"
+        ],
+        "number": 2,
+        "image": "CTRL004_step_02_v2.png"
+      },
+      {
+        "title": "FIT FLAP CABLE SPLITTER",
+        "view": "splitter",
+        "hardware": [
+          [
+            "shackle",
+            1,
+            "AN115-21"
+          ],
+          [
+            "turnbuckle",
+            2,
+            "AN130-22S"
+          ]
+        ],
+        "note": "SEE PLAN 30 · REAR BAGGAGE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY ROUTING"
+        ],
+        "number": 3,
+        "image": "CTRL004_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01",
+        "issue": "Pin engagement, spring fit and travel-stop setting need kit fit verification.",
+        "source": "HK-FCC lists R-FHS and AN3-4A travel limit; plan30.",
+        "check": "Check all detents, spring return and supplied stop before use."
+      },
+      {
+        "steps": "02–03",
+        "issue": "Full Companion pulley route and washer allocation remain unresolved.",
+        "source": "Plan30 shows splitter relationship; legacy full routing is not a complete Companion installation map.",
+        "check": "Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene."
+      }
+    ],
+    "photo": "G2-FLAP158",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 5,
+    "id": "CTRL005",
+    "title": "Elevator Horn Connections",
+    "section": "controls",
+    "slug": "controls/elevator-horn-connections",
+    "model": "elevator_horn",
+    "revision": 2,
+    "pdf": "05_Elevator_Horn_Connections.pdf",
+    "sources": [
+      "Companion plan22",
+      "BHManual-Fuselage1-25Rev1.pdf pp15–18",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-ES4"
+    ],
+    "steps": [
+      {
+        "title": "JOIN ELEVATOR HORNS",
+        "view": "union",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN3-6A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-10L"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "ALUMINUM BUSHING BETWEEN HORNS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "CTRL005_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT ELEVATOR CABLES",
+        "view": "cables",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN3-6"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-10L"
+          ],
+          [
+            "castle",
+            2,
+            "AN310-3"
+          ],
+          [
+            "cotter",
+            2,
+            "MS24665-132"
+          ]
+        ],
+        "note": "STEEL BUSHING · OUTER HOLES",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 2,
+        "image": "CTRL005_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Bushing lengths and full forward-to-tail routing are not established here.",
+        "source": "HK-ES4 distinguishes aluminum union and steel cable bushings; no bushing lengths in count sheet.",
+        "check": "Confirm bushings from plan22/current kit. Verify lower cable fairlead and full route before termination."
+      }
+    ],
+    "photo": "FM16-ELEVATOR",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 6,
+    "id": "FUS001",
+    "title": "Floorboard Relationships",
+    "section": "fuselage",
+    "slug": "fuselage/floorboard-relationships",
+    "model": "floors",
+    "revision": 2,
+    "pdf": "06_Floorboard_Relationships.pdf",
+    "sources": [
+      "BHManual-Fuselage1-25Rev1.pdf pp18–24",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 Skins Floors Stringers"
+    ],
+    "steps": [
+      {
+        "title": "FIT PANELS BETWEEN CONTROLS",
+        "view": "fit",
+        "hardware": [],
+        "note": "PANELS CLEAR CONTROL MOUNTS",
+        "detail": "REMOVABLE PANEL EDGE",
+        "flags": [],
+        "number": 1,
+        "image": "FUS001_step_01_v2.png"
+      },
+      {
+        "title": "ATTACH REMOVABLE FLOOR PANELS",
+        "view": "attach",
+        "hardware": [
+          [
+            "screw_round",
+            46,
+            "AN526C-632-6"
+          ],
+          [
+            "nutplate",
+            46,
+            "K1000-06"
+          ]
+        ],
+        "note": "46 LOCATIONS · AIRCRAFT TOTAL",
+        "detail": "SCREW / PANEL / TAB / NUTPLATE",
+        "flags": [
+          "? VERIFY PANEL FIT"
+        ],
+        "number": 2,
+        "image": "FUS001_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Panel boundaries and access openings are fitted to the individual airframe.",
+        "source": "Legacy preferred removable arrangement; QB 46 attachment locations is aircraft total.",
+        "check": "Check pedal/stick sweep, cable access and each supplied tab. Scene is not a cutting pattern."
+      }
+    ],
+    "photo": "FM23-FLOOR",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 7,
+    "id": "EMP001",
+    "title": "Horizontal Stabilizer",
+    "section": "empennage",
+    "slug": "empennage/horizontal-stabilizer",
+    "model": "stabilizer",
+    "revision": 2,
+    "pdf": "07_Horizontal_Stabilizer.pdf",
+    "sources": [
+      "Companion plans20,22",
+      "BHManual-Fuselage1-25Rev1.pdf pp13–15",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+    ],
+    "steps": [
+      {
+        "title": "FIT FORWARD CARRY-THROUGH",
+        "view": "carry",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN4-22A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-416"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-428A"
+          ]
+        ],
+        "note": "MATCH FACTORY ORIENTATION",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 1,
+        "image": "EMP001_step_01_v2.png"
+      },
+      {
+        "title": "SLIDE ON STABILIZER HALVES",
+        "view": "halves",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN3-12A"
+          ],
+          [
+            "washer",
+            8,
+            "AN960-10L"
+          ],
+          [
+            "locknut",
+            4,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "FRONT + REAR SPAR · BOTH HALVES",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY WASHER POSITION"
+        ],
+        "number": 2,
+        "image": "EMP001_step_02_v2.png"
+      },
+      {
+        "title": "FIT LOWER BRACE STRUTS",
+        "view": "brace",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN3-14A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-10L / -10"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "OUTBOARD ENDS · SEE PLAN 22",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY CLEVIS STACK"
+        ],
+        "number": 3,
+        "image": "EMP001_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01",
+        "issue": "Legacy incidence guidance differs from current Companion count sheet.",
+        "source": "Legacy p13 says four degrees down; HK-EA4 says -2 degrees. Plans control design.",
+        "check": "Confirm Companion incidence and reference datum from current factory/plans before fixing spacers."
+      },
+      {
+        "steps": "02–03",
+        "issue": "Carry-through orientation and brace washer allocation need kit confirmation.",
+        "source": "HK-EA4 calls mixed outboard washers and thin washer at lower clevis.",
+        "check": "Match factory holes without forcing; verify all washers and lower AN3-5A / AN960-10L / AN365-1032A set."
+      }
+    ],
+    "photo": "G2-TAIL",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 8,
+    "id": "EMP002",
+    "title": "Elevators",
+    "section": "empennage",
+    "slug": "empennage/elevators",
+    "model": "elevators",
+    "revision": 2,
+    "pdf": "08_Elevators.pdf",
+    "sources": [
+      "Companion plans22,24",
+      "BHManual-Fuselage1-25Rev1.pdf p15",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+    ],
+    "steps": [
+      {
+        "title": "FIT INBOARD ELEVATOR HINGES",
+        "view": "inboard",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN4-14A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-416"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-428A"
+          ]
+        ],
+        "note": "HINGE STRAPS CLEAR SUPPORTS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "EMP002_step_01_v2.png"
+      },
+      {
+        "title": "FIT OUTBOARD HINGES AND TABS",
+        "view": "outboard",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN4-18A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-416"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-428A"
+          ]
+        ],
+        "note": "FLYING-WIRE TABS: HEAD + NUT",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY TAB ORIENTATION"
+        ],
+        "number": 2,
+        "image": "EMP002_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Hinge support fit and flying-wire tab orientation depend on supplied kit.",
+        "source": "Plan24 hinge detail / HK-EA4 / legacy p15.",
+        "check": "Check hinge fit, free travel and brace tab orientation. Final balance/rigging remains outside this manual."
+      }
+    ],
+    "photo": "G2-TAIL",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 9,
+    "id": "EMP003",
+    "title": "Rudder",
+    "section": "empennage",
+    "slug": "empennage/rudder",
+    "model": "rudder",
+    "revision": 2,
+    "pdf": "09_Rudder.pdf",
+    "sources": [
+      "Companion plan24",
+      "BHManual-Fuselage1-25Rev1.pdf pp15–16",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp1–2 HK-RS4 / HK-EA4"
+    ],
+    "steps": [
+      {
+        "title": "FIT RUDDER TO HINGE LINE",
+        "view": "fit",
+        "hardware": [],
+        "note": "SEE PLAN 24 · ALIGN BOTH HINGES",
+        "detail": "HINGE RELATIONSHIP",
+        "flags": [
+          "? VERIFY LOWER HINGE HARDWARE"
+        ],
+        "number": 1,
+        "image": "EMP003_step_01_v2.png"
+      },
+      {
+        "title": "ATTACH UPPER RUDDER HINGE",
+        "view": "upper",
+        "hardware": [
+          [
+            "bolt",
+            1,
+            "AN4-17A"
+          ],
+          [
+            "washer",
+            1,
+            "AN960-416L"
+          ],
+          [
+            "locknut",
+            1,
+            "AN365-428A"
+          ]
+        ],
+        "note": "FLYING-WIRE TABS: HEAD + NUT",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 2,
+        "image": "EMP003_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Lower rudder bolt conflicts within current hardware sheet.",
+        "source": "HK-RS4 p1: AN4-15A; HK-EA4 p2: AN4-13A.",
+        "check": "Obtain corrected factory lower hinge callout. Lower hinge remains unfastened in illustration; upper set is consistent."
+      }
+    ],
+    "photo": "G2-TAIL219",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 10,
+    "id": "EMP004",
+    "title": "Tail Brace Wires",
+    "section": "empennage",
+    "slug": "empennage/tail-brace-wires",
+    "model": "tail_wires",
+    "revision": 2,
+    "pdf": "10_Tail_Brace_Wires.pdf",
+    "sources": [
+      "Companion plans20,22,24",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+    ],
+    "steps": [
+      {
+        "title": "IDENTIFY BRACE WIRE TERMINALS",
+        "view": "parts",
+        "hardware": [
+          [
+            "rodend",
+            4,
+            "AN665-34R"
+          ],
+          [
+            "rodend",
+            4,
+            "AN665-34L"
+          ],
+          [
+            "checknut",
+            4,
+            "AN315-4"
+          ],
+          [
+            "checknut",
+            4,
+            "AN315-4L"
+          ]
+        ],
+        "note": "KEEP RIGHT / LEFT THREADS PAIRED",
+        "detail": "TERMINAL RELATIONSHIP",
+        "flags": [],
+        "number": 1,
+        "image": "EMP004_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT WIRES TO TABS",
+        "view": "fit",
+        "hardware": [
+          [
+            "pin",
+            8,
+            "AN394-17"
+          ],
+          [
+            "washer",
+            8,
+            "AN960-416L"
+          ],
+          [
+            "cotter",
+            8,
+            "MS24665-132"
+          ]
+        ],
+        "note": "BOTH SIDES · SEE PLANS 22 / 24",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY WIRE ROUTING"
+        ],
+        "number": 2,
+        "image": "EMP004_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Wire lengths, individual terminal allocation and final tension need current-kit confirmation.",
+        "source": "HK-EA4 lists totals; supplied photos do not establish lengths or tension.",
+        "check": "Match each wire and thread to supplied assembly; confirm routing and tension from controlling documentation."
+      }
+    ],
+    "photo": "G2-TAIL219",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 11,
+    "id": "EMP005",
+    "title": "Trim Wheel and Linkages",
+    "section": "empennage",
+    "slug": "empennage/trim-wheel-and-linkages",
+    "model": "trim",
+    "revision": 2,
+    "pdf": "11_Trim_Wheel_and_Linkages.pdf",
+    "sources": [
+      "Companion plans21–22",
+      "BHManual-Fuselage1-25Rev1.pdf p16",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-TS4"
+    ],
+    "steps": [
+      {
+        "title": "INSTALL TRIM WHEEL",
+        "view": "wheel",
+        "hardware": [
+          [
+            "bolt",
+            1,
+            "AN4-22"
+          ],
+          [
+            "washer",
+            3,
+            "AN960-416"
+          ],
+          [
+            "castle",
+            1,
+            "AN310-4"
+          ],
+          [
+            "cotter",
+            1,
+            "MS24665-208"
+          ]
+        ],
+        "note": "#25 CHAIN · SEE PLAN 21",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 1,
+        "image": "EMP005_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT TRIM TAB PUSHRODS",
+        "view": "rods",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN3-6A"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-10"
+          ],
+          [
+            "locknut",
+            4,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "4× JM-3 · 4× AN345-10",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY ROD LENGTH"
+        ],
+        "number": 2,
+        "image": "EMP005_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01",
+        "issue": "Trim-wheel friction stack differs between drawing and count sheet.",
+        "source": "Plan21 shows bronze/split-lock washers; HK-TS4 calls three AN960-416.",
+        "check": "Confirm current factory friction stack; inventory is shown separately."
+      },
+      {
+        "steps": "02",
+        "issue": "Complete trim cable route, length and adjustment not released.",
+        "source": "Plan22 linkage; HK-TS4 supplies rod ends but no completed adjustment.",
+        "check": "Verify both tab directions, stops, cable route and rod adjustment with current kit."
+      }
+    ],
+    "photo": "FM16-TRIM",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 12,
+    "id": "GEAR001",
+    "title": "Main Landing Gear",
+    "section": "landing-gear",
+    "slug": "landing-gear/main-landing-gear",
+    "model": "gear",
+    "revision": 2,
+    "pdf": "12_Main_Landing_Gear.pdf",
+    "sources": [
+      "Companion plans25–26",
+      "BHManual-Fuselage1-25Rev1.pdf pp9–11",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4"
+    ],
+    "steps": [
+      {
+        "title": "FIT FORWARD GEAR ATTACHMENTS",
+        "view": "front",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN6-26"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-616"
+          ],
+          [
+            "castle",
+            2,
+            "AN310-6"
+          ],
+          [
+            "cotter",
+            2,
+            "MS24665-283"
+          ]
+        ],
+        "note": "AIRFRAME SUPPORTED · BOTH LEGS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "GEAR001_step_01_v2.png"
+      },
+      {
+        "title": "FIT REAR GEAR ATTACHMENTS",
+        "view": "rear",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN6-25"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-616"
+          ],
+          [
+            "castle",
+            2,
+            "AN310-6"
+          ],
+          [
+            "cotter",
+            2,
+            "MS24665-283"
+          ]
+        ],
+        "note": "KEEP AIRFRAME SUPPORTED",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY WASHER POSITION"
+        ],
+        "number": 2,
+        "image": "GEAR001_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Exact washer allocation, gear alignment and support setup need current-kit verification.",
+        "source": "HK-LG4 gives two washers per upper joint; legacy tread values are not adopted.",
+        "check": "Verify bolt grip and washer placement without substituting parts. Fit shock struts before loading gear; use current alignment instructions."
+      }
+    ],
+    "photo": "G1-GEAR",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 13,
+    "id": "GEAR002",
+    "title": "Shock Strut Mounting",
+    "section": "landing-gear",
+    "slug": "landing-gear/shock-strut-mounting",
+    "model": "shock",
+    "revision": 2,
+    "pdf": "13_Shock_Strut_Mounting.pdf",
+    "sources": [
+      "Companion plans25–27",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4"
+    ],
+    "steps": [
+      {
+        "title": "FIT UPPER SHOCK STRUT ENDS",
+        "view": "upper",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN6-14A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-616"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-624A"
+          ]
+        ],
+        "note": "ASSEMBLED STRUTS · BOTH SIDES",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "GEAR002_step_01_v2.png"
+      },
+      {
+        "title": "FIT LOWER SHOCK STRUT ENDS",
+        "view": "lower",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN6-14A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-616"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-624A"
+          ]
+        ],
+        "note": "4× AN316-8R CHECK NUTS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY STRUT CONFIGURATION"
+        ],
+        "number": 2,
+        "image": "GEAR002_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Internal shock assembly, service fluid and rod-end adjustment are withheld.",
+        "source": "Legacy XAM-7M system differs from current check-nut callout; actual shipped strut configuration not established.",
+        "check": "Confirm strut model, bearings, bushings and current assembly/service instructions before loading aircraft."
+      }
+    ],
+    "photo": "G1-GEAR",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 14,
+    "id": "GEAR003",
+    "title": "Tailwheel",
+    "section": "landing-gear",
+    "slug": "landing-gear/tailwheel",
+    "model": null,
+    "revision": 2,
+    "pdf": "14_Tailwheel.pdf",
+    "sources": [
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-TW4",
+      "BHManual-Fuselage1-25Rev1.pdf p12"
+    ],
+    "steps": [],
+    "issues": [
+      {
+        "steps": "BLOCKED",
+        "issue": "Current stinger installation cannot be reconstructed from legacy leaf-spring instructions.",
+        "source": "HK-TW4 specifies stinger; legacy p12 illustrates leaf springs.",
+        "check": "Provide current Companion stinger/tailwheel installation drawing and identify fitted tailwheel."
+      }
+    ],
+    "photo": "G1-TAILWHEEL-CANDIDATE",
+    "status": "BLOCKED"
+  },
+  {
+    "number": 15,
+    "id": "GEAR004",
+    "title": "Brake Master Cylinders",
+    "section": "landing-gear",
+    "slug": "landing-gear/brake-master-cylinders",
+    "model": "brakes",
+    "revision": 2,
+    "pdf": "15_Brake_Master_Cylinders.pdf",
+    "sources": [
+      "Companion plan29",
+      "BHManual-Fuselage1-25Rev1.pdf pp19–20",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+    ],
+    "steps": [
+      {
+        "title": "CONNECT CYLINDERS TO FRAME",
+        "view": "lower",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN3-6"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-10L"
+          ],
+          [
+            "castle",
+            4,
+            "AN310-3"
+          ],
+          [
+            "cotter",
+            4,
+            "MS24665-132"
+          ]
+        ],
+        "note": "FOUR CYLINDERS · SEE PLAN 29",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "GEAR004_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT CYLINDERS TO TOE PEDALS",
+        "view": "upper",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN3-7"
+          ],
+          [
+            "washer",
+            16,
+            "AN960-10"
+          ],
+          [
+            "castle",
+            4,
+            "AN310-3"
+          ],
+          [
+            "cotter",
+            4,
+            "MS24665-132"
+          ]
+        ],
+        "note": "CHECK FIREWALL CLEARANCE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE VARIANT — VERIFY"
+        ],
+        "number": 2,
+        "image": "GEAR004_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "02",
+        "issue": "Upper-joint washers depend on master-cylinder variant.",
+        "source": "HK-RS4: four AN960-10 per joint; note says two thin washers for Bearhawk cylinders.",
+        "check": "Identify shipped cylinder and confirm washer set. No hydraulic routing or brake bleeding instructions are released."
+      }
+    ],
+    "photo": "G1-PEDALS",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 16,
+    "id": "FUS002",
+    "title": "Front Seats",
+    "section": "fuselage",
+    "slug": "fuselage/front-seats",
+    "model": "seats",
+    "revision": 2,
+    "pdf": "16_Front_Seats.pdf",
+    "sources": [
+      "Companion seat drawing (PDF p1)",
+      "BHManual-fuselage26-45Rev2.pdf printed pp26–27",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-SH4"
+    ],
+    "steps": [
+      {
+        "title": "JOIN SEAT BACKS TO BASES",
+        "view": "backs",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN4-12"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-416L"
+          ],
+          [
+            "castle",
+            4,
+            "AN310-4"
+          ],
+          [
+            "cotter",
+            4,
+            "MS24665-208"
+          ]
+        ],
+        "note": "BACKS OFFSET TOWARD CENTER",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 1,
+        "image": "FUS002_step_01_v2.png"
+      },
+      {
+        "title": "FIT SEAT ROLLERS",
+        "view": "rollers",
+        "hardware": [
+          [
+            "bolt",
+            8,
+            "AN4-10A"
+          ],
+          [
+            "washer",
+            8,
+            "AN960-416L"
+          ],
+          [
+            "locknut",
+            8,
+            "AN365-428A"
+          ]
+        ],
+        "note": "ROLLERS · BOTH SEATS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY LATCH ENGAGEMENT"
+        ],
+        "number": 2,
+        "image": "FUS002_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Current latch detail and track-stop positions require kit fit check.",
+        "source": "HK-SH4 gives incomplete latch line; stops AN4-12A / AN960-416 / AN365-428A, four sets.",
+        "check": "Verify latch/stop assembly, positive engagement and full travel. Restraint installation is not released."
+      }
+    ],
+    "photo": "FM26-SEAT",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 17,
+    "id": "FUS003",
+    "title": "Fuselage Stringers",
+    "section": "fuselage",
+    "slug": "fuselage/fuselage-stringers",
+    "model": "stringers",
+    "revision": 2,
+    "pdf": "17_Fuselage_Stringers.pdf",
+    "sources": [
+      "Companion plans17–21",
+      "BHManual-fuselage26-45Rev2.pdf printed pp28–29",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 Stringer attach"
+    ],
+    "steps": [
+      {
+        "title": "SEAT STRINGERS IN STANDOFFS",
+        "view": "fit",
+        "hardware": [],
+        "note": "SMOOTH LINE · CLEAR PULLEYS",
+        "detail": "STRINGER / SADDLE",
+        "flags": [],
+        "number": 1,
+        "image": "FUS003_step_01_v2.png"
+      },
+      {
+        "title": "SECURE STRINGERS TO SADDLES",
+        "view": "rivet",
+        "hardware": [
+          [
+            "rivet",
+            43,
+            "CCP-42"
+          ]
+        ],
+        "note": "43 RIVETS · AIRCRAFT TOTAL",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY END TRIM"
+        ],
+        "number": 2,
+        "image": "FUS003_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Standoff and end-trim positions must match the actual fuselage.",
+        "source": "Plans define shape; legacy photo variations are not adopted as kit geometry.",
+        "check": "Verify stringer material, supplied saddles, fabric clearance and smooth aft transition."
+      }
+    ],
+    "photo": "FM28-STRINGERS",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 18,
+    "id": "FUS004",
+    "title": "Fuel Selector Mounting",
+    "section": "fuselage",
+    "slug": "fuselage/fuel-selector-mounting",
+    "model": "fuel_valve",
+    "revision": 2,
+    "pdf": "18_Fuel_Selector_Mounting.pdf",
+    "sources": [
+      "BHManual-fuselage26-45Rev2.pdf printed pp31–32",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p4 HK-FS4"
+    ],
+    "steps": [
+      {
+        "title": "FIT SELECTOR BRACKET",
+        "view": "bracket",
+        "hardware": [
+          [
+            "screw_flat",
+            2,
+            "AN507C632R6"
+          ],
+          [
+            "nutplate",
+            2,
+            "K1000-06"
+          ]
+        ],
+        "note": "BRACKET TO FUSELAGE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY BRACKET POSITION"
+        ],
+        "number": 1,
+        "image": "FUS004_step_01_v2.png"
+      },
+      {
+        "title": "FIT SELECTOR TO BRACKET",
+        "view": "valve",
+        "hardware": [
+          [
+            "screw_flat",
+            3,
+            "AN507C632R6"
+          ],
+          [
+            "nutplate",
+            3,
+            "K1000-06"
+          ]
+        ],
+        "note": "SELECTOR TO BRACKET",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY VALVE CONFIGURATION"
+        ],
+        "number": 2,
+        "image": "FUS004_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Valve model, gascolator support and full port-to-port fuselage plumbing are not established.",
+        "source": "HK-FS4 names hardware; legacy explicitly allows different valve arrangements.",
+        "check": "Identify supplied selector/gascolator and obtain current routing diagram. Only bracket relationship is illustrated; no port assignment or plumbing is released."
+      }
+    ],
+    "photo": "G2-FUEL35",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 19,
+    "id": "WING001",
+    "title": "Wing Preparation",
+    "section": "wings",
+    "slug": "wings/wing-preparation",
+    "model": "wing_prep",
+    "revision": 2,
+    "pdf": "19_Wing_Preparation.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p3"
+    ],
+    "steps": [
+      {
+        "title": "IDENTIFY WING AND MATCHED PARTS",
+        "view": "labels",
+        "hardware": [],
+        "note": "KEEP GOLD SERIAL TAG",
+        "detail": "WING / COVER / POCKET SKIN",
+        "flags": [],
+        "number": 1,
+        "image": "WING001_step_01_v2.png"
+      },
+      {
+        "title": "OPEN AND INVENTORY WING BOX",
+        "view": "inventory",
+        "hardware": [],
+        "note": "MATCH LEFT / RIGHT · RETAIN LABELS",
+        "detail": "PARTS PACKED IN WING",
+        "flags": [],
+        "number": 2,
+        "image": "WING001_step_02_v2.png"
+      }
+    ],
+    "issues": [],
+    "photo": "WM03",
+    "status": "RELEASED"
+  },
+  {
+    "number": 20,
+    "id": "WING002",
+    "title": "Tank Bay Covers",
+    "section": "wings",
+    "slug": "wings/tank-bay-covers",
+    "model": "tank_cover",
+    "revision": 2,
+    "pdf": "20_Tank_Bay_Covers.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp4,8–9",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+    ],
+    "steps": [
+      {
+        "title": "MATCH COVER TO TANK BAY",
+        "view": "cover",
+        "hardware": [
+          [
+            "screw_flat",
+            182,
+            "AN507C632R6"
+          ]
+        ],
+        "note": "182 SCREWS · BOTH MAIN COVERS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY DRAIN POSITION"
+        ],
+        "number": 1,
+        "image": "WING002_step_01_v2.png"
+      },
+      {
+        "title": "PREPARE NUTPLATE PERIMETER",
+        "view": "nutplates",
+        "hardware": [
+          [
+            "nutplate",
+            182,
+            "K1000-06"
+          ]
+        ],
+        "note": "RIVET FORWARD ROW ONLY",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 2,
+        "image": "WING002_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01",
+        "issue": "Drain holes must be transferred from installed tanks.",
+        "source": "WM p4; no dimension inferred from scene.",
+        "check": "Confirm matched cover and actual drain center before cutting."
+      },
+      {
+        "steps": "02",
+        "issue": "Corner nutplates differ between sources; rivet naming is inconsistent.",
+        "source": "QB p5: K1000-06 throughout; WM pp8–9: MS21055L06 at four main-bay corners; WM rivet text conflicts with example.",
+        "check": "Use QB identities as inventory, obtain factory confirmation at corners and for rivet diameter/length before riveting."
+      }
+    ],
+    "photo": "WM09",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 21,
+    "id": "WING003",
+    "title": "Aileron Bellcranks and Pulleys",
+    "section": "wings",
+    "slug": "wings/aileron-bellcranks-and-pulleys",
+    "model": "aileron_bellcrank",
+    "revision": 2,
+    "pdf": "21_Aileron_Bellcranks_and_Pulleys.pdf",
+    "sources": [
+      "Companion plan15",
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp15–16",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-AS4"
+    ],
+    "steps": [
+      {
+        "title": "PRESS BELLCRANK BEARINGS",
+        "view": "bearings",
+        "hardware": [
+          [
+            "bushing",
+            4,
+            "R4FF"
+          ]
+        ],
+        "note": "TWO BEARINGS + SPACER PER CRANK",
+        "detail": "PRESS OUTER RACES",
+        "flags": [],
+        "number": 1,
+        "image": "WING003_step_01_v2.png"
+      },
+      {
+        "title": "CAPTURE BELLCRANK BEARINGS",
+        "view": "mount",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN4-27A"
+          ],
+          [
+            "washer",
+            6,
+            "AN960-416L"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-428A"
+          ]
+        ],
+        "note": "4× AN970-4 · BOTH BELLCRANKS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY THIN-WASHER STACK"
+        ],
+        "number": 2,
+        "image": "WING003_step_02_v2.png"
+      },
+      {
+        "title": "FIT AILERON CROSSMEMBER PULLEYS",
+        "view": "pulley",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN4-24A"
+          ],
+          [
+            "washer",
+            2,
+            "AN960-416L"
+          ],
+          [
+            "locknut",
+            2,
+            "AN365-428A"
+          ]
+        ],
+        "note": "2× AN210-4A · FIT CABLE GUARDS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 3,
+        "image": "WING003_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "02",
+        "issue": "Thin-washer allocation around large-area bearing retainers needs confirmation.",
+        "source": "HK-AS4: three thin and two large-area washers per bellcrank.",
+        "check": "Confirm full stack and free rotation; do not press bearing inner races."
+      },
+      {
+        "steps": "03",
+        "issue": "Pulley nut designation differs.",
+        "source": "WM p15: AN365-416A; QB HK-AS4: AN365-428A.",
+        "check": "Keep QB set and verify factory correction; confirm cable guard and upper strut pulley installation separately."
+      }
+    ],
+    "photo": "WM16",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 22,
+    "id": "WING004",
+    "title": "Aileron Cable Routing",
+    "section": "wings",
+    "slug": "wings/aileron-cable-routing",
+    "model": "wing_cables",
+    "revision": 2,
+    "pdf": "22_Aileron_Cable_Routing.pdf",
+    "sources": [
+      "Companion plan15",
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp13–18,28",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp2–3 HK-AS4"
+    ],
+    "steps": [
+      {
+        "title": "TRACE ACTUATION CABLE PATH",
+        "view": "actuation",
+        "hardware": [
+          [
+            "pulley",
+            2,
+            "MS20220-1"
+          ],
+          [
+            "pulley",
+            2,
+            "AN210-4A"
+          ]
+        ],
+        "note": "STRUT → FRONT SPAR → BELLCRANK",
+        "detail": "ROUTING RELATIONSHIP",
+        "flags": [
+          "? VERIFY GUARDS / CLEARANCE"
+        ],
+        "number": 1,
+        "image": "WING004_step_01_v2.png"
+      },
+      {
+        "title": "TRACE CARRY-THROUGH PATH",
+        "view": "carry",
+        "hardware": [
+          [
+            "bushing",
+            18,
+            "04-05793"
+          ],
+          [
+            "bushing",
+            4,
+            "05-05500"
+          ]
+        ],
+        "note": "RIB GUIDES → CABIN TURNBUCKLE",
+        "detail": "ROUTING RELATIONSHIP",
+        "flags": [
+          "DRILLING TEMPLATES REQUIRED"
+        ],
+        "number": 2,
+        "image": "WING004_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "No hole locations or cable cut lengths are released.",
+        "source": "WM p18 requires separate model-specific drill guides 1–5, not supplied.",
+        "check": "Obtain current Companion templates, check actual cable sweep and all guards; verify terminations under approved cable process."
+      }
+    ],
+    "photo": "WM13",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 23,
+    "id": "WING005",
+    "title": "Flap Torque Tube",
+    "section": "wings",
+    "slug": "wings/flap-torque-tube",
+    "model": "flap_tube",
+    "revision": 2,
+    "pdf": "23_Flap_Torque_Tube.pdf",
+    "sources": [
+      "Companion plan15",
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp19–21",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+    ],
+    "steps": [
+      {
+        "title": "FIT TORQUE TUBE AND PAIRED ARMS",
+        "view": "tube",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN3-12A"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-10"
+          ],
+          [
+            "locknut",
+            4,
+            "AN365-1032A"
+          ]
+        ],
+        "note": "ONE ARM EACH SIDE OF SUPPORT",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY POSITION BEFORE DRILLING"
+        ],
+        "number": 1,
+        "image": "WING005_step_01_v2.png"
+      },
+      {
+        "title": "CONNECT FLAP PUSHRODS",
+        "view": "pushrod",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN3-26"
+          ],
+          [
+            "washer",
+            2,
+            "AN960L-10"
+          ],
+          [
+            "castle",
+            2,
+            "AN310-3"
+          ],
+          [
+            "cotter",
+            2,
+            "MS24665-132"
+          ]
+        ],
+        "note": "INSERT PUSHROD BUSHING",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 2,
+        "image": "WING005_step_02_v2.png"
+      },
+      {
+        "title": "FIT RETURN SPRINGS AND BUMPER",
+        "view": "spring",
+        "hardware": [
+          [
+            "spring",
+            2,
+            "W-FRS1"
+          ],
+          [
+            "hose",
+            "2 cuts",
+            "6000-12"
+          ]
+        ],
+        "note": "SPRINGS BEFORE WING CLOSING",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY SPRING ATTACHMENTS"
+        ],
+        "number": 3,
+        "image": "WING005_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "QB pushrod bolt differs from current wing manual; setup needs jig verification.",
+        "source": "QB: AN3-26 and AN960L-10; WM pp20–21: AN3-16 and AN960-10L.",
+        "check": "Keep literal QB callouts; ask factory to verify bolt/washer and jig geometry before match drilling."
+      },
+      {
+        "steps": "03",
+        "issue": "Spring end assignment and final preload require kit check.",
+        "source": "WM p21 spring/bumper; no preload inferred from photos.",
+        "check": "Confirm both W-FRS1 attachments, bumper retention and unrestricted motion."
+      }
+    ],
+    "photo": "WM20",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 24,
+    "id": "WING006",
+    "title": "Flap Preparation",
+    "section": "wings",
+    "slug": "wings/flap-preparation",
+    "model": "flap_surface",
+    "revision": 2,
+    "pdf": "24_Flap_Preparation.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p35",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+    ],
+    "steps": [
+      {
+        "title": "FIT MATCHED TRAILING EDGE",
+        "view": "fit",
+        "hardware": [],
+        "note": "KEEP TRAILING EDGE STRAIGHT",
+        "detail": "RIB / TRAILING-EDGE OVERLAP",
+        "flags": [],
+        "number": 1,
+        "image": "WING006_step_01_v2.png"
+      },
+      {
+        "title": "RIVET TRAILING EDGE",
+        "view": "rivet",
+        "hardware": [
+          [
+            "rivet",
+            "per hole",
+            "CCP-42"
+          ]
+        ],
+        "note": "ALTERNATE HOLES · THEN COMPLETE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY FINAL MOUNT HARDWARE"
+        ],
+        "number": 2,
+        "image": "WING006_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "02 / final mount",
+        "issue": "Final flap-to-weldment mounting is withheld due to incompatible row.",
+        "source": "HK-FCC: AN6-6A with AN960-10L and AN365-1032A, six sets.",
+        "check": "Obtain corrected factory row. This manual covers surface preparation only; do not install that mixed set."
+      }
+    ],
+    "photo": "WM35",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 25,
+    "id": "WING007",
+    "title": "Aileron Preparation",
+    "section": "wings",
+    "slug": "wings/aileron-preparation",
+    "model": "aileron_surface",
+    "revision": 2,
+    "pdf": "25_Aileron_Preparation.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp36–37"
+    ],
+    "steps": [
+      {
+        "title": "FIT AILERON TRAILING EDGE",
+        "view": "fit",
+        "hardware": [],
+        "note": "CURVED LEADING EDGE UP",
+        "detail": "RIB / TRAILING-EDGE OVERLAP",
+        "flags": [],
+        "number": 1,
+        "image": "WING007_step_01_v2.png"
+      },
+      {
+        "title": "RIVET AILERON TRAILING EDGE",
+        "view": "rivet",
+        "hardware": [
+          [
+            "rivet",
+            "per hole",
+            "CCP-42"
+          ]
+        ],
+        "note": "ALTERNATE HOLES · THEN COMPLETE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [],
+        "number": 2,
+        "image": "WING007_step_02_v2.png"
+      },
+      {
+        "title": "INSTALL BALANCE TUBE",
+        "view": "balance",
+        "hardware": [
+          [
+            "bushing",
+            2,
+            "R-ABT"
+          ],
+          [
+            "rivet",
+            8,
+            "CCP-42"
+          ]
+        ],
+        "note": "INSERT FROM INBOARD END",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "FINAL BALANCE STILL REQUIRED"
+        ],
+        "number": 3,
+        "image": "WING007_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "03 / final mount",
+        "issue": "Surface balance and final hinge/pushrod installation are not released.",
+        "source": "WM p37 defers balancing until fabric/paint; complete final attachment details not established by this preparation chapter.",
+        "check": "Confirm final hinge hardware, pushrod retention and current balance procedure before flight."
+      }
+    ],
+    "photo": "WM37",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 26,
+    "id": "WING008",
+    "title": "Main Tanks and Fuel Lines",
+    "section": "wings",
+    "slug": "wings/main-tanks-and-fuel-lines",
+    "model": "wing_fuel",
+    "revision": 2,
+    "pdf": "26_Main_Tanks_and_Fuel_Lines.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp5–7",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp3–4 HK-FS4"
+    ],
+    "steps": [
+      {
+        "title": "FIT TANK FEED CONNECTIONS",
+        "view": "fittings",
+        "hardware": [
+          [
+            "strainer",
+            4,
+            "05-17700"
+          ],
+          [
+            "fitting",
+            4,
+            "AN816-6D"
+          ]
+        ],
+        "note": "BOTH TANKS · FEED PORTS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 1,
+        "image": "WING008_step_01_v2.png"
+      },
+      {
+        "title": "PASS LINES THROUGH PROTECTED RIBS",
+        "view": "lines",
+        "hardware": [
+          [
+            "bushing",
+            8,
+            "AN931-6-10"
+          ],
+          [
+            "bushing",
+            6,
+            "AN931-4-7"
+          ]
+        ],
+        "note": "3/8 FEED · 1/4 SIGHT GAUGE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY HOLE LOCATIONS"
+        ],
+        "number": 2,
+        "image": "WING008_step_02_v2.png"
+      },
+      {
+        "title": "FIT SIGHT-GAUGE BULKHEADS",
+        "view": "sight",
+        "hardware": [
+          [
+            "fitting",
+            4,
+            "AN832-4D"
+          ],
+          [
+            "hexnut",
+            4,
+            "AN924-4D"
+          ],
+          [
+            "bushing",
+            8,
+            "AN819-4D"
+          ],
+          [
+            "tubenut",
+            8,
+            "AN818-4D"
+          ]
+        ],
+        "note": "LINES REST WITHOUT PRELOAD",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 3,
+        "image": "WING008_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01",
+        "issue": "Tank strainer identity differs from current wing manual.",
+        "source": "QB:05-17700; WM p7:AN375/PN-520.",
+        "check": "Verify supplied strainers and tank ports with factory; QB identities retained."
+      },
+      {
+        "steps": "02–03",
+        "issue": "Root-hole counts and sight-gauge flare-nut prose contain inconsistencies.",
+        "source": "WM p5 mentions five lines then four locations; p6 prose gives AN818-6D for 1/4 tube but figure/QB give AN818-4D.",
+        "check": "Use QB fittings; transfer actual tank port geometry and confirm layout. Final tank straps, venting and leak checks require current installation instructions."
+      }
+    ],
+    "photo": "WM07",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 27,
+    "id": "WING009",
+    "title": "Pitot Mast and Lines",
+    "section": "wings",
+    "slug": "wings/pitot-mast-and-lines",
+    "model": "pitot",
+    "revision": 2,
+    "pdf": "27_Pitot_Mast_and_Lines.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp25–27"
+    ],
+    "steps": [
+      {
+        "title": "FIT PITOT MAST BASE",
+        "view": "mast",
+        "hardware": [
+          [
+            "screw_round",
+            6,
+            "AN526C-632R6"
+          ],
+          [
+            "nutplate",
+            6,
+            "K1000-06"
+          ]
+        ],
+        "note": "LEFT WING · SA06BL EXAMPLE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "MATCH ACTUAL MAST TEMPLATE"
+        ],
+        "number": 1,
+        "image": "WING009_step_01_v2.png"
+      },
+      {
+        "title": "ROUTE PITOT AND AOA LINES",
+        "view": "lines",
+        "hardware": [
+          [
+            "tubenut",
+            2,
+            "AN818-3D"
+          ],
+          [
+            "bushing",
+            2,
+            "AN819-3D"
+          ]
+        ],
+        "note": "KEEP CLEAR OF AILERON CABLE",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY SELECTED PITOT"
+        ],
+        "number": 2,
+        "image": "WING009_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Selected mast/pitot and its drilling template are not identified.",
+        "source": "WM describes SA06BL / GAP26 example; other equipment differs.",
+        "check": "Confirm actual equipment and vendor template; do not transfer geometry from illustration. Wiring remains outside scope."
+      }
+    ],
+    "photo": "WM27",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 28,
+    "id": "WING010",
+    "title": "Conduit Preparation",
+    "section": "wings",
+    "slug": "wings/conduit-preparation",
+    "model": "conduit",
+    "revision": 2,
+    "pdf": "28_Conduit_Preparation.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p38"
+    ],
+    "steps": [
+      {
+        "title": "PLAN ACCESS BEFORE CLOSING",
+        "view": "plan",
+        "hardware": [],
+        "note": "CONFIRM REQUIRED WING SERVICES",
+        "detail": "AFT LIGHTENING-HOLE PATH",
+        "flags": [],
+        "number": 1,
+        "image": "WING010_step_01_v2.png"
+      },
+      {
+        "title": "SECURE OPTIONAL CONDUIT",
+        "view": "fit",
+        "hardware": [
+          [
+            "rivet",
+            "per bracket",
+            "CCP-32"
+          ]
+        ],
+        "note": "SUPPORT AT EACH RIB",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY SYSTEM CLEARANCE"
+        ],
+        "number": 2,
+        "image": "WING010_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Conduit diameter, brackets and equipment are configuration-specific.",
+        "source": "WM p38 describes optional PEX method, not a universal electrical design.",
+        "check": "Confirm required services and clearance from every moving control; no avionics/electrical architecture is specified."
+      }
+    ],
+    "photo": "WM38",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 29,
+    "id": "WING011",
+    "title": "Inspection Panels",
+    "section": "wings",
+    "slug": "wings/inspection-panels",
+    "model": "inspection",
+    "revision": 2,
+    "pdf": "29_Inspection_Panels.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp29–34",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+    ],
+    "steps": [
+      {
+        "title": "MATCH PANEL AND RING",
+        "view": "match",
+        "hardware": [],
+        "note": "LABEL LOCATION · RETAIN ORIENTATION",
+        "detail": "RING OUTSIDE FOR MATCH-DRILLING",
+        "flags": [],
+        "number": 1,
+        "image": "WING011_step_01_v2.png"
+      },
+      {
+        "title": "INSTALL RING INSIDE SKIN",
+        "view": "inside",
+        "hardware": [
+          [
+            "screw_flat",
+            140,
+            "AN507C632R6"
+          ],
+          [
+            "nutplate",
+            140,
+            "K1000-06"
+          ]
+        ],
+        "note": "140 SCREWS · BOTH WINGS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 2,
+        "image": "WING011_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Cover screw head and ring preparation differ by source/kit revision.",
+        "source": "QB countersunk AN507; WM p29 prefers AN526 and varies rivets for .032/.040 rings.",
+        "check": "Verify current ring thickness, screw head and compatible dimple/countersink preparation before machining; preserve ring orientation."
+      }
+    ],
+    "photo": "WM34",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 30,
+    "id": "WING012",
+    "title": "Wing Closing",
+    "section": "wings",
+    "slug": "wings/wing-closing",
+    "model": "closing",
+    "revision": 2,
+    "pdf": "30_Wing_Closing.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp39–40",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+    ],
+    "steps": [
+      {
+        "title": "CLOSE WING ROOT SKIN",
+        "view": "root",
+        "hardware": [],
+        "note": "COMPLETE INTERNAL SYSTEMS FIRST",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY RIVET LENGTH"
+        ],
+        "number": 1,
+        "image": "WING012_step_01_v2.png"
+      },
+      {
+        "title": "CLOSE MAIN LOWER SKIN",
+        "view": "main",
+        "hardware": [
+          [
+            "rivet_flush",
+            316,
+            "MS20426AD-3-3.5"
+          ]
+        ],
+        "note": "COUNT-SHEET TOTAL · BOTH WINGS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY EACH MATERIAL STACK"
+        ],
+        "number": 2,
+        "image": "WING012_step_02_v2.png"
+      },
+      {
+        "title": "CLOSE AFT TANK BAY SKIN",
+        "view": "aft",
+        "hardware": [],
+        "note": "LEAVE AFT DOUBLER ROWS OPEN",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 3,
+        "image": "WING012_step_03_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–03",
+        "issue": "Rivet callouts and local stack lengths require location-specific verification.",
+        "source": "QB p5 stock totals; WM pp39–40 contain inconsistent rivet examples and thicker aft-bay rows.",
+        "check": "Complete internal inspection, verify every local rivet and approved bucking method; schematic rows are not a drilling/rivet-count map."
+      }
+    ],
+    "photo": "WM39",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 31,
+    "id": "WING013",
+    "title": "Aileron Pocket Skins",
+    "section": "wings",
+    "slug": "wings/aileron-pocket-skins",
+    "model": "pocket",
+    "revision": 2,
+    "pdf": "31_Aileron_Pocket_Skins.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp41–42",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+    ],
+    "steps": [
+      {
+        "title": "FIT THREE MATCHED POCKET SKINS",
+        "view": "fit",
+        "hardware": [],
+        "note": "LONG CENTER · TWO SHORT ENDS",
+        "detail": "KEEP TRAILING EDGE STRAIGHT",
+        "flags": [],
+        "number": 1,
+        "image": "WING013_step_01_v2.png"
+      },
+      {
+        "title": "ATTACH POCKET SKINS",
+        "view": "rivet",
+        "hardware": [
+          [
+            "rivet",
+            108,
+            "CCP-42"
+          ],
+          [
+            "rivet_flush",
+            248,
+            "MS20426AD-3-3.5"
+          ]
+        ],
+        "note": "BOTH WINGS · VERIFY LOCAL LENGTH",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "SOURCE CONFLICT — VERIFY"
+        ],
+        "number": 2,
+        "image": "WING013_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Rivet length and implied hole totals differ.",
+        "source": "QB 248 skin rivets at -3.5; WM p42 -3 and p41 7+32+8 locations per edge.",
+        "check": "Retain QB identities, verify actual matched holes, stack lengths, dimple/countersink method and factory count before riveting."
+      }
+    ],
+    "photo": "WM42",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 32,
+    "id": "WING014",
+    "title": "Wing Tips",
+    "section": "wings",
+    "slug": "wings/wing-tips",
+    "model": "tip",
+    "revision": 2,
+    "pdf": "32_Wing_Tips.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp12,43",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p5 Wings"
+    ],
+    "steps": [
+      {
+        "title": "FIT TIP TO MATCHED WING END",
+        "view": "fit",
+        "hardware": [],
+        "note": "EVEN OVERLAP · KEEP TIP SQUARE",
+        "detail": "TRANSFER EXISTING NUTPLATES",
+        "flags": [],
+        "number": 1,
+        "image": "WING014_step_01_v2.png"
+      },
+      {
+        "title": "ATTACH REMOVABLE WING TIP",
+        "view": "attach",
+        "hardware": [
+          [
+            "screw_round",
+            84,
+            "AN526C-632-6"
+          ],
+          [
+            "nutplate",
+            84,
+            "K1000-06"
+          ]
+        ],
+        "note": "84 LOCATIONS · BOTH WINGS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY AILERON CLEARANCE"
+        ],
+        "number": 2,
+        "image": "WING014_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Tip fit and trailing-edge termination depend on supplied composite tip.",
+        "source": "WM p43 distinguishes open/closed trailing edges and different materials.",
+        "check": "Trial-fit actual aileron before trimming; confirm clearance and screw locations. Illustration is not a cutting template."
+      }
+    ],
+    "photo": "WM43",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 33,
+    "id": "FINAL001",
+    "title": "Wing and Lift Strut Attachments",
+    "section": "final-assembly",
+    "slug": "final-assembly/wing-and-lift-strut-attachments",
+    "model": "wing_attach",
+    "revision": 2,
+    "pdf": "33_Wing_and_Lift_Strut_Attachments.pdf",
+    "sources": [
+      "Companion plans16,21",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-WA4"
+    ],
+    "steps": [
+      {
+        "title": "ALIGN SUPPORTED WING ROOT",
+        "view": "root",
+        "hardware": [
+          [
+            "bolt",
+            2,
+            "AN6-15A"
+          ],
+          [
+            "bolt",
+            2,
+            "AN5-12A"
+          ]
+        ],
+        "note": "FRONT / REAR SPAR · BOTH WINGS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY ATTACHMENT STACK"
+        ],
+        "number": 1,
+        "image": "FINAL001_step_01_v2.png"
+      },
+      {
+        "title": "FIT SUPPORTED LIFT STRUTS",
+        "view": "strut",
+        "hardware": [
+          [
+            "bolt",
+            4,
+            "AN6-15A"
+          ],
+          [
+            "washer",
+            4,
+            "AN960-616"
+          ],
+          [
+            "locknut",
+            4,
+            "AN365-624A"
+          ]
+        ],
+        "note": "UPPER + LOWER ENDS · BOTH WINGS",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY INCIDENCE / RIGGING"
+        ],
+        "number": 2,
+        "image": "FINAL001_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Full lifting procedure, strut fitting assembly and incidence setup are not released.",
+        "source": "HK-WA4 gives root/end hardware; strut-fitting washer AN960-428 is unresolved.",
+        "check": "Use current factory supported-wing procedure; confirm all stack/grip details and plan incidence before loading. Do not drill structural holes from scene."
+      }
+    ],
+    "photo": "PLAN21",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 34,
+    "id": "FINAL002",
+    "title": "Wing Root Connections",
+    "section": "final-assembly",
+    "slug": "final-assembly/wing-root-connections",
+    "model": "root_connections",
+    "revision": 2,
+    "pdf": "34_Wing_Root_Connections.pdf",
+    "sources": [
+      "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 pp13,28",
+      "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp3–4 HK-AS4 / HK-FS4"
+    ],
+    "steps": [
+      {
+        "title": "JOIN AILERON CARRY-THROUGH CABLE",
+        "view": "cable",
+        "hardware": [
+          [
+            "turnbuckle",
+            1,
+            "AN140-22S"
+          ]
+        ],
+        "note": "CABIN TURNBUCKLE · SEE PLAN 15",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY RIGGING"
+        ],
+        "number": 1,
+        "image": "FINAL002_step_01_v2.png"
+      },
+      {
+        "title": "JOIN WING ROOT FUEL FEEDS",
+        "view": "fuel",
+        "hardware": [
+          [
+            "hose",
+            2,
+            "05-03598"
+          ],
+          [
+            "clamp",
+            8,
+            "6504"
+          ]
+        ],
+        "note": "SLEEVE STOCK / CLAMPS: KIT TOTAL",
+        "detail": "CONNECTION DETAIL",
+        "flags": [
+          "? VERIFY HOSE APPLICATION"
+        ],
+        "number": 2,
+        "image": "FINAL002_step_02_v2.png"
+      }
+    ],
+    "issues": [
+      {
+        "steps": "01–02",
+        "issue": "Final cable rigging and fuel sleeve lengths/clamp allocation are not established.",
+        "source": "QB lists turnbuckle and hose/clamp totals, not all installation details.",
+        "check": "Obtain current final-assembly instructions. Verify cable safetying, full travel, fuel sleeve specification and leak testing before closing fairings."
+      }
+    ],
+    "photo": "WM13",
+    "status": "REVIEW REQUIRED"
+  },
+  {
+    "number": 35,
+    "id": "FINAL003",
+    "title": "Final Rigging Checks",
+    "section": "final-assembly",
+    "slug": "final-assembly/final-rigging-checks",
+    "model": null,
+    "revision": 2,
+    "pdf": "35_Final_Rigging_Checks.pdf",
+    "sources": [
+      "Companion plans; supplied current and legacy manuals"
+    ],
+    "steps": [],
+    "issues": [
+      {
+        "steps": "BLOCKED",
+        "issue": "A complete consistent Companion rigging/check set has not been established.",
+        "source": "Surface travels, neutral references, balance, cable tensions and configuration-specific adjustments require consolidated current factory values.",
+        "check": "Obtain current Companion final rigging checklist and resolve source conflicts before release."
+      }
+    ],
+    "photo": null,
+    "status": "BLOCKED"
+  },
+  {
+    "number": 36,
+    "id": "EMP006",
+    "title": "Vertical Stabilizer",
+    "section": "empennage",
+    "slug": "empennage/vertical-stabilizer",
+    "model": null,
+    "revision": 2,
+    "pdf": "36_Vertical_Stabilizer.pdf",
+    "sources": [
+      "Companion plan20; QB hardware sheet"
+    ],
+    "steps": [],
+    "issues": [
+      {
+        "steps": "BLOCKED",
+        "issue": "No separate bolt-on vertical-fin operation is established for this QB fuselage.",
+        "source": "Fin appears in welded fuselage structure; no distinct installation callout found.",
+        "check": "Confirm delivered welded fin configuration and inspection requirements. Do not invent a fin attachment or copy another model."
+      }
+    ],
+    "photo": null,
+    "status": "BLOCKED"
+  }
+]

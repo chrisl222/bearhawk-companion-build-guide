@@ -1,0 +1,510 @@
+{
+  "reviewed": [
+    {
+      "id": "G2-CONTROL101",
+      "reference": "https://drive.google.com/drive/folders/1vfpLsJLY3iOhNEbOt9k9aPnhKhofFXyL | photo #101.jpg",
+      "model": "Unknown",
+      "subsystem": "CONTROL_STICKS",
+      "detail": "Full view: torque-tube saddle on metal mounting tab.",
+      "applicability": "Localized saddle relationship compared with Companion plan28; no model-wide equivalence claimed."
+    },
+    {
+      "id": "G1-PEDALS",
+      "reference": "https://drive.google.com/drive/folders/1x7cV4SXHpnLQkiMElW0uLASLUAeldCsg | Rudder Pedals side view.HEIC; Rudder pedals upper view.HEIC",
+      "model": "Five",
+      "subsystem": "RUDDER_PEDALS",
+      "detail": "Full side + upper views: paired shafts, four pedals, cylinders forward of toe pedals.",
+      "applicability": "Use only shared pedal/cylinder relationship that agrees with Companion plan29; no Five frame dimensions adopted."
+    },
+    {
+      "id": "G2-FLAP158",
+      "reference": "https://drive.google.com/drive/folders/1rfsZ0aSDObBgWhoKHNnYVGT8rrNB6DGO | photo #158.jpg",
+      "model": "Unknown",
+      "subsystem": "FLAP_CONTROLS",
+      "detail": "Full oblique close-up: handle, quadrant, detent engagement and support.",
+      "applicability": "Localized handle/quadrant relationship compared with Companion plan30; routing not established."
+    },
+    {
+      "id": "G2-BELLCRANK",
+      "reference": "https://drive.google.com/drive/folders/1kvRGRbWYW6XQBfMvm5CYn8V3RMzb37jS | photo #46.jpg; photo #73.jpg",
+      "model": "Unknown",
+      "subsystem": "ELEVATOR_CONTROLS",
+      "detail": "Grid thumbnails: two rod-end pushrod; two-plate bellcrank and pivot spacers.",
+      "applicability": "Candidates for detailed follow-up; thumbnail review alone does not release spacer allocation."
+    },
+    {
+      "id": "G2-TAIL",
+      "reference": "https://drive.google.com/drive/folders/1VvJ7_bwjeg0k0vut4JDZ4kkSMxRp7T1Y | photos #211–220.jpg",
+      "model": "Unknown",
+      "subsystem": "EMPENNAGE",
+      "detail": "Grid thumbnails: hinge line, upper/lower brace tabs and rear control connections.",
+      "applicability": "Localized connections consistent with Companion plans22/24; full-view factory-manual photos also used below."
+    },
+    {
+      "id": "G2-TAIL219",
+      "reference": "https://drive.google.com/drive/folders/1VvJ7_bwjeg0k0vut4JDZ4kkSMxRp7T1Y | photos #219.jpg; #220.jpg",
+      "model": "Unknown",
+      "subsystem": "EMPENNAGE",
+      "detail": "Grid thumbnails: upper rudder/brace terminal and lower brace terminal.",
+      "applicability": "Orientation aid only; no terminal lengths, tension or fastener identity derived."
+    },
+    {
+      "id": "G2-FUEL35",
+      "reference": "https://drive.google.com/file/d/1nskz5nUUq13BUy_y7x3VJDuH7Oo8qWSj/view",
+      "model": "Unknown",
+      "subsystem": "FUEL_SYSTEM",
+      "detail": "Full oblique view: selector mounted to triangular floor-frame bracket.",
+      "applicability": "Bracket relationship only, supported by factory manual; valve ports/configuration unconfirmed."
+    },
+    {
+      "id": "G1-GEAR",
+      "reference": "https://drive.google.com/file/d/10qsyBWlpV291c6wcx8sdO7eky3v35gxf/view",
+      "model": "Five",
+      "subsystem": "LANDING_GEAR",
+      "detail": "Main Gear.HEIC, full front view: paired legs and diagonal shock-strut endpoints.",
+      "applicability": "Only generic leg/strut relationship matching Companion plans25/26 used; no Five alignment, dimensions or internal strut design adopted."
+    },
+    {
+      "id": "G3-FLAP-ROD",
+      "reference": "https://drive.google.com/file/d/1qUskTP6uEV9Hz5Of9FnCk0lWLVEVqIM6/view",
+      "model": "Unknown",
+      "subsystem": "WING_FLAPS",
+      "detail": "Rh Wing Flap Control Rod.JPG, full spanwise view: tube, crossmember and actuator arm relationship.",
+      "applicability": "Local relationship compared with Companion plan15 and current wing manual pp19–21."
+    },
+    {
+      "id": "G3-LIFT-STRUT",
+      "reference": "https://drive.google.com/drive/folders/1kF0mZW0g2eYksAfbHnH15K-rl5mJ_31q | Rh Strut Initial Fit Check.JPG",
+      "model": "Unknown / legacy",
+      "subsystem": "FINAL_ASSEMBLY",
+      "detail": "Full oblique wing-to-fuselage view: single lift strut under main spar during supported fit.",
+      "applicability": "Compared with Companion plan16 and HK-WA4 counts. Removed an incorrect second strut from the simplified scene; no photo dimensions or rigging settings adopted."
+    },
+    {
+      "id": "G3-AILERON-CRANK",
+      "reference": "https://drive.google.com/drive/folders/1QaOs97Q0JW7ldl0M_zi3jpxNZLQLytPX | Rh Wing Aileron Bell Crank.JPG",
+      "model": "Unknown / legacy",
+      "subsystem": "WING_AILERONS",
+      "detail": "Full installed view: bearing axis through wing thickness and output arm through rear-spar factory opening.",
+      "applicability": "Agrees with current wing manual p16; corrected the simplified pivot axis. Folder search did not establish an installed balance-tube photograph."
+    },
+    {
+      "id": "WM03",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p3",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_CLOSING",
+      "detail": "CAD diagram only: packed wing and removable matched parts. No installation photograph reviewed on this page.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM07",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p7",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_FUEL",
+      "detail": "Real photos: tank feed fittings and inboard bay; lines pass root and tank-bay ribs.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM09",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p9",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_FUEL",
+      "detail": "Real main-tank cover/bay photos. Auxiliary-tank examples excluded.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM13",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p13",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_AILERONS",
+      "detail": "Real interior/carry-through view and lift-strut pulley bracket close-up.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM16",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p16",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_AILERONS",
+      "detail": "Bench bearing/bellcrank photo plus installed bellcrank close-ups; also exploded CAD.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM20",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p20",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_FLAPS",
+      "detail": "Real tube/support setup and paired actuator arms with pushrod cross-tube and bumper.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM27",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p27",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "PITOT",
+      "detail": "Real pitot/fitting/line examples; SA06BL/GAP26 example is equipment-conditional.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM34",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p34",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_CLOSING",
+      "detail": "Real nested rectangular inspection ring installed inside wing skin.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM35",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p35",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_FLAPS",
+      "detail": "Real trailing-edge sheet overlap close-up; CAD provides whole-surface context.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM37",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p37",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_AILERONS",
+      "detail": "CAD balance-tube relationship only on reviewed figure; no installed balance photo established.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM38",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p38",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_CLOSING",
+      "detail": "Real conduit passing ribs; rib bracket and control clearance context.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM39",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p39",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_CLOSING",
+      "detail": "Real lower-skin closure and riveting/access views.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM42",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p42",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_CLOSING",
+      "detail": "Real curved aileron-pocket skin fitting with clecos; also CAD three-piece overview.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "WM43",
+      "reference": "Wing+Build+Manual+Rev+2-compressed.pdf, p43",
+      "model": "Factory manual: multiple Bearhawk models",
+      "subsystem": "WING_CLOSING",
+      "detail": "Real composite wing-tip overlap and trailing-edge termination details.",
+      "applicability": "Use applicable Companion instructions/plan constraints; photograph supplies installed appearance only."
+    },
+    {
+      "id": "FM13-TAIL",
+      "reference": "BHManual-Fuselage1-25Rev1.pdf p13",
+      "model": "Legacy / model not identified",
+      "subsystem": "EMPENNAGE",
+      "detail": "Full installation photo: stabilizer/elevator outline and brace relationship.",
+      "applicability": "Companion plans20/22 constrain use; legacy incidence value not adopted."
+    },
+    {
+      "id": "FM15-HINGES",
+      "reference": "BHManual-Fuselage1-25Rev1.pdf p15",
+      "model": "Legacy / model not identified",
+      "subsystem": "EMPENNAGE",
+      "detail": "Rear-fin hinge/tab view and horizontal hinge head/nut orientation.",
+      "applicability": "Localized hardware axis/hinge appearance; current Companion sheet controls identity."
+    },
+    {
+      "id": "FM16-RUDDER",
+      "reference": "BHManual-Fuselage1-25Rev1.pdf p16; G2-TAIL photos #217–218",
+      "model": "Legacy / gallery model unknown",
+      "subsystem": "RUDDER_PEDALS",
+      "detail": "Rear control-horn and cable connection context; gallery thumbnails show rudder horn.",
+      "applicability": "Rudder-specific shape constrained by Companion plan24; full route remains unresolved."
+    },
+    {
+      "id": "FM16-ELEVATOR",
+      "reference": "BHManual-Fuselage1-25Rev1.pdf p16",
+      "model": "Legacy / model not identified",
+      "subsystem": "ELEVATOR_CONTROLS",
+      "detail": "Real aft view: elevator horns, rear cables and trim tube.",
+      "applicability": "Local plan22 relationships used; cable cut lengths not inferred."
+    },
+    {
+      "id": "FM16-TRIM",
+      "reference": "BHManual-Fuselage1-25Rev1.pdf p16",
+      "model": "Legacy / model not identified",
+      "subsystem": "ELEVATOR_CONTROLS",
+      "detail": "Real overhead trim wheel and rear trim linkage views.",
+      "applicability": "Plans21/22 control geometry; friction-stack conflict retained."
+    },
+    {
+      "id": "FM23-FLOOR",
+      "reference": "BHManual-Fuselage1-25Rev1.pdf p23",
+      "model": "Legacy / model not identified",
+      "subsystem": "CONTROL_STICKS",
+      "detail": "Real overall floor and close-up around control torque tube.",
+      "applicability": "Panel/access relationship only; shapes fit actual Companion frame."
+    },
+    {
+      "id": "FM26-SEAT",
+      "reference": "BHManual-fuselage26-45Rev2.pdf, printed p26",
+      "model": "Legacy / model not identified",
+      "subsystem": "SEATS",
+      "detail": "Seat-base/back frame hinge photograph.",
+      "applicability": "Localized relationship checked against supplied Companion seat drawing; latch/stop detail unresolved."
+    },
+    {
+      "id": "FM28-STRINGERS",
+      "reference": "BHManual-fuselage26-45Rev2.pdf, printed pp28–29",
+      "model": "Legacy / model not identified",
+      "subsystem": "FINAL_ASSEMBLY",
+      "detail": "Real overall stringer arrangement, underside saddle and U-saddle end trim.",
+      "applicability": "Plan-defined shape/current kit standoffs constrain use; no photo dimensions adopted."
+    },
+    {
+      "id": "PLAN21",
+      "reference": "Bob Barrows Official Companion Plans - Sep 12 2026 - 19-03.pdf, plan21",
+      "model": "Companion",
+      "subsystem": "FINAL_ASSEMBLY",
+      "detail": "Drawing only: cabin carry-through and wing-root fittings.",
+      "applicability": "Controlling design drawing, not a photograph; no real Companion full wing-lifting sequence established."
+    },
+    {
+      "id": "G1-TAILWHEEL-CANDIDATE",
+      "reference": "https://drive.google.com/drive/folders/1HQ8DMsCrgTQ0mHv-YTcuNDh1QpalqXv9 | Tailwheel.HEIC; Tailwheel2.HEIC",
+      "model": "Five",
+      "subsystem": "TAILWHEEL",
+      "detail": "Filenames indexed; images not opened.",
+      "applicability": "Not used: equivalence to current Companion stinger installation unestablished."
+    }
+  ],
+  "candidates": [
+    {
+      "gallery": "G1",
+      "name": "Ailerons",
+      "reference": "https://drive.google.com/drive/folders/1iKdS5D0ebfhH90e_TbdiISNT_5gZ2Wct",
+      "subsystem": "WING_AILERONS",
+      "model": "Five",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G1",
+      "name": "Brakes",
+      "reference": "https://drive.google.com/drive/folders/1bivR4VRCtDGkuV4v1E1feADx9gSDd8zv",
+      "subsystem": "RUDDER_PEDALS",
+      "model": "Five",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G1",
+      "name": "Flaps",
+      "reference": "https://drive.google.com/drive/folders/1_awXLzKIII0cw4-GwhFk96AojRcfkYbu",
+      "subsystem": "WING_FLAPS",
+      "model": "Five",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G1",
+      "name": "Wing Inspection Panels",
+      "reference": "https://drive.google.com/drive/folders/1qIRJiwNNovR3q7qoAQJaH6oEmDma57Vj",
+      "subsystem": "WING_CLOSING",
+      "model": "Five",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Formers 1–5",
+      "reference": "https://drive.google.com/drive/folders/1CFPC_7aUmswA6IGGn2diJ00Qs4WyxmmV",
+      "subsystem": "FINAL_ASSEMBLY",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Stringers 6–11",
+      "reference": "https://drive.google.com/drive/folders/13HMWtHE-rUnRnQHOjY2ZJDB8Uy0Cv4n3",
+      "subsystem": "FINAL_ASSEMBLY",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Fuel lines 36–38",
+      "reference": "https://drive.google.com/drive/folders/1vzwoFV_uq8De42S2ShU91ysQfg0a_Ypz",
+      "subsystem": "FUEL_SYSTEM",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Floorboards 39–43",
+      "reference": "https://drive.google.com/drive/folders/1XwMw02YHBxkib__88o-f3WBAfZlmn_a3",
+      "subsystem": "CONTROL_STICKS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Fuel valve 70–72",
+      "reference": "https://drive.google.com/drive/folders/17FKJaE0AkyVy1VVN7UJ0NhiHUrVyJYpw",
+      "subsystem": "FUEL_SYSTEM",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Shock struts 89–100",
+      "reference": "https://drive.google.com/drive/folders/1cFiSJCVaKt8c9aDjkEp5sWpATTcebr2d",
+      "subsystem": "LANDING_GEAR",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Trim 103,150–162",
+      "reference": "https://drive.google.com/drive/folders/19fjLUwr8JobXulyUvfDRtq1maBWF2-zC",
+      "subsystem": "ELEVATOR_CONTROLS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Gear and belly 106–119",
+      "reference": "https://drive.google.com/drive/folders/1EquwWyM9SZDjiWrn-BVp_ZvYxTjJZnYV",
+      "subsystem": "LANDING_GEAR",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Tunnel 115–118",
+      "reference": "https://drive.google.com/drive/folders/1hQN6z7xCsh9qHGl7p53_wD1F01vS6PAv",
+      "subsystem": "CONTROL_STICKS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Rudder cables 134–138",
+      "reference": "https://drive.google.com/drive/folders/1YNjutAviZX0KIWxl82SWkJR7gmomKF8M",
+      "subsystem": "RUDDER_PEDALS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Elevator cables 139–149",
+      "reference": "https://drive.google.com/drive/folders/19016NP7AAq0PAtwwAWP8rMzBl_tDWZYJ",
+      "subsystem": "ELEVATOR_CONTROLS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Brake lines 164",
+      "reference": "https://drive.google.com/drive/folders/1O2maffERYZQivMve8DA4P7NSsDd2cLDF",
+      "subsystem": "RUDDER_PEDALS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Tank covers 165–168",
+      "reference": "https://drive.google.com/drive/folders/1wf9f09ULPIugpOh-re2QRKO-kDLaTVL8",
+      "subsystem": "WING_FUEL",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Flap cable pulleys 169–171",
+      "reference": "https://drive.google.com/drive/folders/1FJV15t7SsB4P3bPrFMZSUudCtOW1FEJh",
+      "subsystem": "FLAP_CONTROLS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Aileron pulley 172",
+      "reference": "https://drive.google.com/drive/folders/1yilGSloufybd9YGIo5qqsLgjree5NXrZ",
+      "subsystem": "WING_AILERONS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Inspection plates 173–178",
+      "reference": "https://drive.google.com/drive/folders/1EOoH64Nu12MUV2nyu_8mGmfcB5Tx9-Wh",
+      "subsystem": "WING_CLOSING",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Flap tube 188–191",
+      "reference": "https://drive.google.com/drive/folders/1fd7eXgSbLb6s_rdA2rFzRw9reAipmy3O",
+      "subsystem": "WING_FLAPS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Flap tube drilling 192–196",
+      "reference": "https://drive.google.com/drive/folders/1_2et5H7Ahg5w8yY-uo53g6PFOqaPOAmG",
+      "subsystem": "WING_FLAPS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Fuel line holes 197–201",
+      "reference": "https://drive.google.com/drive/folders/1ELVHAXwMvZzq4wz9h1QCbChy8a6_XS0t",
+      "subsystem": "WING_FUEL",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G2",
+      "name": "Aileron holes 204–205",
+      "reference": "https://drive.google.com/drive/folders/134TtKrU0jeIxpCnW3NH9zgKomLFieLiF",
+      "subsystem": "WING_AILERONS",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G3",
+      "name": "Fuel tanks",
+      "reference": "https://drive.google.com/drive/folders/1yioOW4rH5OmehkC00mFHhxBgB6jm-Nnb",
+      "subsystem": "WING_FUEL",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G3",
+      "name": "Wing inspection covers",
+      "reference": "https://drive.google.com/drive/folders/1EpKOwqIvkAoSli4QMlOXGhagxRsXlwrL",
+      "subsystem": "WING_CLOSING",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G3",
+      "name": "Wings general",
+      "reference": "https://drive.google.com/drive/folders/1MX9xI0dfX33R1tNQ_T3NOcCQUtlioBHA",
+      "subsystem": "FINAL_ASSEMBLY",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    },
+    {
+      "gallery": "G3",
+      "name": "Fuselage additional",
+      "reference": "https://drive.google.com/drive/folders/1I93EMAOxYi2FUzscuGkfxW9MlSPIvfWa",
+      "subsystem": "FINAL_ASSEMBLY",
+      "model": "Unknown",
+      "review": "Folder indexed; contents not visually reviewed"
+    }
+  ]
+}

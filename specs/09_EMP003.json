@@ -1,0 +1,67 @@
+{
+  "number": 9,
+  "id": "EMP003",
+  "title": "Rudder",
+  "section": "empennage",
+  "slug": "empennage/rudder",
+  "model": "rudder",
+  "revision": 2,
+  "pdf": "09_Rudder.pdf",
+  "sources": [
+    "Companion plan24",
+    "BHManual-Fuselage1-25Rev1.pdf pp15–16",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf pp1–2 HK-RS4 / HK-EA4"
+  ],
+  "steps": [
+    {
+      "title": "FIT RUDDER TO HINGE LINE",
+      "view": "fit",
+      "hardware": [],
+      "note": "SEE PLAN 24 · ALIGN BOTH HINGES",
+      "detail": "HINGE RELATIONSHIP",
+      "flags": [
+        "? VERIFY LOWER HINGE HARDWARE"
+      ],
+      "number": 1,
+      "image": "EMP003_step_01_v2.png"
+    },
+    {
+      "title": "ATTACH UPPER RUDDER HINGE",
+      "view": "upper",
+      "hardware": [
+        [
+          "bolt",
+          1,
+          "AN4-17A"
+        ],
+        [
+          "washer",
+          1,
+          "AN960-416L"
+        ],
+        [
+          "locknut",
+          1,
+          "AN365-428A"
+        ]
+      ],
+      "note": "FLYING-WIRE TABS: HEAD + NUT",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "SOURCE CONFLICT — VERIFY"
+      ],
+      "number": 2,
+      "image": "EMP003_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Lower rudder bolt conflicts within current hardware sheet.",
+      "source": "HK-RS4 p1: AN4-15A; HK-EA4 p2: AN4-13A.",
+      "check": "Obtain corrected factory lower hinge callout. Lower hinge remains unfastened in illustration; upper set is consistent."
+    }
+  ],
+  "photo": "G2-TAIL219",
+  "status": "REVIEW REQUIRED"
+}

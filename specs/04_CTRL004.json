@@ -1,0 +1,117 @@
+{
+  "number": 4,
+  "id": "CTRL004",
+  "title": "Flap Cockpit Controls",
+  "section": "controls",
+  "slug": "controls/flap-cockpit-controls",
+  "model": "flap_handle",
+  "revision": 2,
+  "pdf": "04_Flap_Cockpit_Controls.pdf",
+  "sources": [
+    "Companion plan 30",
+    "BHManual-Fuselage1-25Rev1.pdf pp21–22",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p3 HK-FCC"
+  ],
+  "steps": [
+    {
+      "title": "FIT HANDLE AND QUADRANT",
+      "view": "handle",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN3-5A"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-10"
+        ],
+        [
+          "locknut",
+          2,
+          "AN365-1032A"
+        ]
+      ],
+      "note": "SEE PLAN 30",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY DETENT ENGAGEMENT"
+      ],
+      "number": 1,
+      "image": "CTRL004_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT HANDLE CABLE",
+      "view": "cable",
+      "hardware": [
+        [
+          "bolt",
+          1,
+          "AN3-5"
+        ],
+        [
+          "washer",
+          3,
+          "AN960-10L"
+        ],
+        [
+          "castle",
+          1,
+          "AN310-3"
+        ],
+        [
+          "cotter",
+          1,
+          "MS24665-132"
+        ]
+      ],
+      "note": "1× AN115-21 · HANDLE END",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY WASHER POSITION"
+      ],
+      "number": 2,
+      "image": "CTRL004_step_02_v2.png"
+    },
+    {
+      "title": "FIT FLAP CABLE SPLITTER",
+      "view": "splitter",
+      "hardware": [
+        [
+          "shackle",
+          1,
+          "AN115-21"
+        ],
+        [
+          "turnbuckle",
+          2,
+          "AN130-22S"
+        ]
+      ],
+      "note": "SEE PLAN 30 · REAR BAGGAGE",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY ROUTING"
+      ],
+      "number": 3,
+      "image": "CTRL004_step_03_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01",
+      "issue": "Pin engagement, spring fit and travel-stop setting need kit fit verification.",
+      "source": "HK-FCC lists R-FHS and AN3-4A travel limit; plan30.",
+      "check": "Check all detents, spring return and supplied stop before use."
+    },
+    {
+      "steps": "02–03",
+      "issue": "Full Companion pulley route and washer allocation remain unresolved.",
+      "source": "Plan30 shows splitter relationship; legacy full routing is not a complete Companion installation map.",
+      "check": "Trace cable through current kit pulleys and guards; confirm all stacks. Do not fabricate cable lengths from scene."
+    }
+  ],
+  "photo": "G2-FLAP158",
+  "status": "REVIEW REQUIRED"
+}

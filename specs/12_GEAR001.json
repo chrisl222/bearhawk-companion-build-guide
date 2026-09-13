@@ -1,0 +1,91 @@
+{
+  "number": 12,
+  "id": "GEAR001",
+  "title": "Main Landing Gear",
+  "section": "landing-gear",
+  "slug": "landing-gear/main-landing-gear",
+  "model": "gear",
+  "revision": 2,
+  "pdf": "12_Main_Landing_Gear.pdf",
+  "sources": [
+    "Companion plans25–26",
+    "BHManual-Fuselage1-25Rev1.pdf pp9–11",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-LG4"
+  ],
+  "steps": [
+    {
+      "title": "FIT FORWARD GEAR ATTACHMENTS",
+      "view": "front",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN6-26"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-616"
+        ],
+        [
+          "castle",
+          2,
+          "AN310-6"
+        ],
+        [
+          "cotter",
+          2,
+          "MS24665-283"
+        ]
+      ],
+      "note": "AIRFRAME SUPPORTED · BOTH LEGS",
+      "detail": "CONNECTION DETAIL",
+      "flags": [],
+      "number": 1,
+      "image": "GEAR001_step_01_v2.png"
+    },
+    {
+      "title": "FIT REAR GEAR ATTACHMENTS",
+      "view": "rear",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN6-25"
+        ],
+        [
+          "washer",
+          4,
+          "AN960-616"
+        ],
+        [
+          "castle",
+          2,
+          "AN310-6"
+        ],
+        [
+          "cotter",
+          2,
+          "MS24665-283"
+        ]
+      ],
+      "note": "KEEP AIRFRAME SUPPORTED",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY WASHER POSITION"
+      ],
+      "number": 2,
+      "image": "GEAR001_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Exact washer allocation, gear alignment and support setup need current-kit verification.",
+      "source": "HK-LG4 gives two washers per upper joint; legacy tread values are not adopted.",
+      "check": "Verify bolt grip and washer placement without substituting parts. Fit shock struts before loading gear; use current alignment instructions."
+    }
+  ],
+  "photo": "G1-GEAR",
+  "status": "REVIEW REQUIRED"
+}

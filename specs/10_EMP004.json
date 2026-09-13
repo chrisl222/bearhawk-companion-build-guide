@@ -1,0 +1,85 @@
+{
+  "number": 10,
+  "id": "EMP004",
+  "title": "Tail Brace Wires",
+  "section": "empennage",
+  "slug": "empennage/tail-brace-wires",
+  "model": "tail_wires",
+  "revision": 2,
+  "pdf": "10_Tail_Brace_Wires.pdf",
+  "sources": [
+    "Companion plans20,22,24",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p2 HK-EA4"
+  ],
+  "steps": [
+    {
+      "title": "IDENTIFY BRACE WIRE TERMINALS",
+      "view": "parts",
+      "hardware": [
+        [
+          "rodend",
+          4,
+          "AN665-34R"
+        ],
+        [
+          "rodend",
+          4,
+          "AN665-34L"
+        ],
+        [
+          "checknut",
+          4,
+          "AN315-4"
+        ],
+        [
+          "checknut",
+          4,
+          "AN315-4L"
+        ]
+      ],
+      "note": "KEEP RIGHT / LEFT THREADS PAIRED",
+      "detail": "TERMINAL RELATIONSHIP",
+      "flags": [],
+      "number": 1,
+      "image": "EMP004_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT WIRES TO TABS",
+      "view": "fit",
+      "hardware": [
+        [
+          "pin",
+          8,
+          "AN394-17"
+        ],
+        [
+          "washer",
+          8,
+          "AN960-416L"
+        ],
+        [
+          "cotter",
+          8,
+          "MS24665-132"
+        ]
+      ],
+      "note": "BOTH SIDES · SEE PLANS 22 / 24",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY WIRE ROUTING"
+      ],
+      "number": 2,
+      "image": "EMP004_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01–02",
+      "issue": "Wire lengths, individual terminal allocation and final tension need current-kit confirmation.",
+      "source": "HK-EA4 lists totals; supplied photos do not establish lengths or tension.",
+      "check": "Match each wire and thread to supplied assembly; confirm routing and tension from controlling documentation."
+    }
+  ],
+  "photo": "G2-TAIL219",
+  "status": "REVIEW REQUIRED"
+}

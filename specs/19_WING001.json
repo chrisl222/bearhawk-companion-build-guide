@@ -1,0 +1,38 @@
+{
+  "number": 19,
+  "id": "WING001",
+  "title": "Wing Preparation",
+  "section": "wings",
+  "slug": "wings/wing-preparation",
+  "model": "wing_prep",
+  "revision": 2,
+  "pdf": "19_Wing_Preparation.pdf",
+  "sources": [
+    "Wing+Build+Manual+Rev+2-compressed.pdf, 11/5/24 p3"
+  ],
+  "steps": [
+    {
+      "title": "IDENTIFY WING AND MATCHED PARTS",
+      "view": "labels",
+      "hardware": [],
+      "note": "KEEP GOLD SERIAL TAG",
+      "detail": "WING / COVER / POCKET SKIN",
+      "flags": [],
+      "number": 1,
+      "image": "WING001_step_01_v2.png"
+    },
+    {
+      "title": "OPEN AND INVENTORY WING BOX",
+      "view": "inventory",
+      "hardware": [],
+      "note": "MATCH LEFT / RIGHT · RETAIN LABELS",
+      "detail": "PARTS PACKED IN WING",
+      "flags": [],
+      "number": 2,
+      "image": "WING001_step_02_v2.png"
+    }
+  ],
+  "issues": [],
+  "photo": "WM03",
+  "status": "RELEASED"
+}

@@ -1,0 +1,99 @@
+{
+  "number": 3,
+  "id": "CTRL003",
+  "title": "Rudder Cable Connections",
+  "section": "controls",
+  "slug": "controls/rudder-cable-connections",
+  "model": "rudder_cable",
+  "revision": 2,
+  "pdf": "03_Rudder_Cable_Connections.pdf",
+  "sources": [
+    "Companion plans 29, 24",
+    "BHManual-Fuselage1-25Rev1.pdf p20",
+    "Companion Hardware Callout Rev2, supplied Companion+Hardware+Customer+-+Sheet1-2.pdf p1 HK-RS4"
+  ],
+  "steps": [
+    {
+      "title": "CONNECT CABLE TO PEDAL TAB",
+      "view": "pedal",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN3-5"
+        ],
+        [
+          "washer",
+          6,
+          "AN960-10L"
+        ],
+        [
+          "castle",
+          2,
+          "AN310-3"
+        ],
+        [
+          "cotter",
+          2,
+          "MS24665-132"
+        ]
+      ],
+      "note": "2× AN115-21 · BOTH SIDES",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY WASHER POSITION"
+      ],
+      "number": 1,
+      "image": "CTRL003_step_01_v2.png"
+    },
+    {
+      "title": "CONNECT CABLE TO RUDDER HORN",
+      "view": "horn",
+      "hardware": [
+        [
+          "bolt",
+          2,
+          "AN4-6"
+        ],
+        [
+          "washer",
+          2,
+          "AN960-416L"
+        ],
+        [
+          "castle",
+          2,
+          "AN310-4"
+        ],
+        [
+          "cotter",
+          2,
+          "MS24665-208"
+        ]
+      ],
+      "note": "2× AN115-32 · SEE PLAN 24",
+      "detail": "CONNECTION DETAIL",
+      "flags": [
+        "? VERIFY SHACKLE PREPARATION"
+      ],
+      "number": 2,
+      "image": "CTRL003_step_02_v2.png"
+    }
+  ],
+  "issues": [
+    {
+      "steps": "01",
+      "issue": "Three thin washers are called out, but exact allocation across the tab joint is not established.",
+      "source": "HK-RS4 cable-to-tab row.",
+      "check": "Confirm stack against current factory installation; washers remain in parts tray."
+    },
+    {
+      "steps": "02",
+      "issue": "Shackle preparation and full fuselage routing are not released by these endpoint illustrations.",
+      "source": "HK-RS4 says AN115-32: drill to AN4; route not fully constrained by supplied Companion drawings.",
+      "check": "Confirm factory drilling detail, route through installed fairleads, spring connection and cable termination inspection."
+    }
+  ],
+  "photo": "FM16-RUDDER",
+  "status": "REVIEW REQUIRED"
+}
