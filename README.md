@@ -4,6 +4,8 @@ Bearhawk Companion Build Guide
 Primary-build visual guide, following the approved CTRL001 v2 style.
 
 - [Open the guide](docs/index.html)
+- [Open the Photo Library](docs/photos/index.html)
+- [Photo Library import and maintenance guide](PHOTO_LIBRARY.md)
 - [Download the manual index](pdf/00_Manual_Index.pdf)
 - [Human review queue](HUMAN_REVIEW_REQUIRED.md)
 - [Photo index](PHOTO_INDEX.md)
@@ -64,4 +66,6 @@ The existing GitHub Actions workflow publishes `docs/` on a push to `main`.
 GitHub Pages must use GitHub Actions as its deployment source. All local links
 are relative, so the site works at the repository URL prefix as well as locally.
 The website uses lightweight previews with links to full-resolution PNGs.
-No external service or JavaScript is required to read the guide.
+No external service or JavaScript is required to read the guide. The Photo
+Library uses optional JavaScript for search, filters and the larger viewer;
+category and individual-photo pages also work without it.

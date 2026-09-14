@@ -1,0 +1,404 @@
+[
+  {
+    "id": "fuselage/controls/control-sticks",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Control Sticks"
+  },
+  {
+    "id": "fuselage/controls/elevator-bellcrank",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Elevator Bellcrank"
+  },
+  {
+    "id": "fuselage/controls/elevator-pushrods",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Elevator Pushrods"
+  },
+  {
+    "id": "fuselage/controls/rudder-pedals",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Rudder Pedals"
+  },
+  {
+    "id": "fuselage/controls/flap-handle",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Flap Handle"
+  },
+  {
+    "id": "fuselage/controls/flap-cables",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Flap Cables"
+  },
+  {
+    "id": "fuselage/controls/control-cables",
+    "section": "Fuselage",
+    "subsystem": "Controls",
+    "component": "Control Cables"
+  },
+  {
+    "id": "fuselage/fuel-system/fuel-selector",
+    "section": "Fuselage",
+    "subsystem": "Fuel System",
+    "component": "Fuel Selector"
+  },
+  {
+    "id": "fuselage/fuel-system/gascolator",
+    "section": "Fuselage",
+    "subsystem": "Fuel System",
+    "component": "Gascolator"
+  },
+  {
+    "id": "fuselage/fuel-system/door-post-plumbing",
+    "section": "Fuselage",
+    "subsystem": "Fuel System",
+    "component": "Door-Post Plumbing"
+  },
+  {
+    "id": "fuselage/fuel-system/wing-root-connections",
+    "section": "Fuselage",
+    "subsystem": "Fuel System",
+    "component": "Wing-Root Connections"
+  },
+  {
+    "id": "fuselage/brake-system/master-cylinders",
+    "section": "Fuselage",
+    "subsystem": "Brake System",
+    "component": "Master Cylinders"
+  },
+  {
+    "id": "fuselage/brake-system/brake-lines",
+    "section": "Fuselage",
+    "subsystem": "Brake System",
+    "component": "Brake Lines"
+  },
+  {
+    "id": "fuselage/cabin/seats",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Seats"
+  },
+  {
+    "id": "fuselage/cabin/floorboards",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Floorboards"
+  },
+  {
+    "id": "fuselage/cabin/doors",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Doors"
+  },
+  {
+    "id": "fuselage/cabin/windows",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Windows"
+  },
+  {
+    "id": "fuselage/cabin/windshield",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Windshield"
+  },
+  {
+    "id": "fuselage/cabin/boot-cowl",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Boot Cowl"
+  },
+  {
+    "id": "fuselage/cabin/instrument-panel",
+    "section": "Fuselage",
+    "subsystem": "Cabin",
+    "component": "Instrument Panel"
+  },
+  {
+    "id": "fuselage/electrical/electrical-routing",
+    "section": "Fuselage",
+    "subsystem": "Electrical",
+    "component": "Electrical Routing"
+  },
+  {
+    "id": "fuselage/electrical/avionics",
+    "section": "Fuselage",
+    "subsystem": "Electrical",
+    "component": "Avionics"
+  },
+  {
+    "id": "fuselage/landing-gear/main-gear",
+    "section": "Fuselage",
+    "subsystem": "Landing Gear",
+    "component": "Main Gear"
+  },
+  {
+    "id": "fuselage/landing-gear/shock-struts",
+    "section": "Fuselage",
+    "subsystem": "Landing Gear",
+    "component": "Shock Struts"
+  },
+  {
+    "id": "fuselage/landing-gear/tailwheel",
+    "section": "Fuselage",
+    "subsystem": "Landing Gear",
+    "component": "Tailwheel"
+  },
+  {
+    "id": "empennage/tail-surfaces/horizontal-stabilizer",
+    "section": "Empennage",
+    "subsystem": "Tail Surfaces",
+    "component": "Horizontal Stabilizer"
+  },
+  {
+    "id": "empennage/tail-surfaces/elevators",
+    "section": "Empennage",
+    "subsystem": "Tail Surfaces",
+    "component": "Elevators"
+  },
+  {
+    "id": "empennage/tail-surfaces/rudder",
+    "section": "Empennage",
+    "subsystem": "Tail Surfaces",
+    "component": "Rudder"
+  },
+  {
+    "id": "empennage/trim-system/trim-linkages",
+    "section": "Empennage",
+    "subsystem": "Trim System",
+    "component": "Trim Linkages"
+  },
+  {
+    "id": "empennage/trim-system/trim-wheel",
+    "section": "Empennage",
+    "subsystem": "Trim System",
+    "component": "Trim Wheel"
+  },
+  {
+    "id": "empennage/bracing-and-routing/tail-brace-wires",
+    "section": "Empennage",
+    "subsystem": "Bracing and Routing",
+    "component": "Tail Brace Wires"
+  },
+  {
+    "id": "empennage/bracing-and-routing/control-cables",
+    "section": "Empennage",
+    "subsystem": "Bracing and Routing",
+    "component": "Control Cables"
+  },
+  {
+    "id": "empennage/bracing-and-routing/fairings",
+    "section": "Empennage",
+    "subsystem": "Bracing and Routing",
+    "component": "Fairings"
+  },
+  {
+    "id": "wings/flap-system/flap-torque-tube",
+    "section": "Wings",
+    "subsystem": "Flap System",
+    "component": "Flap Torque Tube"
+  },
+  {
+    "id": "wings/flap-system/flap-linkages",
+    "section": "Wings",
+    "subsystem": "Flap System",
+    "component": "Flap Linkages"
+  },
+  {
+    "id": "wings/aileron-system/bellcranks",
+    "section": "Wings",
+    "subsystem": "Aileron System",
+    "component": "Bellcranks"
+  },
+  {
+    "id": "wings/aileron-system/pulleys",
+    "section": "Wings",
+    "subsystem": "Aileron System",
+    "component": "Pulleys"
+  },
+  {
+    "id": "wings/aileron-system/cables",
+    "section": "Wings",
+    "subsystem": "Aileron System",
+    "component": "Cables"
+  },
+  {
+    "id": "wings/aileron-system/carry-through-cable",
+    "section": "Wings",
+    "subsystem": "Aileron System",
+    "component": "Carry-Through Cable"
+  },
+  {
+    "id": "wings/aileron-system/strut-routing",
+    "section": "Wings",
+    "subsystem": "Aileron System",
+    "component": "Strut Routing"
+  },
+  {
+    "id": "wings/fuel-system/fuel-tanks",
+    "section": "Wings",
+    "subsystem": "Fuel System",
+    "component": "Fuel Tanks"
+  },
+  {
+    "id": "wings/fuel-system/fuel-plumbing",
+    "section": "Wings",
+    "subsystem": "Fuel System",
+    "component": "Fuel Plumbing"
+  },
+  {
+    "id": "wings/fuel-system/sight-gauges",
+    "section": "Wings",
+    "subsystem": "Fuel System",
+    "component": "Sight Gauges"
+  },
+  {
+    "id": "wings/systems/pitot-aoa",
+    "section": "Wings",
+    "subsystem": "Systems",
+    "component": "Pitot / AoA"
+  },
+  {
+    "id": "wings/systems/electrical-routing",
+    "section": "Wings",
+    "subsystem": "Systems",
+    "component": "Electrical Routing"
+  },
+  {
+    "id": "wings/systems/landing-lights",
+    "section": "Wings",
+    "subsystem": "Systems",
+    "component": "Landing Lights"
+  },
+  {
+    "id": "wings/structure-and-finishing/wing-tips",
+    "section": "Wings",
+    "subsystem": "Structure and Finishing",
+    "component": "Wing Tips"
+  },
+  {
+    "id": "wings/structure-and-finishing/inspection-panels",
+    "section": "Wings",
+    "subsystem": "Structure and Finishing",
+    "component": "Inspection Panels"
+  },
+  {
+    "id": "wings/structure-and-finishing/root-fairings",
+    "section": "Wings",
+    "subsystem": "Structure and Finishing",
+    "component": "Root Fairings"
+  },
+  {
+    "id": "wings/structure-and-finishing/flaps",
+    "section": "Wings",
+    "subsystem": "Structure and Finishing",
+    "component": "Flaps"
+  },
+  {
+    "id": "wings/structure-and-finishing/ailerons",
+    "section": "Wings",
+    "subsystem": "Structure and Finishing",
+    "component": "Ailerons"
+  },
+  {
+    "id": "firewall-forward/engine/engine-mount",
+    "section": "Firewall Forward",
+    "subsystem": "Engine",
+    "component": "Engine Mount"
+  },
+  {
+    "id": "firewall-forward/engine/engine-installation",
+    "section": "Firewall Forward",
+    "subsystem": "Engine",
+    "component": "Engine Installation"
+  },
+  {
+    "id": "firewall-forward/engine/engine-controls",
+    "section": "Firewall Forward",
+    "subsystem": "Engine",
+    "component": "Engine Controls"
+  },
+  {
+    "id": "firewall-forward/systems/fuel",
+    "section": "Firewall Forward",
+    "subsystem": "Systems",
+    "component": "Fuel"
+  },
+  {
+    "id": "firewall-forward/systems/oil",
+    "section": "Firewall Forward",
+    "subsystem": "Systems",
+    "component": "Oil"
+  },
+  {
+    "id": "firewall-forward/systems/cooling",
+    "section": "Firewall Forward",
+    "subsystem": "Systems",
+    "component": "Cooling"
+  },
+  {
+    "id": "firewall-forward/systems/exhaust",
+    "section": "Firewall Forward",
+    "subsystem": "Systems",
+    "component": "Exhaust"
+  },
+  {
+    "id": "firewall-forward/systems/electrical",
+    "section": "Firewall Forward",
+    "subsystem": "Systems",
+    "component": "Electrical"
+  },
+  {
+    "id": "firewall-forward/enclosure/cowling",
+    "section": "Firewall Forward",
+    "subsystem": "Enclosure",
+    "component": "Cowling"
+  },
+  {
+    "id": "firewall-forward/enclosure/nose-bowl",
+    "section": "Firewall Forward",
+    "subsystem": "Enclosure",
+    "component": "Nose Bowl"
+  },
+  {
+    "id": "finishing/finish-work/fabric",
+    "section": "Finishing",
+    "subsystem": "Finish Work",
+    "component": "Fabric"
+  },
+  {
+    "id": "finishing/finish-work/interior",
+    "section": "Finishing",
+    "subsystem": "Finish Work",
+    "component": "Interior"
+  },
+  {
+    "id": "finishing/finish-work/paint",
+    "section": "Finishing",
+    "subsystem": "Finish Work",
+    "component": "Paint"
+  },
+  {
+    "id": "finishing/finish-work/fairings",
+    "section": "Finishing",
+    "subsystem": "Finish Work",
+    "component": "Fairings"
+  },
+  {
+    "id": "finishing/finish-work/seals",
+    "section": "Finishing",
+    "subsystem": "Finish Work",
+    "component": "Seals"
+  },
+  {
+    "id": "finishing/finish-work/miscellaneous",
+    "section": "Finishing",
+    "subsystem": "Finish Work",
+    "component": "Miscellaneous"
+  }
+]

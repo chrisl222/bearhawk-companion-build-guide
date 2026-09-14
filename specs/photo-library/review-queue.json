@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PHOTO-REV-001",
+    "title": "Companion forum images",
+    "sourceUrl": "https://bearhawkforums.com/threads/companion-progress-thus-far.65802/",
+    "reason": "Establish source access, builder identity and individual image provenance before import."
+  },
+  {
+    "id": "PHOTO-REV-002",
+    "title": "EAA builder projects",
+    "sourceUrl": "https://eaabuilderslog.org/",
+    "reason": "Five project identities remain unknown; David Pearson\u2019s model is corroborated, but all six image collections still need access and per-photo review."
+  },
+  {
+    "id": "PHOTO-REV-003",
+    "title": "External logs and shared galleries",
+    "sourceUrl": "https://matterborne.com/xhawk/log/XHawk+Build+Log",
+    "reason": "Keep discovered sources link-only until individual photos, applicability and permission to host are reviewed."
+  },
+  {
+    "id": "PHOTO-REV-004",
+    "title": "Russ Erb CD batch",
+    "sourceUrl": "http://bhcd.erbman.org/",
+    "reason": "Await the owner\u2019s physical media. Import to local staging, preserve HTML indexes and directories, and review before publishing."
+  }
+]

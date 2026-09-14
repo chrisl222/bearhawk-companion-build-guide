@@ -17,8 +17,8 @@ not dimensional validation, installation approval or airworthiness.
 | PDF web copies | All 34 PDFs in docs/pdf match their pdf/ originals byte for byte |
 | Step order / bookmarks | Consecutive steps and one bookmark per instruction page |
 | Editable sources | All 33 assembly .blend files reopen with meshes and orthographic cameras |
-| Website | 40 pages: 36 scope pages plus contents, review, photo and Beartracks reference indexes |
-| Local links | 1,161 relative links and anchors checked; none missing or outside site root |
+| Website before Photo Library | 40 pages: 36 scope pages plus contents, review, photo and Beartracks reference indexes |
+| Local links before Photo Library | 1,161 relative links and anchors checked; none missing or outside site root |
 | Largest individual PDF | Under 15 MB; no GitHub single-file limit issue |
 | CTRL001 preservation | Original Blender, Python source, PNGs, manifest and both PDF copies unchanged from baseline 2f35eab |
 
@@ -80,3 +80,32 @@ Editable-source check: `blender -b --python scripts/check_blends.py`.
 The latter refreshes embedded source/specification text for new files and never
 saves the approved CTRL001 file. Temporary rasterizations and logs stay in ignored
 `work/validation/`; they are not release assets.
+
+## Photo Library update
+
+The integrated library adds 19 curated local photographs, 67 component categories,
+47 indexed sources, searchable metadata, eight filters, larger photo views and
+links in both directions between photographs and build guides. Two photographs
+explicitly identify a Companion; 17 retain Unknown model labels. External
+collections remain source links or review candidates, not mirrored galleries.
+
+All eight focused tests passed. They cover metadata constraints, human-review and
+image-rights gates, path containment, HTML captions and directory preservation,
+duplicate detection, approved import publishing, and site integrity. The complete
+site now has 152 HTML pages and 9,951 checked local links, with no missing targets.
+All 39 original photo-reference bookmarks are preserved. An actual two-image PDF
+import also completed in private staging with both records pending.
+
+Desktop and 390 × 844 phone checks covered category navigation, combined filters,
+search, URL persistence, empty results, the native dialog, related views, original
+image links, keyboard close/focus restoration, standalone photo pages and guide
+backlinks. The phone gallery and viewer had no horizontal overflow. No browser
+console errors were reported in the checked flows.
+
+The update changes no installation PDF, instruction PNG or Blender scene. Hash
+comparisons against the pre-library baseline confirm all 34 PDFs and 33 Blender
+files unchanged. Review-required and blocked installation statuses are retained.
+
+Reproduce the library checks with `python scripts/test_photo_library.py` after
+`python scripts/publish_all.py --web-only`. Import instructions and changed-file
+groups are recorded in `PHOTO_LIBRARY.md`.

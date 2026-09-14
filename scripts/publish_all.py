@@ -26,7 +26,7 @@ def review_items(items):
 def head(title,base=''):
     return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)} · Bearhawk Companion</title><link rel="stylesheet" href="{base}assets/css/manual.css">{favicon()}</head>'
 def bar(base='',action=''):
-    return f'<header class="bar"><a class="brand" href="{base}index.html">BEARHAWK <span>COMPANION</span></a>{action}</header>'
+    return f'<header class="bar"><a class="brand" href="{base}index.html">BEARHAWK <span>COMPANION</span></a><nav class="primary-nav" aria-label="Primary"><a href="{base}index.html">BUILD GUIDE</a><a href="{base}photos/index.html">PHOTO LIBRARY</a></nav>{action}</header>'
 def footer(base=''):
     return f'<footer>ILLUSTRATIVE — NOT TO SCALE<br>Companion plans control design. Current Companion count sheet controls explicit QB hardware.<br><a href="{base}review/index.html">Human review queue</a> · <a href="{base}photos/index.html">Photo references</a> · <a href="{base}references/index.html">Beartracks / factory alerts</a> · <a href="{base}index.html">Contents</a></footer>'
 def reviewed_links(m,base):
@@ -39,7 +39,7 @@ def reviewed_links(m,base):
     if m['id']=='CTRL004':ids.append('FACTORY-AFT-PULLEY')
     if m['id'] in ['WING006','WING007']:ids.append('BT22-HINGE-FIT')
     if m['section']=='empennage' and m['steps']:ids+=['FM13-TAIL','FM15-HINGES']
-    return ' · '.join(f'<a href="{base}photos/index.html#{E(id)}">{E(id)}</a>' for id in dict.fromkeys(ids)) or 'No applicable installation photograph established.'
+    return ' · '.join(f'<a href="{base}photos/reference-index/index.html#{E(id)}">{E(id)}</a>' for id in dict.fromkeys(ids)) or 'No applicable installation photograph established.'
 
 def publish_queue(items):
     issues=review_items(items)
@@ -66,8 +66,9 @@ def publish_photos():
     for r in data['reviewed']:
         cards.append(f'<article class="review-item" id="{E(r["id"])}"><p class="eyebrow">{E(r["id"])} · {E(r["subsystem"])}</p><h2>{E(r["model"])}</h2><p>{ref(r["reference"])}</p><p>{E(r["detail"])}</p><p class="hint">{E(r["applicability"])}</p></article>')
     candidates=''.join(f'<li>{E(r["gallery"])} · <a href="{E(r["reference"])}">{E(r["name"])}</a> · {E(r["subsystem"])} — not opened</li>' for r in data['candidates'])
-    path=ROOT/'docs/photos';path.mkdir(exist_ok=True)
-    (path/'index.html').write_text(head('Photo references','../')+'<body>'+bar('../')+'<main class="contents"><p class="eyebrow">SELECTIVE GALLERY INDEX</p><h1>Photo references</h1><p>Photos establish appearance and orientation only. They do not establish critical specifications or hardware identity. Gallery 1 is Five; the other gallery model labels are unknown. Only localized relationships supported by Companion plans are used.</p>'+''.join(cards)+'<h2>Indexed candidates</h2><p>Open only when relevant. Folder indexing does not mean the images were reviewed.</p><ul>'+candidates+'</ul>'+footer('../')+'</main></body></html>',encoding='utf-8')
+    path=ROOT/'docs/photos/reference-index';path.mkdir(parents=True,exist_ok=True)
+    oldpage=head('Photo references','../')+'<body>'+bar('../')+'<main class="contents"><p class="eyebrow">SELECTIVE GALLERY INDEX</p><h1>Photo references</h1><p>Photos establish appearance and orientation only. They do not establish critical specifications or hardware identity. Gallery 1 is Five; the other gallery model labels are unknown. Only localized relationships supported by Companion plans are used.</p>'+''.join(cards)+'<h2>Indexed candidates</h2><p>Open only when relevant. Folder indexing does not mean the images were reviewed.</p><ul>'+candidates+'</ul>'+footer('../')+'</main></body></html>'
+    (path/'index.html').write_text(oldpage.replace('href="../','href="../../'),encoding='utf-8')
 
 def publish_references():
     data=json.loads((ROOT/'specs/beartracks_index.json').read_text(encoding='utf-8'))
@@ -87,6 +88,7 @@ def publish_references():
     (p/'index.html').write_text(page,encoding='utf-8')
 
 def publish_web():
+    from photo_library import guide_link,build as build_photo_library
     items=catalog();issues=publish_queue(items);publish_photos();publish_references()
     for ix,m in enumerate(items):
         route=ROOT/'docs'/m['slug'];route.mkdir(parents=True,exist_ok=True)
@@ -110,6 +112,7 @@ def publish_web():
         scope=('<p class="scope-note">Supported relationships are illustrated. Resolve the <a href="#review">open items below</a> before completing affected operations. Hardware inventories do not specify unresolved stack order.</p>' if refs and m['steps'] else '<p class="scope-note">No installation PDF: controlling information is insufficient for this operation.</p>' if not m['steps'] else '')
         if m.get('before_build'):
             scope+='<section class="scope-note"><h2>Before this operation</h2>'+''.join(f'<p>{E(t)}</p>' for t in m['before_build'])+'</section>'
+        scope+=guide_link(m,base)
         nav=[]
         if ix:nav.append(f'<a href="{base}{E(items[ix-1]["slug"])}/index.html">← {items[ix-1]["number"]:02d} {E(items[ix-1]["title"])}</a>')
         if ix<len(items)-1:nav.append(f'<a href="{base}{E(items[ix+1]["slug"])}/index.html">{items[ix+1]["number"]:02d} {E(items[ix+1]["title"])} →</a>')
@@ -130,6 +133,7 @@ def publish_web():
     (ROOT/'docs/index.html').write_text(content,encoding='utf-8');(ROOT/'docs/.nojekyll').touch()
     content=content.replace('<ol class="manual-list">','<section class="scope-note"><strong>Beartracks review added:</strong> check the <a href="references/index.html#FACTORY-AD002">brake-cylinder alert</a>, <a href="references/index.html#FACTORY-AD004">aft flap-pulley alert</a>, <a href="references/index.html#FACTORY-OA001">gear-spread guidance</a>, and <a href="references/index.html#FACTORY-OA002">flap-speed source conflict</a>.</section><ol class="manual-list">')
     (ROOT/'docs/index.html').write_text(content,encoding='utf-8')
+    build_photo_library()
     print('WEB',len(items),'sections;',len(issues),'review items')
 
 def index_pdf():
